@@ -9,6 +9,16 @@
 - part: Experimental journal-06-2019 
   chapters:
   - file: journal/2019-06/2019-06-03_Data_Sequencing_ade2_yll3a
-  - file : journal/2019-06/2019-06-03_Exp_new primers_ade2_locus
+  - file: journal/2019-06/2019-06-03_Exp_new primers_ade2_locus
   - file: journal/2019-06/2019-06-06_Exp_URA_Transformation
- 
+  - file: journal/2019-06/2019-06-17_Exp_URA_kickout_transf
+  - file: journal/2019-06/2019-06-20_Exp_Byk832_transformation_pbk549
+  - file: journal/2019-06/2019-06-25_SATAY_card
+  - file: journal/2019-06/2019-06-26_Data_Sequencing_ylic132
+  - file: journal/2019-06/2019-06-28_Exp_URA_kickout_transf
+- part: Experimental journal-07-2019 
+  chapters:
+    - file: journal/2019-07/2019-07-04_Exp_pBK549_digestion_plasmid
+    - file: journal/2019-07/2019-07-08-Data-ylic132_biolog-replicates-sequencing
+    - file: journal/2019-07/2019-07-10_Byk832-transformation-pBk549
+    - file: journal/2019-07/2019-07-11_Exp_URA-kickout-transformation-ylic132_1_2
