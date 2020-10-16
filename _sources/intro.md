@@ -2,7 +2,7 @@
 
 # Experimental progress 🥼 🦠
 
-This is the documentation of my lab journal [1] :smile:
+This is the documentation of my lab journal [1] 😍🎉
 
 ## What is this?
 
@@ -16,11 +16,11 @@ This is the documentation of my lab journal [1] :smile:
   - to be **reusable/reproducible**
 
 ## How did I generate this visualization of the documentation?
-- This was done using [Atom](https://atom.io/) as the editor, with the [imdone package](https://atom.io/packages/imdone-atom) for the folder temporal organization  and [Vuepress](https://vuepress.vuejs.org/) as the static website generator.
+- This was done using markdown, with the [imdone package](https://atom.io/packages/imdone-atom) for the folder temporal organization  and [JupyterBook](https://jupyterbook.org/intro.html) as the static website generator.
 - Everything is written in markdown.
 - Writing in markdown, allows an easy conversion to other formats like PDFs, presentations , and even books! using [Pandoc](https://pandoc.org)
 
-[1]:  [See my repository here](https://github.com/leilaicruz/Experimental_Journal)
+[1]:  [See my original repository here](https://github.com/leilaicruz/Experimental_Journal)
 =======
 # Experimental progress
 
