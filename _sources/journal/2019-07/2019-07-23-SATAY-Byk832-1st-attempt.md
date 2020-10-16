@@ -131,7 +131,7 @@ To learn about the whole technique and detect the main issues and bottlenecks wh
 | Strain  | Induction  |   |   |  |  |
 |---|---|---|---|---|---|
 |   | OD start |  OD stop |  Time  | # ADE+ cells/mL <br> at START | # ADE+ cells/mL  <br> at STOP |
-    | strain # 1 | 0.189  | 6.96  |  51h |4.05E+02 | 1.46E+05|
+| strain # 1 | 0.189  | 6.96  |  51h |4.05E+02 | 1.46E+05|
 | strain # 2  | 0.198  | 7.17  | 51h  | 2.60E+02 |1.15E+05 |
 | strain # 3  | 0.194 |  7.13 | 51h  |2.85E+02 |2.24E+05 |
 | strain # 4  | 0.196  | 7.11  | 51h  |1.43E+02 |3.72E+05 |
@@ -143,7 +143,7 @@ To learn about the whole technique and detect the main issues and bottlenecks wh
 | Strain  | Induction  |   |   |  |  
 |---|---|---|---|---|---|
 |   | OD start |  OD stop |  Time  | # ADE+ cells/mL <br> at START | # ADE+ cells/mL  <br> at STOP |
-    | Byk832T_3 (Leila)| 0.098  |   |  51h | | |
+| Byk832T_3 (Leila)| 0.098  |   |  51h | | |
 | Byk832T_1 (Enzo) | 0.484  |   | 51h  |  | |
 | Byk832T_2 (Enzo) | 0.510 |   | 51h  | | |
 | Byk832T_3 (Enzo)| 0.393  |   |  51h | | |
@@ -170,6 +170,6 @@ Note1: If you don’t mind increasing the volume, you can reseed at a lower OD, 
 
 Because of the growth inhibition, only ~70% of the harvested cells are ADE+, meaning that during the sequencing reaction, 30% of the reads will map to the untransposed transposon in ADE2.
 
-# Results
+## Results
 
-# Conclusion
+## Conclusion
