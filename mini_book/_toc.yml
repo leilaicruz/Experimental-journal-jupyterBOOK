@@ -3,7 +3,12 @@
 
 - file: intro
   numbered: true
-- part: Experimental journal 
+- part: Experimental journal-05-2019 
   chapters:
   - file: journal/2019-05/2019-05-20_Exp_URA_TRANSFORMATION
+- part: Experimental journal-06-2019 
+  chapters:
+  - file: journal/2019-06/2019-06-03_Data_Sequencing_ade2_yll3a
+  - file : journal/2019-06/2019-06-03_Exp_new primers_ade2_locus
+  - file: journal/2019-06/2019-06-06_Exp_URA_Transformation
  
