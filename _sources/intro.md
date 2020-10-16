@@ -1,6 +1,6 @@
 
 
-# Experimental progress :unlock: :gem:
+# Experimental progress 🥼 🦠
 
 This is the documentation of my lab journal [1] :smile:
 
