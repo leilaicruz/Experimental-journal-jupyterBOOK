@@ -1,28 +1,28 @@
 
-# Title: 06062019-Yeast transformation with the OEP1 :white_check_mark: :white_check_mark:
+# Title: 06062019-Yeast transformation with the OEP1 :) 
 
-# Date
+## Date
 06062019
-# Objective
+## Objective
 To remove the ade2 gene from yll3a and insert the URA+ promoter in its locus.
 
-# Method
+## Method
 [Yeast transformation protocol](C:\Users\linigodelacruz\Documents\PhD_2018\Documentation\SATAY\URA_transformation_in_the_ADE_locus_032019\Protocol_PCR.pdf)
 
-## Homology arms:
+### Homology arms:
 * left homology arm: 236 bp
   > PCR of primer_1_new_upstream_forward and primer_2_upstream_reverse
 * right homology arm: 272 bp
   > PCR of primer_5_downstream_forward and primer_6_new_downstream_reverse_NO_Rga1
 
-## DNA concentration
+### DNA concentration
 8ul of 803 ng/ul OEP1 = 6.4 ug
 
-## Selection plates
+### Selection plates
 - -URA + 3x ADE
 - -URA
 - YPD
-# Results
+## Results
 **Growth of pink colonies in -ura+3x ADE plates** :-)
 
 ![](../images/pink_colonies_ura_transf_06062019.jpg)
@@ -41,8 +41,10 @@ To remove the ade2 gene from yll3a and insert the URA+ promoter in its locus.
 ![](../images/PCR_ura_NOT_in_ade2_map.png)
 
 ### Results 😀😀😀
+
 ![](../images/TUD07245_2019-06-12_16hr_43min_edited.png)
-# Conclusion
+
+## Conclusion
  - To see the adenine deletion phenotype, namely, see pink colonies upon adenine depravation, in a transformations is necessary to supplement the transformation plate with extra adenine aminoacid. I did 2x more adenine than what the normal drop-out has.
     > The usual concentration in CSM is 10mg/l
 
