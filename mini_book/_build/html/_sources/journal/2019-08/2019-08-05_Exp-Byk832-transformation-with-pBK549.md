@@ -1,4 +1,4 @@
-# Title: 05082019-Byk832 transformation with pBk549 😊
+# Title: 05082019-Byk832 transformation with pBk549 
 
 ## Date
 05082019

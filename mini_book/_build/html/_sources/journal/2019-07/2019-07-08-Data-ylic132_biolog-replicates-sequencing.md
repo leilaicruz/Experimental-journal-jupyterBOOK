@@ -1,4 +1,4 @@
-# Title: 26062019-Sequencing of the URA integration in ade2 locus in ylic132 😊
+# Title: 26062019-Sequencing of the URA integration in ade2 locus in ylic132 
 
 ## Date:
 26062019

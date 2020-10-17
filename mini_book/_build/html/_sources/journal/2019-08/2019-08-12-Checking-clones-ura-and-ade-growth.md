@@ -1,5 +1,5 @@
 
-# Title : 12082019-Checking clones of Byk832 and ylic33_1 for SATAY :😊 
+# Title : 12082019-Checking clones of Byk832 and ylic33_1 for SATAY  
 
 ## Date
 12082019

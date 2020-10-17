@@ -1,6 +1,6 @@
 
 
-# Title: 03062019-Design of new primers, for the right homology arm, for transformation that avoid the overlap with the RGA1 gene. 😊
+# Title: 03062019-Design of new primers, for the right homology arm, for transformation that avoid the overlap with the RGA1 gene. 
 
 ## Date
 03062019
