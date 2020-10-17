@@ -27,13 +27,13 @@ colorlinks: true
 
 # Title: 29072019-SATAY 1st attempt with Byk832-T :pray: :confused: :x:
 
-# Date
+## Date
 Tuesday, 29072019 - 31072019
 
-# Objective
+## Objective
 To learn about the whole technique and detect the main issues and bottlenecks when used it for the target strain.
 
-# Method
+## Method
 
 1. Streak the chosen Byk832 transformed cells that display full growth in -URA and medium growth in -ade, in -ura.
 2. **Pre-culture step** - 29072019 :clock230: (14:30) :blush:
@@ -57,7 +57,8 @@ To learn about the whole technique and detect the main issues and bottlenecks wh
         > Started at :clock230: (14:30) :blush:
     - It is recommended to start with 3-4 precultures and later chose which to reseed in SD-ADE 2% Glucose.
 
-    #### Benoit Data
+
+#### Benoit Data
 
 | Strain  |  OD start  | OD STOP | Time  |
 |---|---|---|---|
