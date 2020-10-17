@@ -1,6 +1,6 @@
 # Title: 26062019-ylic132  transformation with the OEP2 (unsuccesful) ☹️
 
-# Date
+## Date
 26062019
 ## Objective
 To remove the ura3 gene from ylic132= ade2- ura3+ by inserting an empty sequence in the ade2 locus , where the ura3 gene is in ylic132.
