@@ -25,11 +25,12 @@ crossref: true
 colorlinks: true
 ---
 
+# Brainstorming for defining the research questions 
 
-# Context:
+## Context:
  Evolutionary trajectory that recovers a crippled phenotype towards a fully functional phenotype, by deleting (in a reproducible manner) other components of the network.
 
-# Research questions:
+## Research questions:
 
 1.  Would be possible  to predict this evolutionary trajectory, from existing knowledge?
     - Approach:
