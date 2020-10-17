@@ -1,29 +1,3 @@
----
-title: "Update on the computational work in May"
-output: pdf_document
-documentclass: article
-classoption: onecolumn
-pdf_document:
-latex_engine: pdflatex
-toc: true
-lof: true
-numberSections: true
-highlight: tango
-sectionsDepth: 3
-chapters: True
-figPrefix:
-  - "Fig."
-  - "Figs."
-secPrefix:
-  - "Section"
-  - "Sections"
-fontsize: 12pt
-geometry: margin=0.5in
-autoEqnLabels: true
-cref: true
-crossref: true
-colorlinks: true
----
 
 # Title : Work on May 2020
 
