@@ -1,7 +1,7 @@
 
-# Title: <font color='#ee4466'> 22082019 Mating using liquid drops of yEK7a and ylic133_5 :broken_heart:
+# Title: 22082019 Mating using liquid drops of yEK7a and ylic133_5 💔
 
-<font color='black'>
+
 
 ## Date
 22082019

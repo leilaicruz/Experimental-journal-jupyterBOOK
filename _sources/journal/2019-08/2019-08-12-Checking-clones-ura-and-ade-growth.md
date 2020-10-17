@@ -44,7 +44,8 @@ Basically extermely miserable growth in the -ura plates
 - **We stored them as glycerol stock (though it can be a potential concern) because the spontaneous repair by homologous recombination happens kind of stochastically , so, the fact that those strains show the correct behaviour to continue with SATAY, does not imply that a highly dense culture will keep that behaviour.**
 - In the protocol written by Benoit and Agnes from ETH, they dont mention this step of storing the strain in glycerol stocks before continuing with SATAY.
 
-# Here is what we should expect:
+
+## Here is what we should expect 🙏👍:
 
 
 -------------------------------------

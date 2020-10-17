@@ -1,4 +1,4 @@
-# Title : <font color='#ee4466'> 07082019-Crossing of yEK7a with ylic133_1 😵
+# Title : 07082019-Crossing of yEK7a with ylic133_1 💔
 
 <font color='black'>
 
