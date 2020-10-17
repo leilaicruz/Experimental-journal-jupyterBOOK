@@ -1,4 +1,4 @@
-# Title: 22072019-Sequencing of ylic133 biological replicates 😊
+# Title: 22072019-Sequencing of ylic133 biological replicates 
 
 ## Date
 22072019
