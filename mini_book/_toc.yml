@@ -33,3 +33,24 @@
     - file : journal/2019-07/2019-07-23-SATAY-Byk832-1st-attempt
     - file: journal/2019-07/2019-07-24-Strategy-to-SATAY-target-strains
     - file: journal/2019-07/2019-07-31-Extra-checking-steps-SATAY-Byk832T
+  
+- part: Experimental journal-08-2019
+  chapters:
+    - file: journal/2019-08/2019-08-05_Exp-Byk832-transformation-with-pBK549
+    - file: journal/2019-08/2019-08-07-Exp-crossing-plate-yEK7a-and-ylic133_1
+    - file: journal/2019-08/2019-08-12-Checking-clones-ura-and-ade-growth
+    - file: journal/2019-08/2019-08-16-some-plots-gene_int-data
+    - file : journal/2019-08/2019-08-22-Exp_Mating-liquid-ylic133_5-yEK7a
+    - file: journal/2019-08/2019-08-27-Sporulation-protocol-ylic133+yEK7a
+
+- part: Experimental journal-09-2019
+  chapters:
+    - file: journal/2019-09/2019-09-12-ylic133_2&3-transformation-pLL112
+    - file: journal/2019-09/2019-09-24-pBK549-transformation-in-ylic133-and-Byk832
+    - file: journal/2019-09/2019-09-24-ylic134-mating-yEK7a
+
+- part: Experimental journal-10-2019
+  chapters:
+    - file: journal/2019-10/2019-10-01-pBK549-transformation-in-ylic133-clonesII
+    - file : journal/2019-10/2019-10-03-pBK549-transformation-in-ylic133-clones-III
+    - file: journal/2019-10/2019-10-09-Sanity-check-ylic133+pBk549

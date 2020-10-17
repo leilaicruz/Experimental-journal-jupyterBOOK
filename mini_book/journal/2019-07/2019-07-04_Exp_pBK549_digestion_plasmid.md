@@ -1,5 +1,5 @@
 
-# Title : 03072019-Digestion pattern of pBK549 (Succesful) :ok:
+# Title : 03072019-Digestion pattern of pBK549 (Successful) 
 
 ## Date:
 03072019

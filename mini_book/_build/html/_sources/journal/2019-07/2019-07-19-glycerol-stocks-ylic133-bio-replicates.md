@@ -1,4 +1,4 @@
-# Title : 23072019-Glycerols stocks of ylic133 biological replicates :snowflake:
+# Title : 23072019-Glycerols stocks of ylic133 biological replicates 
 
 ## Date
 Tuesday, 23072019

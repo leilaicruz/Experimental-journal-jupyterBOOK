@@ -1,4 +1,4 @@
-# Title: 22072019-Sequencing of ylic133 biological replicates :ok: :white_check_mark:
+# Title: 22072019-Sequencing of ylic133 biological replicates 😊
 
 ## Date
 22072019

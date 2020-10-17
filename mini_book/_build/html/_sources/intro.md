@@ -21,8 +21,8 @@ This is the documentation of my lab journal [1] 😍🎉
 - Writing in markdown, allows an easy conversion to other formats like PDFs, presentations , and even books! using [Pandoc](https://pandoc.org)
 
 [1]:  [See my original repository here](https://github.com/leilaicruz/Experimental_Journal)
-=======
-# Experimental progress
+
+
 
 [![DOI](https://zenodo.org/badge/196390050.svg)](https://zenodo.org/badge/latestdoi/196390050)
 

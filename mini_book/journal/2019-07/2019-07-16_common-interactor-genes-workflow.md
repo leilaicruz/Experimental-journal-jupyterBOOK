@@ -1,5 +1,5 @@
 
-# 16-07-2019-Script in python to find the most connected genes to a query gene. :milky_way:
+# 16-07-2019-Script in python to find the most connected genes to a query gene. 🧐
 
 ## Goal
 From the physical and genetic interactors of a specific gene, I am interested in finding which of the interactors of the interactors are also interactors of the initial query gene.

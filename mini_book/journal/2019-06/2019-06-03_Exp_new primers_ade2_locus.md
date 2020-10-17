@@ -1,6 +1,7 @@
 
 
-# Title: 03062019-Design of new primers, for the right homology arm, for transformation that avoid the overlap with the RGA1 gene.
+# Title: 03062019-Design of new primers, for the right homology arm, for transformation that avoid the overlap with the RGA1 gene. 
+
 ## Date
 03062019
 ## Objective
@@ -8,6 +9,7 @@ To avoid the overlap with the RGA1 gene, in the right homology arm.
 ### Issues :(:
 The right homology arm was overlapping 203bp of the RGA1 gene. In total it has 3024bp. Perhaps this fact was hindering the succesful integration of the URA gene on the ADE2 locus.
  ![](../images/overlapping_with_rga1_gene.png)
+ 
 ## Method
 Primer design in SnapGene
 
