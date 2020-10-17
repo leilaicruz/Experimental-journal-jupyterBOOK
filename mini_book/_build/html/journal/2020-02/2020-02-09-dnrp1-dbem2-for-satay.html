@@ -1,0 +1,890 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>1. Title : Design of the genomic transformation to make dnrp1 and dbem2 strains usable for SATAY &#8212; EXPERIMENTAL JOURNAL PHD</title>
+    
+  <link rel="stylesheet" href="../../_static/css/index.73d71520a4ca3b99cfee5594769eaaae.css">
+
+    
+  <link rel="stylesheet"
+    href="../../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+  <link rel="stylesheet"
+    href="../../_static/vendor/open-sans_all/1.44.1/index.css">
+  <link rel="stylesheet"
+    href="../../_static/vendor/lato_latin-ext/1.44.1/index.css">
+
+    
+    <link rel="stylesheet" href="../../_static/sphinx-book-theme.2d2078699c18a0efb88233928e1cf6ed.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx_tabs/semantic-ui-2.4.1/segment.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx_tabs/semantic-ui-2.4.1/menu.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx_tabs/semantic-ui-2.4.1/tab.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx_tabs/tabs.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../../_static/js/index.3da636dd464baa7582d2.js">
+
+    <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/language_data.js"></script>
+    <script src="../../_static/togglebutton.js"></script>
+    <script src="../../_static/clipboard.min.js"></script>
+    <script src="../../_static/copybutton.js"></script>
+    <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
+    <script kind="utterances">
+
+    var commentsRunWhenDOMLoaded = cb => {
+    if (document.readyState != 'loading') {
+        cb()
+    } else if (document.addEventListener) {
+        document.addEventListener('DOMContentLoaded', cb)
+    } else {
+        document.attachEvent('onreadystatechange', function() {
+        if (document.readyState == 'complete') cb()
+        })
+    }
+}
+
+var addUtterances = () => {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src = "https://utteranc.es/client.js";
+    script.async = "async";
+
+    script.setAttribute("repo", "leilaicruz/Experimental-journal-jupyterBOOK");
+    script.setAttribute("issue-term", "pathname");
+    script.setAttribute("theme", "github-light");
+    script.setAttribute("label", "💬 comment");
+    script.setAttribute("crossorigin", "anonymous");
+
+    sections = document.querySelectorAll("div.section");
+    if (sections !== null) {
+        section = sections[sections.length-1];
+        section.appendChild(script);
+    }
+}
+commentsRunWhenDOMLoaded(addUtterances);
+</script>
+    <script >var togglebuttonSelector = '.toggle, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../../_static/sphinx-book-theme.be0a4a0c39cd630af62a2fcf693f3f06.js"></script>
+    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/x-mathjax-config">MathJax.Hub.Config({"TeX": {"Macros": {"N": "\\mathbb{N}", "floor": ["\\lfloor#1\\rfloor", 1], "bmat": ["\\left[\\begin{array}"], "emat": ["\\end{array}\\right]"]}}, "tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <link rel="shortcut icon" href="../../_static/flowers.jpg"/>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="2. Title : Comparison between the fAcs settings used for Werner in 2017 with the ones I am using currently." href="2020-02-13-Comparison-of%20Werner-FACs-settings-with-mine.html" />
+    <link rel="prev" title="5. Title: FACs experiment with the same conditions as the microscopy done to quantify the cell sizes for the pAl1-Cdc42-sfGFP strains (III)." href="../2020-01/2020-02-04-FACs-as-microscopy-conditions-prep-III.html" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+
+
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+<a class="navbar-brand text-wrap" href="../../index.html">
+  
+  <img src="../../_static/flowers.jpg" class="logo" alt="logo">
+  
+  
+  <h1 class="site-logo" id="site-title">EXPERIMENTAL JOURNAL PHD</h1>
+  
+</a>
+</div>
+
+<form class="bd-search d-flex align-items-center" action="../../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form>
+
+<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+  <ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../intro.html">
+   Experimental progress 🥼 🦠
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  General docs
+ </span>
+</p>
+<ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2020-01/2020-01-21-Pandoc-installation.html">
+   1. How to set up Pandoc in your PC
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2020-01/2020-01-07-Balance-of-2019.html">
+   2. Balance of the 2019 and outlook to the 2020
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2020-03/2020-03-17-brainstorm-research-questions.html">
+   3. Brainstorming for defining the research questions
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Experimental journal-05-2019
+ </span>
+</p>
+<ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2019-05/2019-05-20_Exp_URA_TRANSFORMATION.html">
+   1. Title: URA transformation in ADE2 locus 🤔
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Experimental journal-06-2019
+ </span>
+</p>
+<ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2019-06/2019-06-03_Data_Sequencing_ade2_yll3a.html">
+   1. Title: 03062019-Sequencing the homology arms of yll3a strain around the ade2 gene
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2019-06/2019-06-03_Exp_new%20primers_ade2_locus.html">
+   2. Title: 03062019-Design of new primers, for the right homology arm, for transformation that avoid the overlap with the RGA1 gene.
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2019-06/2019-06-06_Exp_URA_Transformation.html">
+   3. Title: 06062019-Yeast transformation with the OEP1
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2019-06/2019-06-17_Exp_URA_kickout_transf.html">
+   4. Title: 14062019-ylic132  transformation with the OEP2 (unsuccesful)  ☹️
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2019-06/2019-06-20_Exp_Byk832_transformation_pbk549.html">
+   5. Title: 19062019-Byk832 (ETH strain) transformation with pbK549 (very low effciency) ☹️
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2019-06/2019-06-25_SATAY_card.html">
+   6. 25062019-Experimental Card about the SATAY experiment  🧐
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2019-06/2019-06-26_Data_Sequencing_ylic132.html">
+   7. Title: 26062019-Sequencing of the URA integration in ade2 locus in ylic132
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2019-06/2019-06-28_Exp_URA_kickout_transf.html">
+   8. Title: 26062019-ylic132  transformation with the OEP2 (unsuccesful) ☹️
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Experimental journal-07-2019
+ </span>
+</p>
+<ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2019-07/2019-07-04_Exp_pBK549_digestion_plasmid.html">
+   1. Title : 03072019-Digestion pattern of pBK549 (Successful)
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2019-07/2019-07-08-Data-ylic132_biolog-replicates-sequencing.html">
+   2. Title: 26062019-Sequencing of the URA integration in ade2 locus in ylic132
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2019-07/2019-07-10_Byk832-transformation-pBk549.html">
+   3. Title : 10072019-Byk832 transformation using pBK549 plasmid
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2019-07/2019-07-11_Exp_URA-kickout-transformation-ylic132_1_2.html">
+   4. Title : 11072019-ylic132-1 and ylic132-2  transformation with the OEP2
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2019-07/2019-07-16_common-interactor-genes-workflow.html">
+   5. 16-07-2019-Script in python to find the most connected genes to a query gene. 🧐
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2019-07/2019-07-16-Byk832-checking-clones-ade-ura.html">
+   6. Title : 15072019-Check of growth in -ade and -ura of 10 clones of Byk832+pbk549
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2019-07/2019-07-17_Exp-Genomic-prep-ylic133-clones.html">
+   7. Title : 17072019-DNA extraction of ylic133: ura3- ade2- clones anad PCR
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2019-07/2019-07-19_Sequencing-ylic133-biol-replicates.html">
+   8. Title: 22072019-Sequencing of ylic133 biological replicates
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2019-07/2019-07-19-glycerol-stocks-ylic133-bio-replicates.html">
+   9. Title : 23072019-Glycerols stocks of ylic133 biological replicates
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2019-07/2019-07-23-SATAY-Byk832-1st-attempt.html">
+   10. Title: 29072019-SATAY 1st attempt with Byk832-T 😵
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2019-07/2019-07-24-Strategy-to-SATAY-target-strains.html">
+   11. Title : 24072019-Strategies to generate the strains I want to study using SATAY 🧐
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2019-07/2019-07-31-Extra-checking-steps-SATAY-Byk832T.html">
+   12. Title: 31072019 Double check Byk832T biolog.  replicates suitability for SATAY. 😔
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Experimental journal-08-2019
+ </span>
+</p>
+<ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2019-08/2019-08-05_Exp-Byk832-transformation-with-pBK549.html">
+   1. Title: 05082019-Byk832 transformation with pBk549
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2019-08/2019-08-07-Exp-crossing-plate-yEK7a-and-ylic133_1.html">
+   2. Title : 07082019-Crossing of yEK7a with ylic133_1 💔
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2019-08/2019-08-12-Checking-clones-ura-and-ade-growth.html">
+   3. Title : 12082019-Checking clones of Byk832 and ylic33_1 for SATAY
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2019-08/2019-08-16-some-plots-gene_int-data.html">
+   4. Title : 16082019 Script for the visualization of the correlation between number of common interactions and type of interactions 🧐
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2019-08/2019-08-22-Exp_Mating-liquid-ylic133_5-yEK7a.html">
+   5. Title: 22082019 Mating using liquid drops of yEK7a and ylic133_5 💔
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2019-08/2019-08-27-Sporulation-protocol-ylic133%2ByEK7a.html">
+   6. Title: 27082019-Sporulation protocol of 8 re-streakings from ylic133_5+yEk7a 😵
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Experimental journal-09-2019
+ </span>
+</p>
+<ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2019-09/2019-09-12-ylic133_2%263-transformation-pLL112.html">
+   1. Title : 12092019-Transformation of ylic133 with the pLL112 plasmid  😵
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2019-09/2019-09-12-ylic133_2%263-transformation-pLL112.html#objective">
+   2. Objective
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2019-09/2019-09-24-pBK549-transformation-in-ylic133-and-Byk832.html">
+   3. Title : 24092019- pBK549 transformation on ylic133 for further sanity check in SATAY. 😵
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2019-09/2019-09-24-ylic134-mating-yEK7a.html">
+   4. Title :  24092019-Mating of ylic134 with yEK7a 💔
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Experimental journal-10-2019
+ </span>
+</p>
+<ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2019-10/2019-10-01-pBK549-transformation-in-ylic133-clonesII.html">
+   1. Title : 01102019- II pBK549 transformation on ylic133 for further sanity check in SATAY 😔
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2019-10/2019-10-03-pBK549-transformation-in-ylic133-clones-III.html">
+   2. Title: 03102019- III pBK549 transformation on ylic133 for further sanity check in SATAY
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2019-10/2019-10-09-Sanity-check-ylic133%2BpBk549.html">
+   3. Title: 09102019- Sanity check of transformants ylic133+pBk549, Byk832+pBk549 to know if they suitable for SATAY.
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Experimental journal-01-2020
+ </span>
+</p>
+<ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2020-01/2020-01-14-essential-genes-insights.html">
+   1. Title:14012020-Mapping essential genes  in WT and getting insights from it.
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2020-01/2020-01-07-machine-learning-proposal-projects.html">
+   2. Machine learning projects proposal for MsC/BsC/internships
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2020-01/2020-01-20-FACs-as-microscopy-conditions-prep.html">
+   3. Title: FACs experiment with the same conditions as the microscopy done to quantify the cell sizes for the pAl1-Cdc42-sfGFP strains. (I)
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2020-01/2020-01-28-FACs-as-microscopy-conditions-prep-II.html">
+   4. Title: FACs experiment with the same conditions as the microscopy done to quantify the cell sizes for the pGAl1-Cdc42-sfGFP strains (II).
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2020-01/2020-02-04-FACs-as-microscopy-conditions-prep-III.html">
+   5. Title: FACs experiment with the same conditions as the microscopy done to quantify the cell sizes for the pAl1-Cdc42-sfGFP strains (III).
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Experimental journal-02-2020
+ </span>
+</p>
+<ul class="current nav sidenav_l1">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   1. Title : Design of the genomic transformation to make dnrp1 and dbem2 strains usable for SATAY
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="2020-02-13-Comparison-of%20Werner-FACs-settings-with-mine.html">
+   2. Title : Comparison between the fAcs settings used for Werner in 2017 with the ones I am using currently.
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="2020-02-21-hands-on-data-from-facs.html">
+   3. Title :What are the output channels from flow cytometry actualling telling us about the fluorescence of every cell?
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="2020-02-23-ylic133-5-transformations.html">
+   4. Title: Transformation of ylic133_5 with the PCR products from yll137 and yll140
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="2020-02-25-FACs-starting-with-30C-shaking.html">
+   5. Title : 20200227-FACs experiment with strains ywkd065, ywkd024, ywkd038 and ywkd001
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Experimental journal-03-2020
+ </span>
+</p>
+<ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2020-03/2020-03-04-FACs.html">
+   1. Title : 20200305-FACs experiment with strains ywkd065, ywkd024, ywkd038 and ywkd001
+  </a>
+ </li>
+</ul>
+
+</nav>
+
+ <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="row topbar fixed-top container-xl">
+    <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show">
+    </div>
+    <div class="col pl-2 topbar-main">
+        
+        <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+            data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+            aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+            title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-arrow-left"></i>
+            <i class="fas fa-arrow-up"></i>
+        </button>
+        
+        <div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../../_sources/journal/2020-02/2020-02-09-dnrp1-dbem2-for-satay.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+    
+</div>
+        <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/leilaicruz/Experimental-journal-jupyterBOOK"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/leilaicruz/Experimental-journal-jupyterBOOK/issues/new?title=Issue%20on%20page%20%2Fjournal/2020-02/2020-02-09-dnrp1-dbem2-for-satay.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        
+    </div>
+</div>
+
+
+        <!-- Full screen (wrap in <a> to have style consistency -->
+        <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+                data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+                title="Fullscreen mode"><i
+                    class="fas fa-expand"></i></button></a>
+
+        <!-- Launch buttons -->
+
+    </div>
+
+    <!-- Table of contents -->
+    <div class="d-none d-md-block col-md-2 bd-toc show">
+        
+        <div class="tocsection onthispage pt-5 pb-3">
+            <i class="fas fa-list"></i> Contents
+        </div>
+        <nav id="bd-toc-nav">
+            <ul class="nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#date">
+   1.1. Date
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#objective">
+   1.2. Objective
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#method-1">
+   1.3. Method 1
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#method-2">
+   1.4. Method 2
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#procedure-to-design-the-right-primers-for-the-oep">
+     1.4.1. Procedure to design the right primers for the OEP:
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#results">
+   1.5. Results
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#next-round">
+     1.5.1. Next round
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#conclusion">
+   1.6. Conclusion
+  </a>
+ </li>
+</ul>
+
+        </nav>
+        
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="title-design-of-the-genomic-transformation-to-make-dnrp1-and-dbem2-strains-usable-for-satay">
+<h1><span class="section-number">1. </span>Title : Design of the genomic transformation to make dnrp1 and dbem2 strains usable for SATAY<a class="headerlink" href="#title-design-of-the-genomic-transformation-to-make-dnrp1-and-dbem2-strains-usable-for-satay" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="date">
+<h2><span class="section-number">1.1. </span>Date<a class="headerlink" href="#date" title="Permalink to this headline">¶</a></h2>
+<p>09022020</p>
+</div>
+<div class="section" id="objective">
+<h2><span class="section-number">1.2. </span>Objective<a class="headerlink" href="#objective" title="Permalink to this headline">¶</a></h2>
+<ul>
+<li><p>To design an strategy to make the following strains, in order to test SATAy on them :</p>
+<!-- - $\Delta nrp1$ *ura3-* *ade2-*
+- $\Delta bem2$ *ura3-* *ade2-* -->
+</li>
+</ul>
+</div>
+<div class="section" id="method-1">
+<h2><span class="section-number">1.3. </span>Method 1<a class="headerlink" href="#method-1" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>PCR the genomic prep of yll137 with primer 1 and 6 for nrp1 deletion and transfrom it to ylic133</p></li>
+<li><p>PCR the genomic prep of yll140 with prmer 1 and 6 for bem2 deletion and transform it to ylic133.</p></li>
+</ul>
+<blockquote>
+<div><p>Pros: less PCRs</p>
+</div></blockquote>
+<blockquote>
+<div><p>Cons: I have to do two genomic preps.</p>
+</div></blockquote>
+<ul class="simple">
+<li><p>The strategy is to delete <em>nrp1</em> using the HYGRO cassette and <em>bem2</em> in the leu2 locus as Liedewij has in her strains, in my ylic133 strain.</p></li>
+</ul>
+<p>The procedure using Method 1 is as follows:</p>
+<ul class="simple">
+<li><p>Perform a PCR using primers 1 and 6 for each gene (nrp1 and bem2) in yll137 (for nrp1) and yll140 (for bem2).</p>
+<ul>
+<li><p>Try to get around 3ug of DNA after PCR for each strain to ensure plenty of transformants.</p></li>
+</ul>
+</li>
+<li><p>Transform it into ylic133 each fragment separately.</p></li>
+<li><p>Check the integration by plate.</p></li>
+</ul>
+</div>
+<div class="section" id="method-2">
+<h2><span class="section-number">1.4. </span>Method 2<a class="headerlink" href="#method-2" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><p>Pros: No genomic preps</p>
+</div></blockquote>
+<blockquote>
+<div><p>Cons: I have to do 6 more PCRs!!!.</p>
+</div></blockquote>
+<ul class="simple">
+<li><p>The procedure consists on:</p>
+<ul>
+<li><p>Perform an Overlap Extension (OEP) PCR in order to get a DNA fragment in high concentration to insert in ylic133 and kick out the <em>nrp1</em> and <em>bem2</em> gene by replacing the HYGRO and LEU2 markers, respectively.</p></li>
+</ul>
+</li>
+<li><p>The sequence for designing the primers is taken from SGD, in the sequence tab of the gene of interest to delete and its chromosome.</p>
+<ul>
+<li><p>First download the CDS genomic sequence of the gene of interest.</p></li>
+<li><p>Then ,download the sequence of the chromosome of the gene of interest.</p></li>
+<li><p>Open SnapGene and import the chromosome sequence and search for the sequence of the gene of interest.</p></li>
+<li><p>Add the corresponding feature that says that in that location is where the gene X is in the chromosome.</p></li>
+<li><p>Note the gene start with ATG which is the start codon Methionine and ends with a stop codon ATT.</p></li>
+<li><p>Start designing the primers!</p></li>
+</ul>
+</li>
+<li><p>The extra sequence should be in front of 5’ of the annealed part of the primer, leaving the 3’ free for the DNA polymerase to work.</p></li>
+</ul>
+<div class="section" id="procedure-to-design-the-right-primers-for-the-oep">
+<h3><span class="section-number">1.4.1. </span>Procedure to design the right primers for the OEP:<a class="headerlink" href="#procedure-to-design-the-right-primers-for-the-oep" title="Permalink to this headline">¶</a></h3>
+<p><img alt="Sketch of how to design the 6 primers per gene deletion transformation" src="../../_images/strategy-sketch-OEP-02.png" />{#fig:primer-design}</p>
+<p>In general :</p>
+<ul class="simple">
+<li><p>Primers should end with a G or C nucleotide.</p></li>
+<li><p>Avoid AAA or TTT in the primer design because this may cause failures in the  correct annealing to the template.</p></li>
+<li><p>Melting temperatures should be from 55C to 60C .</p></li>
+</ul>
+<p>Specific design for this OEP:</p>
+<ul class="simple">
+<li><p>primer 1: Upstream primer pointing towards the start of the gene to knock out.</p></li>
+<li><p>primer 2: Upstream reverse pointing outside the gene of interest. The upstream homology arm (left one) should around 200-250bp. This is the length from primer 1 to primer 2. This primer has to have an overlap that is the reverse complement of the annealed region of primer 3.</p></li>
+<li><p>primer 3: Upstream primer pointing towards the marker sequence (top strand/bottom strand) in a plasmid ( I am using plasmid 32 HphMX4 for HYGRO and 105 PRS405 ) with an extra overlap sequence  that is the reverse complement of the annealed part of primer 2.</p></li>
+<li><p>primer 4: downstream primer towards the marker sequence (bottom strand/top strand) with an extra overlap sequence that is the reverse complement of the annealed part of primer 5.</p></li>
+<li><p>primer 5: downstream primer pointing away  the end of the gene to knock out, with the extra overlap that is the reverse complement of annealed primer 4.</p></li>
+<li><p>primer 6: downstream primer pointing  towards the end of the gene to knock out.</p></li>
+</ul>
+</div>
+<p>PCR reactions:</p>
+<ol class="simple">
+<li><p>PCR1: primer 1 and 2 with genomic DNA of ylic133</p></li>
+<li><p>PCR2: primer 3 and 4 with DNA  of plasmid 32 or 105</p></li>
+<li><p>PCR3: primer 5 and 6 with genomic DNA of ylic133</p></li>
+</ol>
+</div>
+<div class="section" id="results">
+<h2><span class="section-number">1.5. </span>Results<a class="headerlink" href="#results" title="Permalink to this headline">¶</a></h2>
+<p>I did Method 1:</p>
+<ul>
+<li><p>18022020 : genomic prep of yll137 and yll140</p>
+<ul>
+<li><p>I used 1ml of overnight culture for the DNA extraction</p></li>
+<li><p>I used the vortex at the highest speed for the bead tubes</p></li>
+<li><p>nanodrop: Low DNA concentration…</p>
+<table class="colwidths-auto table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Strain</p></th>
+<th class="head"><p>DNA</p></th>
+<th class="head"><p>A260</p></th>
+<th class="head"><p>A280</p></th>
+<th class="head"><p>260/280</p></th>
+<th class="head"><p>260/230</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>yll137</p></td>
+<td><p>8.3 ng/ul</p></td>
+<td><p>0.166</p></td>
+<td><p>0.082</p></td>
+<td><p>2.02</p></td>
+<td><p>5.36</p></td>
+</tr>
+<tr class="row-odd"><td><p>yll140</p></td>
+<td><p>12.3 ng/ul</p></td>
+<td><p>0.246</p></td>
+<td><p>0.125</p></td>
+<td><p>1.97</p></td>
+<td><p>3.46</p></td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+</li>
+</ul>
+<p>PCR using primer 1 and 6 for nrp1 and primer 1 and 6 for bem2 in <strong>1ul</strong> of DNA template for yll137 and yll140 respectively.</p>
+<ul>
+<li><p>The expected length for the PCRs are :</p>
+<ul class="simple">
+<li><p>2426bp for the case of nrp1::HYGRO</p></li>
+<li><p>2239bp for the case of bem2::LEU2</p></li>
+</ul>
+</li>
+<li><p>In the protocol with Phusion Polymerase I should use around 1 min o elongation time, because this polymerase extends 1kb per 20secs.</p>
+<ul>
+<li><p>Protocol (1h-50mins):</p>
+<p>5 mins in 95C,       1 min 72C 35x cycles       hold 10C</p>
+</li>
+</ul>
+</li>
+<li><p>19022020- DNA gel</p></li>
+<li><p>Results , see &#64;fig:dna-gel</p></li>
+</ul>
+<p><img alt="DNA gel of the PCR products" src="../../_images/PCR-yll140-succesful.png" />{#fig:dna-gel width=50%}</p>
+<ul class="simple">
+<li><p>The DNA gel is showing I dont have any product for yll137 PCR :(</p></li>
+<li><p>Possibles causes:</p>
+<ul>
+<li><p>Low template concentration (8.3ug)</p></li>
+<li><p>High anneling temperature (60C )</p></li>
+</ul>
+</li>
+<li><p>The size for the yll140 band is bellow  the expected one , after the estmation done in SnapGene, considering that the leu marker needs 200bp around it for both promoters. Maybe that is the correct size and I was overestimating the size of the promoters.</p></li>
+<li><p>[ ] Next step is sequencing this PCR product , to know what is actually there.</p></li>
+</ul>
+<div class="section" id="next-round">
+<h3><span class="section-number">1.5.1. </span>Next round<a class="headerlink" href="#next-round" title="Permalink to this headline">¶</a></h3>
+<ul>
+<li><p>Repeat PCR for yll137 with <strong>10ul</strong> of template and <strong>58C</strong> for annealing temperature. See results in &#64;fig:blank-gel</p></li>
+<li><p>Include a positive control (yll3a) with the same primers 1 and 6 for nrp1 locus amplification.</p></li>
+<li><p>Include a PCR for yll140 , for later sequencing.</p>
+<p><img alt="Result of the next round PCR ... very sad" src="../../_images/blank-gel-yll140-3a-137-downstair-PCR-58C-annealing.png" />{#fig:blank-gel width=50%}</p>
+</li>
+<li><p>I return my PCR samples to another PCR round using the 1st Protocol with the anneling temperature in 60C, and I added 0.5 ul of Phusion to each sample.</p>
+<ul>
+<li><p>By mistake I put 5ul of Phusion in yll137 PCR tube !!! (that was after 6pm!!!)
+Here the results, see &#64;fig:overnight-PCR:</p>
+<p><img alt="Overnight PCR results" src="../../_images/20022020-137-3a-140-weird-sizes-bands.png" />{#fig:overnight-PCR width=50%}</p>
+<ul class="simple">
+<li><p>yll3a bands is not correct, the expected size should be around 2700bp and is below 1500bp.</p></li>
+<li><p>For yll137 the expected band should be around 2400 bp, considering the Hygro cassette of plasmid 32 HphMX4 is in Liedewij strain yll137. The actual band is close to 2500bp, so maybe it is correct.</p></li>
+</ul>
+</li>
+<li><p>3rd run using a TouchDown PCR , see explanation <a class="reference external" href="https://international.neb.com/faqs/0001/01/01/what-is-touchdown-pcr">here</a></p>
+<blockquote>
+<div><p>It is a method for increasing specificity of PCR reactions. Touchdown PCR uses a cycling program where the annealing temperature is gradually reduced (e.g. 1-2°C /every second cycle). The initial annealing temperature should be several degrees above the estimated Tm of the primers. The annealing temperature is then gradually decreased until it reaches the calculated annealing temperature of the primers or some degrees below. Amplification is then continued using this annealing temperature.</p>
+</div></blockquote>
+<ul class="simple">
+<li><p>I used 10ul template of yll137 , 2ul of yll140 and 1ul of yll3a.</p></li>
+<li><p>Results , see &#64;fig:touch-down-PCR …</p></li>
+</ul>
+<p><img alt="Results from the touch down PCR" src="../../_images/20022020-touch-down-PCR-137-3a-140.png" />{#fig:touch-down-PCR width=50%}</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>- at least yll140 work and give the same size as the 1st time.
+- No idea why the rest did not work..
+</pre></div>
+</div>
+</li>
+<li><p>PCR done by Els (succesful :)) , from the lab, using her set of primers , oES83 and oES84.</p>
+<ul class="simple">
+<li><p>10ul of PCR was used for gel imaging.</p></li>
+<li><p>40ul is left for clean up.</p></li>
+</ul>
+<p><img alt="PCR done by Els Sweep, with her set of primers, and it was succesful :) for yll137 and yll3a" src="../../_images/els-PCR-yll137-yll3a-succesful-21022020.png" /></p>
+</li>
+</ul>
+</li>
+<li><p>After clean up , the DNA concentration was:</p></li>
+</ul>
+<table class="colwidths-auto table">
+<thead>
+<tr class="row-odd"><th class="head"><p>PCR</p></th>
+<th class="head"><p>DNA</p></th>
+<th class="head"><p>A260</p></th>
+<th class="head"><p>A280</p></th>
+<th class="head"><p>260/280</p></th>
+<th class="head"><p>260/230</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>yll137-83/84 primers</p></td>
+<td><p>73.3 ng/ul</p></td>
+<td><p>1.46</p></td>
+<td><p>-</p></td>
+<td><p>1.83</p></td>
+<td><p>2.23</p></td>
+</tr>
+<tr class="row-odd"><td><p>yll137-SPY primers</p></td>
+<td><p>89.9 ng/ul</p></td>
+<td><p>1.79</p></td>
+<td><p>-</p></td>
+<td><p>1.85</p></td>
+<td><p>2.18</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="conclusion">
+<h2><span class="section-number">1.6. </span>Conclusion<a class="headerlink" href="#conclusion" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Something is weird about my primers for yll137- nrp1::hygro amplification , that do not make the right product in the PCR reaction.</p></li>
+</ul>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./journal\2020-02"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        </div>
+    </div>
+    
+    
+    <div class='prev-next-bottom'>
+        
+    <a class='left-prev' id="prev-link" href="../2020-01/2020-02-04-FACs-as-microscopy-conditions-prep-III.html" title="previous page"><span class="section-number">5. </span>Title: FACs experiment with the same conditions as the microscopy done to quantify the cell sizes for the pAl1-Cdc42-sfGFP strains (III).</a>
+    <a class='right-next' id="next-link" href="2020-02-13-Comparison-of%20Werner-FACs-settings-with-mine.html" title="next page"><span class="section-number">2. </span>Title : Comparison between the fAcs settings used for Werner in 2017 with the ones I am using currently.</a>
+
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By Leila Iñigo de la Cruz<br/>
+        
+            &copy; Copyright Creative Commons.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+
+    
+  <script src="../../_static/js/index.3da636dd464baa7582d2.js"></script>
+
+
+    
+  </body>
+</html>

@@ -4,14 +4,14 @@
 - file: intro
   numbered: true
 
-# - part: General docs
-#   chapters:
-#   - file: journal/2020-01/2020-01-21-Pandoc-installation
-#   - file: journal/2020-01/2020-01-07-Balance-of-2019
+- part: General docs
+  chapters:
+  - file: journal/2020-01/2020-01-21-Pandoc-installation
+  - file: journal/2020-01/2020-01-07-Balance-of-2019
+  - file: journal/2020-03/2020-03-17-brainstorm-research-questions
 
 - part: Experimental journal-05-2019 
   chapters:
-  
   - file: journal/2019-05/2019-05-20_Exp_URA_TRANSFORMATION
   
 - part: Experimental journal-06-2019 
@@ -61,24 +61,25 @@
     - file : journal/2019-10/2019-10-03-pBK549-transformation-in-ylic133-clones-III
     - file: journal/2019-10/2019-10-09-Sanity-check-ylic133+pBk549
 
-# - part: Experimental journal-01-2020
-#   chapters:
-#     - file: journal/2020-01/Machine learning projects proposal for MsC/BsC/internships
-#     - file: journal/2020-01/2020-01-14-essential-genes-insights
-#     - file: journal/2020-01/2020-01-20-FACs-as-microscopy-conditions-prep
-#     - file: journal/2020-01/2020-01-28-FACs-as-microscopy-conditions-prep-II
-#     - file: journal/2020-01/2020-02-04-FACs-as-microscopy-conditions-prep-III
+- part: Experimental journal-01-2020
+  chapters:
+    - file: journal/2020-01/Machine learning projects proposal for MsC/BsC/internships
+    - file: journal/2020-01/2020-01-14-essential-genes-insights
+    - file: journal/2020-01/2020-01-07-machine-learning-proposal-projects
+    - file: journal/2020-01/2020-01-20-FACs-as-microscopy-conditions-prep
+    - file: journal/2020-01/2020-01-28-FACs-as-microscopy-conditions-prep-II
+    - file: journal/2020-01/2020-02-04-FACs-as-microscopy-conditions-prep-III
 
-# - part: Experimental journal-02-2020
-#   chapters:
-#     - file: journal/2020-02/2020-02-09-dnrp1-dbem2-for-satay
-#     - file: journal/2020-02/2020-02-13-Comparison-of Werner-FACs-settings-with-mine
-#     - file: journal/2020-02/2020-02-21-hands-on-data-from-facs
-#     - file: journal/2020-02/2020-02-23-ylic133-5-transformations
-#     - file: journal/2020-02/2020-02-25-FACs-starting-with-30C-shaking
+- part: Experimental journal-02-2020
+  chapters:
+    - file: journal/2020-02/2020-02-09-dnrp1-dbem2-for-satay
+    - file: journal/2020-02/2020-02-13-Comparison-of Werner-FACs-settings-with-mine
+    - file: journal/2020-02/2020-02-21-hands-on-data-from-facs
+    - file: journal/2020-02/2020-02-23-ylic133-5-transformations
+    - file: journal/2020-02/2020-02-25-FACs-starting-with-30C-shaking
 
-# - part: Experimental journal-03-2020
-#   chapters:
-#     - file: journal/2020-03/2020-03-04-FACs
-#     - file: journal/2020-03/2020-03-17-brainstorm-research-questions
+- part: Experimental journal-03-2020
+  chapters:
+    - file: journal/2020-03/2020-03-04-FACs
+
 
