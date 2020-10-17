@@ -31,8 +31,8 @@ crossref: true
 
 ## Objective
 - To design an strategy to make the following strains, in order to test SATAy on them :
-  <!-- - $\Delta nrp1$ *ura3-* *ade2-*
-  - $\Delta bem2$ *ura3-* *ade2-* -->
+  - $\Delta nrp1$ *ura3-* *ade2-*
+  - $\Delta bem2$ *ura3-* *ade2-*
 
 ## Method 1
 - PCR the genomic prep of yll137 with primer 1 and 6 for nrp1 deletion and transfrom it to ylic133
