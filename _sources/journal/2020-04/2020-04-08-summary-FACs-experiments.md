@@ -38,7 +38,7 @@ colorlinks: true
 ## Results
 
 1.  The fold change in Cdc42 expression by the pGal1-CDC42-sfGFP strain (ywkd065) relative to the native mean expression given by a strain with GFP in native CDC42 expression, without a galactose promoter, was consistently less that 3 fold from 0 to 2% Gal concentration. Currently we have four independent experiments. 
-To look into the details of all of them , I suggest to look at this [excel document](C:\Users\linigodelacruz\Documents\PhD_2018\Work with Fridtjof paper\Main_paper_experimental_figure\FACS-new-experiment\Leila-FACS\summary-FACs-experiments-table.xlsx)
+<!-- To look into the details of all of them , I suggest to look at this [excel document](C:\Users\linigodelacruz\Documents\PhD_2018\Work with Fridtjof paper\Main_paper_experimental_figure\FACS-new-experiment\Leila-FACS\summary-FACs-experiments-table.xlsx) -->
 
 ![Summary of four FACs experiments in terms of the relative CDC42 expression](../images/four-Facs-independent-exps.png){#fig:summary}
 
