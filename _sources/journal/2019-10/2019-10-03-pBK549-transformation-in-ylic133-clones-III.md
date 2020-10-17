@@ -59,8 +59,10 @@ To ensure that the constructed strain is able to pass the Satay sanity check, an
 - I prepare another stock of 1M of LiAc.
 - Plating 150ul cells+50ul MiliQ and 30ul cells+170ul MiliQ in -URA+6xADE and 20ul cells +180ul MiliQ in YPD (positive control)
 ## Results :smile:
+
 ![](../images/09102019-pbk549-succesful-trasformation-all-strains.png)
-# Conclusion
+
+## Conclusion
 - 09102019 This time the transformation really works , giving plenty of colonies in all the strains. I suspected that what made the big difference is the change of the LiAc.
 - The negative control is good, so there is no growth in any of the plates.
 
