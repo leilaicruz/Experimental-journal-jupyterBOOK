@@ -25,7 +25,7 @@ crossref: true
 colorlinks: true
 ---
 
-# Title: 29072019-SATAY 1st attempt with Byk832-T :pray: :confused: :x:
+# Title: 29072019-SATAY 1st attempt with Byk832-T 😵
 
 ## Date
 Tuesday, 29072019 - 31072019

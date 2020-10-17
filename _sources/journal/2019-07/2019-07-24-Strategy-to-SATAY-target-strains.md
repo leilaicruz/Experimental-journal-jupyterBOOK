@@ -1,4 +1,4 @@
-# Title : 24072019-Strategies to generate the strains I want to study using SATAY :page_with_curl:
+# Title : 24072019-Strategies to generate the strains I want to study using SATAY 🧐
 
 ## Date
 Wednesday 24072019
