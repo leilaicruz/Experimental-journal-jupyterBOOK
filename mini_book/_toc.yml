@@ -9,6 +9,8 @@
   - file: journal/2020-01/2020-01-21-Pandoc-installation
   - file: journal/2020-01/2020-01-07-Balance-of-2019
   - file: journal/2020-03/2020-03-17-brainstorm-research-questions
+  - file: journal/2020-06/2020-06-02-Yearly-Progress-Meeting
+  - file: journal/2020-06/2020-06-06-Jupyter-notebook-sync-to-md
 
 - part: Experimental journal-05-2019 
   chapters:
@@ -82,4 +84,37 @@
   chapters:
     - file: journal/2020-03/2020-03-04-FACs
 
+- part: Experimental journal-04-2020
+  chapters:
+    - file: journal/2020-04/2020-04-08-summary-FACs-experiments
+    - file: journal/2020-04/2020-04-23-Machine-Learning-study
+    - file: journal/2020-04/2020-04-24-plan-of-next-experiments
+    - file: journal/2020-04/2020-04-29-how-commons-properties-are-useful-to-predict-SL
+    - file: journal/2020-04/2020-04-30-Checking-bem2-deletion-on-ylic133_5
 
+# - part: Experimental journal-05-2020
+#   chapters:
+#     -file: journal/2020-05/2020-05-Work-on-May
+
+- part: Experimental journal-06-2020
+  chapters:
+    - file: journal/2020-06/2020-06-17-Experimental-planing
+    - file: journal/2020-06/2020-06-22-Essential-and-not-essential-differences-in-interactors
+
+
+- part: Experimental journal-07-2020
+  chapters:
+    - file: journal/2020-07/2020-07-06-Preparation-for-PCR-check-of-BEM2-bem2
+    - file: journal/2020-07/2020-07-10-Transformation-of-ylic135-and-ylic136-with-pbK549
+    - file: journal/2020-07/2020-07-15-Transformation-of-ylic133-with-pBK549-for-SATAY
+
+- part: Experimental journal-08-2020
+  chapters:
+  - file: journal/2020-08/2020-08-10-SATAY-bem2d-nrp1d-WT
+  - file : journal/2020-08/2020-08-18-DNA-Prep-SATAY
+  - file: journal/2020-08/2020-08-24-Digestion-circularization-PCR
+
+- part: Experimental journal-10-2020
+  chapters:
+  - file: journal/2020-10/2020-10-14-bem3d-bem3dnrp1d-strain-construction
+  - file: journal/2020-10/2020-10-15-More-DNA-extraction-WT-dnrp1
