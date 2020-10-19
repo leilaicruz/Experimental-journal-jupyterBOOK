@@ -75,9 +75,9 @@
 
 - part: Experimental journal-10-2019
   chapters:
-- file: journal/2019-10/2019-10-01-pBK549-transformation-in-ylic133-clonesII
-- file : journal/2019-10/2019-10-03-pBK549-transformation-in-ylic133-clones-III
-- file: journal/2019-10/2019-10-09-Sanity-check-ylic133+pBk549
+  - file: journal/2019-10/2019-10-01-pBK549-transformation-in-ylic133-clonesII
+  - file : journal/2019-10/2019-10-03-pBK549-transformation-in-ylic133-clones-III
+  - file: journal/2019-10/2019-10-09-Sanity-check-ylic133+pBk549
 
 
 - part: Experimental journal-09-2019
