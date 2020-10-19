@@ -61,4 +61,21 @@ colorlinks: true
 
 - DNA concentration = 3ng/5uL=0.8ng/ul **extremely low**
 
+### New PCR with more DNA :(
+
+- PCR with 2uL, 5uL and 10uL of DNA template. 
+
+![Highly inefficient PCR](../images/17102020-EMPTY-GEL-testing-different-dna-concentrations.png)
+
+### Try lowering the annealing temperature
+
+- PCR with 2uL, 5uL and 10uL of DNA template, using T=55C as annealing temperature. 
+- The used primers have a melting temperature of: 57C and 61C respectively. From [this website](https://www.biocompare.com/Bench-Tips/133581-Primers-by-Design-Tips-for-Optimal-DNA-Primer-Design/#:~:text=Temperature%20boundaries,starting%20range%20when%20designing%20primers.) : they say that *The optimal annealing temperature should be determined empirically, but it is typically lower than the primers’ Tm by approximately 5°C to 10°C.*
+
+![No product again](../images/19102020-EMPTY-GEL-testing-different-dna-concentrations-55C-annealing.png)
+
+### Try a positive control in yll3a to test the primers
+
+- PCR with yll3a and 36.5uL of yll138 DNA template. 
+
 ## Conclusion
