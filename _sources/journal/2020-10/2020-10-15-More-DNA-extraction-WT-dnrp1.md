@@ -29,7 +29,7 @@ colorlinks: true
 
 ## Date
 
-15102020- 
+15102020
 
 ## Objective
 
