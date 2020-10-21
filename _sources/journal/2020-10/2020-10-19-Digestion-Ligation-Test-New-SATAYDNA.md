@@ -54,6 +54,17 @@ To test if the new DNA extraction from the pellets of WT, $\Delta$nrp1_1, $\Delt
 | control buffer NIaIII 	| 1 	| 0.2 	| 0 	| 0.8 	| 0.2 	| 0 	| 0.8 	|
 
 ## Results
+### Digestion
+- 1ul loaded DNA 
 
+![](../images/20102020-digestion-new-DNA-extraction.png)
+
+### Ligation
+
+![](../images/21102020-ALL-3-strains-succesful-bands-little smear.png)
+
+- I noticed that there is less smear intensity compared with the intensity of the bands for the unstranposed plasmid. 
+  - I suspect that this could be due to the fact that I did not use Non-sticky tubes RNA free... 
+- I asked Benoit in the forum about that , to see if this is OK. See [HERE](https://groups.google.com/g/satayusers/c/9NMCRSPjIxM)
 
 ## Conclusion
