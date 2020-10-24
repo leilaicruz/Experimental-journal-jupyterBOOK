@@ -116,4 +116,6 @@ In my previous protocol I used
 
 ### Try mixing the gDNA before PCR 
 
+- PCR with primer 41/47 and 51/52 and vortexing first the DNA from yll3a and yll138a
+
 ## Conclusion
