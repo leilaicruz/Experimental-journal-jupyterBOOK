@@ -81,6 +81,9 @@ To do all the steps in order to send my samples of WT, and dnrp1 strains to sequ
 
 ### PCR :)
 
+- 50uL PCR
+  - 5uL DNA 
+
 ![](../images/24102020-all-strains-50ul-PCR-succesful2sequencing.png)
 
 ![](../images/24102020-summary-of-the-library.png)
