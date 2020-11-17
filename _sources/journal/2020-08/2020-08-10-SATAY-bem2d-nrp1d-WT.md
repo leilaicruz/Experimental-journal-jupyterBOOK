@@ -169,12 +169,11 @@ colorlinks: true
   - 15ml of solid pellet, frozen in -80C. The pellet is pink (?)
   ![](../images/19082020-pink-cell-pellet.png)
 
-
-| Strain  |  OD START | OD STOP | Time- Reseeding | ADE+/ml-stop|URA+/ml-stop|% of ade+ / ura+| # of cells to harvest|
-|---|---|---|---|---|---|---|---|
-| ylic133_2  | 0.25 | 8.3  | 90h  | 3295000|19200000|16.9|$7.47 *10^{11}$|
-| ylic136_1  | 0.27 | 10.2 |  90h | 5350000 |18000000|27.8|$9.18*10^{11}$|
-| ylic136_2 | 0.18 | 9.5  | 90h  | 3070000 |11600000|30.2|$8.55*10^{11}$|
+| Strain 	| OD START 	| OD STOP 	| ADE+/mL-start<br>induct(backg) 	| ADE+/mL-start<br>Reseed 	| ADE+/ml-stop<br>Reseed 	| URA+/ml-stop<br>Reseed 	| % of ade+/ura+ 	| Total # of cells<br>Harvest 	| Time- Reseeding 	|
+|-	|-	|-	|-	|-	|-	|-	|-	|-	|-	|
+| ylic133_2 	| 0.25 	| 8.3 	| 150 	| 5000 	| 3295000 	| 19200000 	| 16.9 	| $7.47 *10^{11}$ 	| 90h 	|
+| ylic136_1 	| 0.27 	| 10.2 	| 400 	| 10000 	| 5350000 	| 18000000 	| 27.8 	| $9.18*10^{11}$ 	| 90h 	|
+| ylic136_2 	| 0.18 	| 9.5 	| 400 	| 7500 	| 3070000 	| 11600000 	| 30.2 	| $8.55*10^{11}$ 	| 90h 	|
 
 
 ![](../images/20082020-stats-reseeding.png)
