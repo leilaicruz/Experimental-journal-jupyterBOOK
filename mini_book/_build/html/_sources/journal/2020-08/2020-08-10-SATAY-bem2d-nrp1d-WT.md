@@ -42,10 +42,11 @@ colorlinks: true
 - **11082020**
     - OD measurement
       - OD really low around 0.3 for all strains which could be due to the fact that the media did not contain extra adenine. 
+      - Add 6x ADE to the media which means: 44mg in 400mL . 
 
       - ```SO I RESTARTED THE PRECULTURE ON 11082020```
     
-- **12082020** - Induction in SD-URA+2% gal to a final OD of 0.2 - 50 hours (2 days)
+- **12082020** - Induction in SD-URA+2% gal (I also added 6XAde to this media) to a final OD of 0.2 - 50 hours (2 days)
   - OD measurement:
 
 | Strain  |  OD 10x dilution  | ReaL OD | Dilution Factor to OD=0.2  | Time of preculture|
@@ -145,17 +146,36 @@ colorlinks: true
 - **18082020** 
 - [x] OD measurement for T=92h after reseeding at 12:00
 - [x] Plate 200ul with 1000X dilution in SD-Ade , and 200ul with 40000X dilution in SD-ura to estimate the growth of ade+cells compared with the T=0 of reseeding. Expect  that the ade+ cells have grown by a factor of ~1000x. 
+- Reseeding
+  - Library to reseed
+  - [Rule of thumb for the number of cells under certain OD600](https://research.fhcrc.org/content/dam/stripe/hahn/methods/yeast_genetics/yeast_OD_cells.pdf) 
+
+  | OD  |  approx Number of cells in 1mL| 
+  |---|---|
+  | 0.1 | 3,000,000  |
+  | 0.18 | 6,000,000  |
+  | 0.25  | 7,500,000 |
+  | 0.27  | 7,500,000 | 
+  | 1| 30,000,000 | 
+
+  | Strain  |  OD at T=0 (reseed) | Volume| Library
+|---|---|---|---|
+| ylic133_2  | 0.25   | 3L| 7,500,000 * 3 * $10^3$= $22.5 *10^9$|
+| ylic136_1  | 0.27 | 3L| 7,500,000 * 3 * $10^3$= $22.5 *10^9$|
+| ylic136_2 | 0.18 | 3L| 6,000,000* 3 * $10^3$= $18 *10^9$|
+
 - End of reseeding 
 - [x] Harvest of the cell culture. 
   - 15ml of solid pellet, frozen in -80C. The pellet is pink (?)
   ![](../images/19082020-pink-cell-pellet.png)
 
 
-| Strain  |  OD START | OD STOP | Time- Reseeding | ADE+/ml-stop|
-|---|---|---|---|---|
-| ylic133_2  | 0.25 | 8.3  | 90h  | 3295000|
-| ylic136_1  | 0.27 | 10.2 |  90h | 5350000 |
-| ylic136_2 | 0.18 | 9.5  | 90h  | 3070000 |
+| Strain  |  OD START | OD STOP | Time- Reseeding | ADE+/ml-stop|URA+/ml-stop|% of ade+ / ura+| # of cells to harvest|
+|---|---|---|---|---|---|---|---|
+| ylic133_2  | 0.25 | 8.3  | 90h  | 3295000|19200000|16.9|$7.47 *10^{11}$|
+| ylic136_1  | 0.27 | 10.2 |  90h | 5350000 |18000000|27.8|$9.18*10^{11}$|
+| ylic136_2 | 0.18 | 9.5  | 90h  | 3070000 |11600000|30.2|$8.55*10^{11}$|
+
 
 ![](../images/20082020-stats-reseeding.png)
 

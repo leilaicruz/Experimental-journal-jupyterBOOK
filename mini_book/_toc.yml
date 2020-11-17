@@ -1,6 +1,5 @@
 
-
-
+#ghp-import -n -p -f mini_book/_build/html
 - file: intro
   numbered: true
 
@@ -19,6 +18,7 @@
   - file: journal/2020-10/2020-10-14-bem3d-bem3dnrp1d-strain-construction
   - file: journal/2020-10/2020-10-15-More-DNA-extraction-WT-dnrp1
   - file: journal/2020-10/2020-10-19-Digestion-Ligation-Test-New-SATAYDNA
+  - file: journal/2020-10/2020-10-21-Digestion-Ligation2Sequence
 
 
 - part: Experimental journal-08-2020

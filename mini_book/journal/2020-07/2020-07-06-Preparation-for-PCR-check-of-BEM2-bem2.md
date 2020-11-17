@@ -1,3 +1,30 @@
+---
+title: "PCR check of BEM2 presence and absence in strain ylic135"
+output: pdf_document
+documentclass: article
+classoption: twocolumn
+pdf_document:
+latex_engine: pdflatex
+toc: true
+lof: true
+numberSections: true
+highlight: tango
+sectionsDepth: 3
+chapters: True
+figPrefix:
+  - "Fig."
+  - "Figs."
+secPrefix:
+  - "Section"
+  - "Sections"
+fontsize: 12pt
+geometry: margin=0.5in
+autoEqnLabels: true
+cref: true
+crossref: true
+colorlinks: true
+---
+
 # Title : Preparation for PCR check of BEM2 presence and absence in strain ylic135
 
 ## Date
