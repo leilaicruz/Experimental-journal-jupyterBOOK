@@ -699,10 +699,22 @@ commentsRunWhenDOMLoaded(addUtterances);
   <a class="reference internal nav-link" href="#next-steps">
    1.5. Next steps
   </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#troubleshooting-the-pcr">
+     1.5.1. Troubleshooting the PCR
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id1">
+   1.6. Next Steps
+  </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#conclusion">
-   1.6. Conclusion
+   1.7. Conclusion
   </a>
  </li>
 </ul>
@@ -789,7 +801,7 @@ commentsRunWhenDOMLoaded(addUtterances);
 <li><p>30ul of elution</p></li>
 <li><p>concentration on gel (5ul loaded) using BioRad</p></li>
 </ul>
-<p><img alt="Very low DNA concentration" src="../../_images/23112020-DNA-extraction-with-3a.png" /></p>
+<p><img alt="Very low DNA concentration and lost of RNA at the bottom" src="../../_images/23112020-DNA-extraction-with-3a.png" /></p>
 <ul class="simple">
 <li><p>yll138 intensity = 0.4 x Intensity (20ng band) = 8ng/5ul ~ 1.5 ng/ul</p></li>
 <li><p>yll3a intensity = 0.2 x Intensity (20ng band) = 4ng/5ul ~ 1 ng/ul</p></li>
@@ -800,15 +812,44 @@ commentsRunWhenDOMLoaded(addUtterances);
 <ul class="simple">
 <li><p>Use 5ul DNA template for the new extraction and 1ul of the old yll3a stock</p></li>
 <li><p>Use oLL401/oLL402 and 51/52 primers , newly diluted from the original stock.</p></li>
-<li><p>Use 60C annealing temperature and 2 mins in 72C for the extension.</p></li>
+<li><p>Use 60C annealing temperature and 2 mins in 72C for the extension.
+<img alt="" src="../../_images/23112020-PCR-succesful-with-oLL-primers.png" /></p></li>
+<li><p>My primers 51 and 52 did not work while Liedewij’s primers did work.</p></li>
+<li><p>Concentration of the PCR product using BioRad</p>
+<ul>
+<li><p>Intensity(yll138)= 12.66 * Intensity (20ng)=253.2/5ul=50.64 ng/uL</p></li>
+<li><p>Intensity(yll3a)= 13.43 * Intensity (20ng)=268.6/5ul=53.72 ng/uL</p></li>
 </ul>
 </li>
 </ul>
+</li>
+<li><p>One interesting point from this result is that the length of the PCR product from yll138 that have bem3::NAT is the same as the WT. From previous PCR the PCR product size with 51/52 primers is roughly the same as with oLL401/oLL402 in the yll3a (old reference) template.</p></li>
+<li><p>If I have enough PCR product to do both transformations I will continue with it , and check if they acquire NAT resistance , then I will know they are the right clones. Anyways I will send to sequence those clones and I will see what is in there.</p></li>
+</ul>
+<div class="section" id="troubleshooting-the-pcr">
+<h3><span class="section-number">1.5.1. </span>Troubleshooting the PCR<a class="headerlink" href="#troubleshooting-the-pcr" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Another PCR with 10ul and 1ul from yll138 DNA and 10ul and 1ul from yll3a DNA (old reference) with primers 51 and 52.</p>
+<ul>
+<li><p>To test more template and less buffer with the 1ul DNA that may hinder the efficiency of the PCR using yll138 as template.</p></li>
+</ul>
+</li>
+<li><p>Repeat 8 times the PCR using yll138 as template (5ul) with oLL401/oLL402 to have more PCR product for the transformation.</p></li>
+</ul>
+<p><img alt="Confusing! No product for yll138 with oLL primers " src="../../_images/24112020-test-51_52-primers-on-yll138a-and-3a.png" /></p>
+</div>
+</div>
+<div class="section" id="id1">
+<h2><span class="section-number">1.6. </span>Next Steps<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Use a different strain for transformation , this one is causing too much problem and also not giving the right product as it has the same length as the WT, which should not be , given that BEM3 is not there. I will use the one from Wessel that has worked.</p></li>
+</ul>
 </div>
 <div class="section" id="conclusion">
-<h2><span class="section-number">1.6. </span>Conclusion<a class="headerlink" href="#conclusion" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">1.7. </span>Conclusion<a class="headerlink" href="#conclusion" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><p>It seems the extension time placed a role in the PCRs</p></li>
+<li><p>I wont continue with this strain (yll138) for transformation.</p></li>
 </ul>
 </div>
 </div>
