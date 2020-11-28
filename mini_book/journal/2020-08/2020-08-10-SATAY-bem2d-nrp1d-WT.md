@@ -158,7 +158,8 @@ colorlinks: true
   | 0.27  | 7,500,000 | 
   | 1| 30,000,000 | 
 
-  | Strain  |  OD at T=0 (reseed) | Volume| Library
+
+| Strain  |  OD at T=0 (reseed) | Volume| Library
 |---|---|---|---|
 | ylic133_2  | 0.25   | 3L| 7,500,000 * 3 * $10^3$= $22.5 *10^9$|
 | ylic136_1  | 0.27 | 3L| 7,500,000 * 3 * $10^3$= $22.5 *10^9$|
@@ -169,6 +170,7 @@ colorlinks: true
   - 15ml of solid pellet, frozen in -80C. The pellet is pink (?)
   ![](../images/19082020-pink-cell-pellet.png)
 
+
 | Strain 	| OD START 	| OD STOP 	| ADE+/mL-start<br>induct(backg) 	| ADE+/mL-start<br>Reseed 	| ADE+/ml-stop<br>Reseed 	| URA+/ml-stop<br>Reseed 	| % of ade+/ura+ 	| Total # of cells<br>Harvest 	| Time- Reseeding 	|
 |-	|-	|-	|-	|-	|-	|-	|-	|-	|-	|
 | ylic133_2 	| 0.25 	| 8.3 	| 150 	| 5000 	| 3295000 	| 19200000 	| 16.9 	| $7.47 *10^{11}$ 	| 90h 	|
@@ -177,6 +179,36 @@ colorlinks: true
 
 
 ![](../images/20082020-stats-reseeding.png)
+
+#### Defining the complexity of the library
+
+- The number of ADE+ cells reseeded minus the number of background ADE+ cells is the complexity of the library.
+
+- To determine the complexity of the library, you should know: 
+  - #ADE+ per ml at the start of the reseed, 
+  - Volume of reseed.  
+  - If you harvest all the culture: 
+
+For strain 1:
+
+OD8 ~8E+7 cells/ml -> 7.47E+11/ 8E+7~10L
+
+- The  number of URA+ cells per ml at the end of the regrowth is 19200000 -> 7.47E+11/ 19.2E+5 ~ 38L
+
+- I reseed in a volume of 3L :
+
+  If so, the complexity of the library is 5E+3 * 3*10E+3= 1.5E+7
+- Complexity = $ADE+|_{T=0(reseed)}$ * Volume of reseed
+
+#### Number of cycles during the reseed
+
+- The number of cycles that each ADE+ cells has done during the regrowth of the libraries as follow:
+
+  - N=ln(#ADE+ per ml STOP reseed/#ADE+ per ml START reseed)/ln(2)
+
+  - N_ WT=9.34
+  - N_dnrp1_1=9.06
+  - N_dnrp1_2=8.67
 
 
 ## Results
@@ -194,6 +226,11 @@ colorlinks: true
 - DNA sequencing protocol 
 - Repeat the SATAY for ylic135 from the beginning 
 
+
 ## Conclusion
 
 - First round of SATAY :) with WT and dnrp1 strains. 
+- Next time I will:
+  - Also plate the cells in CSM in order to capture the whole population.
+  - Also plate the cells during the induction in -URA mainly to know the number of cells before the reseeding and to quantify better the ADe+/ADE- ratio across induction.
+  

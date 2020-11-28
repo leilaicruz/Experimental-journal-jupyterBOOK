@@ -16,6 +16,8 @@ dependencies:
   - xlrd=1.2.0
   - scikit-learn
   - tabulate 
+  - jupytext
   - pip:
     - quantecon
-    - jupyter-book>=0.7.0b
+    # - jupyter-book>=0.7.0b
+    - jupyter-book>=0.8.3

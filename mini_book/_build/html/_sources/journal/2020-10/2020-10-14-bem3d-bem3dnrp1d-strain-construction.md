@@ -118,4 +118,9 @@ In my previous protocol I used
 
 - PCR with primer 41/47 and 51/52 and vortexing first the DNA from yll3a and yll138a
 
+![](../images/22102020-138-3a-after-vortexing-the-dna_EMPTY-AGAIN.png)
+
 ## Conclusion
+
+- Unsuccessful PCR attempts with the gDNA from yll138 and those primers. This is the PCR product I would need for transforming my ylic133 strain. 
+- Next steps: Extract more gDNA and repeat with more details all these steps . 
