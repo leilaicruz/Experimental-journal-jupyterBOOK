@@ -124,3 +124,4 @@ colorlinks: true
 - It seems the extension time placed a role in the PCRs
 
 - I wont continue with this strain (yll138) for transformation. 
+- **I was overlooking the first step of the genomic extraction kit , which is the activation of the column with Buffer BG**. See [here](https://roboklon.com/pdf/81_det_en.pdf) the protocol for more details. So this was the reason why I was having so low yield. 😣😣
