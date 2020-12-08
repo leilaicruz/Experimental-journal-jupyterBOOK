@@ -73,8 +73,45 @@ colorlinks: true
   ![](../images/01122020-pure-PCR-10ul-elution-very-low-not-enough-for-transformation.png){width=50%}
 
 - Repeat the PCR with the same PCR machine as the one that worked. 
-  - I reduced the time in the annealing temperature from 1min to 30secs. This actually does not make any influence on that. 
+  - I reduced the time in the annealing temperature from 1min to 30secs. This actually does not make any influence on that. (**It did not work - I did not get any bands**)
 - Repeat the genomic extraction (I ran out of DNA) 
   - I cultured 2 tubes of 10mL to do completely. 
 
+  ![yWT04 DNA successful extraction](../images/03122020-ywt04-high-yield-DNA-extraction.png){#fig:DNA-extraction-good}
+
+  |  	| Nanodrop 	| On Gel (BioRad) 	|
+|-	|-	|-	|
+| DNA-ywt04a 	| 60ng/uL 	| 180ng/uL 	|
+
+  - very high yield of DNA !! :)
+
+- PCR using 1uL yll3a , 1uL ywt04a and olic51/52 primers and spy1/spy2 primers from Els as a positive control. 
+  - I changed the annealing temperature to 60C , 30 secs
+
+  ![It worked now :)](../images/03122020-SUCCESFUL-PCR-with-olic51-52-primers.png)
+
+- Do 8 PCRs with 1ul ywt04a template and with olic51/52 primers for transformation.
+  - PCR protocol: 60C annealing T , 30 secs ; 72C extension 2 mins; 98C denature DNA 3 mins
+
+![](../images/04122020-succesful-PCR-for-transformation-olic51-52-primers.png){width=50%}
+
 ## Conclusion
+
+- Using ywt04 as template did work with my primers olic51/52.
+- The last DNA extraction was super successful , and what I did differently was:
+  - Using 20ml of culture
+  - Pull the pellet of 2ml (I had 10 eppies in total)
+  - Mix by inversion several times in the step of 55C incubation with proteinaseK for 30mins. Before I have never mix the tubes but this time I did , and I got very clean DNA as you see in [@fig:DNA-extraction-good]
+  - The PCR are extremely sensitive sometimes with the conditions , in this case I have found that the most optimal conditions are:
+    - 98C 3mins
+
+    do 34x cycles:
+    - 98C  30secs
+    - 60C 30secs
+    - 72C 2min
+
+    end cycle
+    - 72C 10mins
+    - 12C on hold 
+
+  - The concentration by the Nanodrop of the purification of the 9 PCRs , using 10ul of elution distributed in 6 tubes , so in total around 60uL of DNA was: 260ng/uL :) . So I have around 13ug of DNA for transformation. 
