@@ -169,6 +169,23 @@ commentsRunWhenDOMLoaded(addUtterances);
 </ul>
 <p class="caption collapsible-parent">
  <span class="caption-text">
+  Experimental journal-12-2020
+ </span>
+</p>
+<ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2020-12/2020-12-03-Sending-DNA-to-sequence-to-Oxford.html">
+   1. Samples to Oxford
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2020-12/2020-12-04-ylic133-ylic136-transformation-with-bem3d.html">
+   2. Title: ylic133 and ylic136 transformation with bem3d::NAT
+  </a>
+ </li>
+</ul>
+<p class="caption collapsible-parent">
+ <span class="caption-text">
   Experimental journal-11-2020
  </span>
 </p>
@@ -786,19 +803,65 @@ commentsRunWhenDOMLoaded(addUtterances);
 </li>
 <li><p>Repeat the PCR with the same PCR machine as the one that worked.</p>
 <ul class="simple">
-<li><p>I reduced the time in the annealing temperature from 1min to 30secs. This actually does not make any influence on that.</p></li>
+<li><p>I reduced the time in the annealing temperature from 1min to 30secs. This actually does not make any influence on that. (<strong>It did not work - I did not get any bands</strong>)</p></li>
 </ul>
 </li>
 <li><p>Repeat the genomic extraction (I ran out of DNA)</p>
 <ul class="simple">
 <li><p>I cultured 2 tubes of 10mL to do completely.</p></li>
 </ul>
+<p><img alt="yWT04 DNA successful extraction" src="../../_images/03122020-ywt04-high-yield-DNA-extraction.png" />{#fig:DNA-extraction-good}</p>
+<p>|  	| Nanodrop 	| On Gel (BioRad) 	|
+|-	|-	|-	|
+| DNA-ywt04a 	| 60ng/uL 	| 180ng/uL 	|</p>
+<ul class="simple">
+<li><p>very high yield of DNA !! :)</p></li>
+</ul>
+</li>
+<li><p>PCR using 1uL yll3a , 1uL ywt04a and olic51/52 primers and spy1/spy2 primers from Els as a positive control.</p>
+<ul class="simple">
+<li><p>I changed the annealing temperature to 60C , 30 secs</p></li>
+</ul>
+<p><img alt="It worked now :)" src="../../_images/03122020-SUCCESFUL-PCR-with-olic51-52-primers.png" /></p>
+</li>
+<li><p>Do 8 PCRs with 1ul ywt04a template and with olic51/52 primers for transformation.</p>
+<ul class="simple">
+<li><p>PCR protocol: 60C annealing T , 30 secs ; 72C extension 2 mins; 98C denature DNA 3 mins</p></li>
+</ul>
 </li>
 </ul>
+<p><img alt="" src="../../_images/04122020-succesful-PCR-for-transformation-olic51-52-primers.png" />{width=50%}</p>
 </div>
 </div>
 <div class="section" id="conclusion">
 <h2><span class="section-number">2.5. </span>Conclusion<a class="headerlink" href="#conclusion" title="Permalink to this headline">¶</a></h2>
+<ul>
+<li><p>Using ywt04 as template did work with my primers olic51/52.</p></li>
+<li><p>The last DNA extraction was super successful , and what I did differently was:</p>
+<ul>
+<li><p>Using 20ml of culture</p></li>
+<li><p>Pull the pellet of 2ml (I had 10 eppies in total)</p></li>
+<li><p>Mix by inversion several times in the step of 55C incubation with proteinaseK for 30mins. Before I have never mix the tubes but this time I did , and I got very clean DNA as you see in [&#64;fig:DNA-extraction-good]</p></li>
+<li><p>The PCR are extremely sensitive sometimes with the conditions , in this case I have found that the most optimal conditions are:</p>
+<ul class="simple">
+<li><p>98C 3mins</p></li>
+</ul>
+<p>do 34x cycles:</p>
+<ul class="simple">
+<li><p>98C  30secs</p></li>
+<li><p>60C 30secs</p></li>
+<li><p>72C 2min</p></li>
+</ul>
+<p>end cycle</p>
+<ul class="simple">
+<li><p>72C 10mins</p></li>
+<li><p>12C on hold</p></li>
+</ul>
+</li>
+<li><p>The concentration by the Nanodrop of the purification of the 9 PCRs , using 10ul of elution distributed in 6 tubes , so in total around 60uL of DNA was: 260ng/uL :) . So I have around 13ug of DNA for transformation.</p></li>
+</ul>
+</li>
+</ul>
 </div>
 </div>
 

@@ -11,6 +11,11 @@
   - file: journal/2020-06/2020-06-02-Yearly-Progress-Meeting
   - file: journal/2020-06/2020-06-06-Jupyter-notebook-sync-to-md
 
+- part: Experimental journal-12-2020
+  chapters:
+  - file: journal/2020-12/2020-12-03-Sending-DNA-to-sequence-to-Oxford
+  - file: journal/2020-12/2020-12-04-ylic133-ylic136-transformation-with-bem3d 
+
 - part: Experimental journal-11-2020
   chapters:
   - file: journal/2020-11/2020-11-17-gDNA-extraction-and-PCR-with-yll138
