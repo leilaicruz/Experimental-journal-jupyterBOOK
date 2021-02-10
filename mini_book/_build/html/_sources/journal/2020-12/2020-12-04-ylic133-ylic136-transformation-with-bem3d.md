@@ -28,7 +28,7 @@ colorlinks: true
 # Title: ylic133 and ylic136 transformation with bem3d::NAT
 
 ## Date
-04122020-0812020
+04122020-09122020
 
 ## Objective
 - To get the following mutants for SATAY:
@@ -61,3 +61,5 @@ colorlinks: true
 ## Next steps
 
 - Culture single colonies (6) per strain to freeze in glycerol stocks to check  later their integration with PCR.
+  - Only 1 colony from the 6 colonies has densely grown after 24 hours in 30C incubation. I stored that one from each strain in glycerol stocks. 
+  - I stored the plates with the transformants and the restreaking of dbem3dnrp1 single colonies to regrow them after January. (coming back from my holidays :D)
