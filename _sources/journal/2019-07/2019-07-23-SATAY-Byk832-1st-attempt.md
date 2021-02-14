@@ -62,7 +62,7 @@ To learn about the whole technique and detect the main issues and bottlenecks wh
 
 | Strain  |  OD start  | OD STOP | Time  |
 |---|---|---|---|
-| strain # 3  | 0.235 |  3.85 | 20h  |
+| strain <br> # 3  | 0.235 |  3.85 | 20h  |
 | strain # 5  | 0.229 | 3.94  |  20h |
 | strain # 2  | 0.233  | 4.02  | 20h  |
 | strain # 4  | 0.227  | 4.04  | 20h  |
