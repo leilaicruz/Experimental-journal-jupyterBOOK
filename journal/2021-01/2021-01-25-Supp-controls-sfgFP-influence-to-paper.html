@@ -44,7 +44,6 @@
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
     <script src="../../_static/doctools.js"></script>
-    <script src="../../_static/language_data.js"></script>
     <script src="../../_static/togglebutton.js"></script>
     <script src="../../_static/clipboard.min.js"></script>
     <script src="../../_static/copybutton.js"></script>
@@ -85,8 +84,6 @@ commentsRunWhenDOMLoaded(addUtterances);
 </script>
     <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="../../_static/sphinx-book-theme.d31b09fe5c1d09cb49b26a786de4a05d.js"></script>
-    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    <script type="text/x-mathjax-config">MathJax.Hub.Config({"TeX": {"Macros": {"N": "\\mathbb{N}", "floor": ["\\lfloor#1\\rfloor", 1], "bmat": ["\\left[\\begin{array}"], "emat": ["\\end{array}\\right]"]}}, "tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
     <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
     <script >
         const thebe_selector = ".thebe"
@@ -94,6 +91,8 @@ commentsRunWhenDOMLoaded(addUtterances);
         const thebe_selector_output = ".output"
     </script>
     <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/x-mathjax-config">MathJax.Hub.Config({"TeX": {"Macros": {"N": "\\mathbb{N}", "floor": ["\\lfloor#1\\rfloor", 1], "bmat": ["\\left[\\begin{array}"], "emat": ["\\end{array}\\right]"]}}, "tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
     <link rel="shortcut icon" href="../../_static/flowers.jpg"/>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
@@ -756,13 +755,12 @@ commentsRunWhenDOMLoaded(addUtterances);
 <h1><span class="section-number">2. </span>Title: Supp controls on sfgFP influence on the bulk growth<a class="headerlink" href="#title-supp-controls-on-sfgfp-influence-on-the-bulk-growth" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="date">
 <h2><span class="section-number">2.1. </span>Date<a class="headerlink" href="#date" title="Permalink to this headline">¶</a></h2>
-<p>25012021</p>
+<p>25012021-</p>
 </div>
 <div class="section" id="objective">
 <h2><span class="section-number">2.2. </span>Objective<a class="headerlink" href="#objective" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><p>To discard the influence of the sfGFP on the Cdc42 dependency for growth</p></li>
-<li></li>
 </ul>
 </div>
 <div class="section" id="method">
@@ -806,11 +804,37 @@ commentsRunWhenDOMLoaded(addUtterances);
 </tr>
 </tbody>
 </table>
+<ul class="simple">
+<li><p>Measure in 0,0.06% and 0.1% Galactose concentrations in 36C , using two technical replicates per plate . (If possible do two plates)</p></li>
+<li><p>Booking of the plate reader Biotek on 10022021</p>
+<ul>
+<li><p>[x] Incubation on 08022021</p></li>
+<li><p>[x] Layout modified in the moment (because a pipette mistake):
+<img alt="" src="../../_images/08022021-layout.png" /></p></li>
+<li><p>[x] Experiment started at 11:30</p>
+<ul>
+<li><p>[x] Linear 3 mins:30 secs and  orbital 3 mins:30 secs shaking before each measurement at 36C</p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
 <div class="section" id="protocol">
 <h3><span class="section-number">2.3.1. </span>Protocol<a class="headerlink" href="#protocol" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
-<li><p>write werner protocol</p></li>
-<li></li>
+<li><p>Growth assay protocol (p.66 Werner PhD Thesis)</p>
+<ul>
+<li><p>First, a 96 well plate is inoculated with about 5 μl of cells into 100 μl medium per well in a predefined layout. In addition, sterile MiliQ is put in the four reservoirs in the perimeter (4 times 2 mL) and 77 times 100 μl in the reservoirs between wells. The wells are then covered by a sticker and with the lid on, it is placed shaking slowly (100-150 rpm) for 2 days at 30 ºC..</p></li>
+<li><p>Then, using a multi-pipette, 10 μl of cells of this plate are transferred to a new plate which has 90 μl of media in the same layout, which dilutes the cells a factor of ten. This is then repeated for a new plate, where 5 μl of cells are transferred to 95 μl media, to ultimately accomplish a 200x dilution compared to the original plate. When making the dilution, wells are gently mixed before dilution by pipetting up and down. The 200x diluted plate is then sealed by a transparent sticker, and covered with the lid to minimize evaporation (and water is placed in the reservoirs as before).</p></li>
+</ul>
+</li>
+<li><p>Measurement protocol:</p>
+<ul>
+<li><p>The first 1000s linearly pre-shakes (amplitude 1 mm) the plate, before shaking just before each measurement round in a 380 second interval. These rounds start with 90” linear shaking (amplitude 2 mm), 90” orbital shaking (amplitude 1.5 mm), 90” linear shaking (amplitude 1 mm), waiting 10” and then OD-600 +/-9 nm measurements (25 flashes, 5ms settle time). Rounds were executed in two consecutive loops of 24 hours, after which OD values were documented in a excel sheet.</p></li>
+</ul>
+</li>
+<li><p>Layout per plate:
+<img alt="" src="../../_images/03022021-layout-plate.png" /></p></li>
 </ul>
 </div>
 </div>

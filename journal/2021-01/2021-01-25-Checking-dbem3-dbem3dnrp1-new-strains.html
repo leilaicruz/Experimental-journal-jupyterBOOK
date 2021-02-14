@@ -44,7 +44,6 @@
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
     <script src="../../_static/doctools.js"></script>
-    <script src="../../_static/language_data.js"></script>
     <script src="../../_static/togglebutton.js"></script>
     <script src="../../_static/clipboard.min.js"></script>
     <script src="../../_static/copybutton.js"></script>
@@ -85,8 +84,6 @@ commentsRunWhenDOMLoaded(addUtterances);
 </script>
     <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="../../_static/sphinx-book-theme.d31b09fe5c1d09cb49b26a786de4a05d.js"></script>
-    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    <script type="text/x-mathjax-config">MathJax.Hub.Config({"TeX": {"Macros": {"N": "\\mathbb{N}", "floor": ["\\lfloor#1\\rfloor", 1], "bmat": ["\\left[\\begin{array}"], "emat": ["\\end{array}\\right]"]}}, "tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
     <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
     <script >
         const thebe_selector = ".thebe"
@@ -737,8 +734,13 @@ commentsRunWhenDOMLoaded(addUtterances);
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#next-steps">
+   1.5. Next Steps
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#conclusions">
-   1.5. Conclusions
+   1.6. Conclusions
   </a>
  </li>
 </ul>
@@ -797,18 +799,66 @@ commentsRunWhenDOMLoaded(addUtterances);
 <li><p>use 5ul of template</p></li>
 </ul>
 </li>
+<li><p>[x] Restreak more colonies from the original selection plate from the transformation for dbem3 on YPD+NAT plate.</p>
+<ul>
+<li><p>I restreak like 16 colonies more and surprisingly they showed very miserably growth after a weekend growth period.</p></li>
+<li><p>PCR on the three more grown colonies with SPY1/2 and oLL401/402 primer sets, and the same protocol as before. I used 5ul template.</p></li>
+<li><p>[x] Try again same PCR with 1ul template</p></li>
+</ul>
+</li>
+<li><p>Incubate in liquid media YPD+6x+NAT single colonies from the streak 1, 2 and 3 from dbem3 colonies. Also incubated the colony 1 mixed in MiliQ used for colony PCR in YPD+6x+NAT media to compare the consistency from the colony taken from the streak 1.</p>
+<ul>
+<li><p>The only grown culture was from colony 1 from the plate. The one from the eppi did not grow (?)</p></li>
+<li><p>[ ] Colony PCR with the culture with colony 1.</p>
+<ul>
+<li><p>550ul  of 2x washed liquid culture in MiliQ and resuspended in 50uL MiliQ. I took 1uL template for PCR.</p></li>
+<li><p>PCR protocol: annealing temperature gradient to find the optimal conditions for this PCR. (56C,58C,60C,65C) and also increasing to 3mins the step with 98C which is the one who breaks the cell wall . In the previous experiments was set to 30secs, so maybe it is not sufficient to get enough template.</p></li>
+<li><p>I also used 1uL gDNA from ywt04 as a positive control with oLL401/402 primers.</p></li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 </div>
 </div>
 <div class="section" id="results">
 <h2><span class="section-number">1.4. </span>Results<a class="headerlink" href="#results" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
-<li><p>No product from PCR
-<img alt="" src="../../_images/27012021-PCR-test-nrp1-bem3-MISTAKE-WITH-BEM3-PRIMERS-CONCENTRATION.png" /></p></li>
+<li><p>No product from PCR</p></li>
+<li></li>
+</ul>
+<p><img alt="" src="../../_images/27012021-PCR-test-nrp1-bem3-MISTAKE-WITH-BEM3-PRIMERS-CONCENTRATION.png" /></p>
+<ul class="simple">
+<li><p>Confirming three clones from dbem3dnrp1 strains (colonies 2,10 and 11). <strong>The same clones that grew on liquid media YPD+NAT+HYGRO :)</strong></p></li>
+<li><p>Glycerol stock storage: ylic138 a,b,c (3 biological replicates)</p></li>
+</ul>
+<p><img alt="" src="../../_images/28012020-PCR-dbem3-dbem3dnrp1-spy1_2-oLL401_402.png" /></p>
+<ul>
+<li><p>All checked bem3d colonies are not correct because the band shown for the oLL401/042 primers indicates that BEM3 is present in them.</p></li>
+<li><p><strong>NO PCR PRODUCT for dbem3 taken colonies</strong> , 5ul template.</p>
+<p><img alt="No PCR product" src="../../_images/02022021-FAILURE-check-for-dbem3-colonies.png" /></p>
+</li>
+<li><p><strong>NO PCR PRODUCT for dbem3 taken colonies</strong> , 1ul template.</p>
+<p><img alt="Not conclusive PCR product" src="../../_images/02022021-FAILURE-check-for-dbem3-colonies-1ul-template.png" /></p>
+</li>
+<li><p><strong>NO PCR PRODUCT for dbem3 colonies. Correct positive control</strong></p>
+<p><img alt="" src="../../_images/04022021-FAILURE-dbem3-colony-PCR-good-positive-control.png" /></p>
+</li>
 </ul>
 </div>
+<div class="section" id="next-steps">
+<h2><span class="section-number">1.5. </span>Next Steps<a class="headerlink" href="#next-steps" title="Permalink to this headline">¶</a></h2>
+<ol class="simple">
+<li><ul class="simple">
+<li><p>[ ] Sequencing of correct mutants on bem3::NAT transformation.</p></li>
+</ul>
+</li>
+<li><p>Look if colony 10 and 11 from dbem3 transformation are actually the big colonies or the small, and also for the rest that did not show any band to correlate fitness with colony size and correct transformation.</p></li>
+<li><p>Do a PCR for transformation (again on the WT background to get bem3d) from the dbem3dnrp1 strain around bem3::NAT with like 1000bp of flanking regions downstream and upstream the NAT . The longer the flanking regions the more likely is to insert in the right location in the genome.</p></li>
+</ol>
+</div>
 <div class="section" id="conclusions">
-<h2><span class="section-number">1.5. </span>Conclusions<a class="headerlink" href="#conclusions" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">1.6. </span>Conclusions<a class="headerlink" href="#conclusions" title="Permalink to this headline">¶</a></h2>
 </div>
 </div>
 

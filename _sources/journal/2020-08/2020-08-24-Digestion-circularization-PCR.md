@@ -187,7 +187,7 @@ PCR using 9.32ul of DNA template :
 
 |  	| Testing the buffer 	| Testing the digestion 	| Testing the DNA 	|
 |-	|-	|-	|-	|
-| With new and old<br>stocks of buffer<br>and enzyme 	| - 2.7ul DNA<br>- 0.5ulBuffer (new/old stock)<br>- 1.8ul MiliQ 	| - 2.7ul DNA<br>- 0.5ul Buffer (new/old stock)<br>- 0.5ul NIaIII (new/old stock)<br>- 1.3ul MiliQ 	| - 2.7ul DNA<br>- 2.3ul MiliQ 	|
+| With new and old stocks of buffer and enzyme 	| - 2.7ul DNA - 0.5ulBuffer (new/old stock) - 1.8ul MiliQ 	| - 2.7ul DNA - 0.5ul Buffer (new/old stock) - 0.5ul NIaIII (new/old stock) - 1.3ul MiliQ 	| - 2.7ul DNA - 2.3ul MiliQ 	|
 
 ![](../images/13012020-digestion-test-NIaIII.png)
 

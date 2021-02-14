@@ -74,7 +74,7 @@ To learn about the whole technique and detect the main issues and bottlenecks wh
 
 | Strain (2 technical replicates) | Preculture  |   |   |
 |---|---|---|---|
-|   | OD start (29072019-:clock230: -> 14:30) |  OD stop (**~2X higher<br> than Benoit data**) |  Time  |
+|   | OD start (29072019-:clock230: -> 14:30) |  OD stop (**~2X higher than Benoit data**) |  Time  |
 | Byk832T_1(Leila) | 0.19  | ~ 12.6  | 19h  |
 | Byk832T_2 (Leila) | 0.14  | ~11.2  | 19h  |
 | Byk832T_3(Leila)  | 0.17  | ~ 10.8   | 19h  |
@@ -131,7 +131,7 @@ To learn about the whole technique and detect the main issues and bottlenecks wh
 
 | Strain  | Induction  |   |   |  |  |
 |---|---|---|---|---|---|
-|   | OD start |  OD stop |  Time  | # ADE+ cells/mL <br> at START | # ADE+ cells/mL  <br> at STOP |
+|   | OD start |  OD stop |  Time  | # ADE+ cells/mL  at START | # ADE+ cells/mL   at STOP |
 | strain # 1 | 0.189  | 6.96  |  51h |4.05E+02 | 1.46E+05|
 | strain # 2  | 0.198  | 7.17  | 51h  | 2.60E+02 |1.15E+05 |
 | strain # 3  | 0.194 |  7.13 | 51h  |2.85E+02 |2.24E+05 |
@@ -143,7 +143,7 @@ To learn about the whole technique and detect the main issues and bottlenecks wh
 
 | Strain  | Induction  |   |   |  |  
 |---|---|---|---|---|---|
-|   | OD start |  OD stop |  Time  | # ADE+ cells/mL <br> at START | # ADE+ cells/mL  <br> at STOP |
+|   | OD start |  OD stop |  Time  | # ADE+ cells/mL  at START | # ADE+ cells/mL   at STOP |
 | Byk832T_3 (Leila)| 0.098  |   |  51h | | |
 | Byk832T_1 (Enzo) | 0.484  |   | 51h  |  | |
 | Byk832T_2 (Enzo) | 0.510 |   | 51h  | | |
@@ -151,7 +151,7 @@ To learn about the whole technique and detect the main issues and bottlenecks wh
 
 
 
-4. **Reseed**
+1. **Reseed**
 
 - Determine the number of ADE+ clones after 50-52 hours of induction. **If you have around 2.35E5 ADE+ cells per mL is GREAT**.
 - Inoculate 14E6 cells (14 million of cells) in SD-ADE 2% glucose at OD=0.2 in 2-4L
