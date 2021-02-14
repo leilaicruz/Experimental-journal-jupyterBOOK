@@ -35,6 +35,7 @@ html:
 # #######################################################################################
 # Interact link settings
 notebook_interface            : "notebook"
+only_build_toc_files          :  true
 
 #######################################################################################
 # Launch button settings
