@@ -103,6 +103,8 @@ To check that the transformation were inserted in the right locations
 
 1. - [ ] Sequencing of correct mutants on bem3::NAT transformation. 
 2. Look if colony 10 and 11 from dbem3 transformation are actually the big colonies or the small, and also for the rest that did not show any band to correlate fitness with colony size and correct transformation. 
-3. Do a PCR for transformation (again on the WT background to get bem3d) from the dbem3dnrp1 strain around bem3::NAT with like 1000bp of flanking regions downstream and upstream the NAT . The longer the flanking regions the more likely is to insert in the right location in the genome. 
+   1. - colony 10 and 11 seem to be actually  the normal size colonies (not small) 
+3. Do a PCR for transformation (again on the WT background to get bem3d) from the dbem3dnrp1 strain around bem3::NAT with like 1000bp of flanking regions downstream and upstream the NAT . The longer the flanking regions the more likely is to insert in the right location in the genome. FIRST CHECK WITH gDNA FROM dBEM3 STORED STOCKS IF IT DOES NOT WORK . 
+   1. - [x] design of the right primers (olic54 and olic55)
 
 ## Conclusions
