@@ -12,6 +12,15 @@
   - file: journal/2020-06/2020-06-02-Yearly-Progress-Meeting
   #- file: journal/2020-06/2020-06-06-Jupyter-notebook-sync-to-md
 
+- part: Experimental journal-03-2021
+  chapters:
+  - file: journal/2021-03/2021-03-01-gDNA-PCR-for-dbem3_2
+  - file: journal/2021-03/2021-03-05-transformation_dnrp1dbem1
+
+- part: Experimental journal-02-2021
+  chapters:
+  - file: journal/2021-02/2021-02-12-genomic-extractions-and-pcr-ylic137-ylic138
+  
 - part: Experimental journal-01-2021
   chapters:
   - file: journal/2021-01/2021-01-25-Checking-dbem3-dbem3dnrp1-new-strains

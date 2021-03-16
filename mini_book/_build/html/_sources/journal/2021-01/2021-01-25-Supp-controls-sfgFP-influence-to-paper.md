@@ -72,4 +72,19 @@ cref: true
   
 ## Results
 
+![](../images/12022021-sfGFP-controls-Biotek-overview-growth-curves.png)
+
+### Plate layout to check all WT+pGal biological replicates and mutants+pGal+sfGFP
+![](../images/17022021-plate-layout.png)
+
+- Observations from the incubation 
+  - 2uL of melted glycerol stocks per well
+  - started at 10:30
+  - Media base: 4xCSM-NF+2%Raff
+  - ![Screenshot of the incubation after 48h](../images/19022021-screenshot-incubation-curves.png)
+ 
+- Measuring at 36C at 11:00
+  - 1uL of cells from incubation to 100uL media (easier to pipette)~100X dilution
+
+
 ## Conclusion
