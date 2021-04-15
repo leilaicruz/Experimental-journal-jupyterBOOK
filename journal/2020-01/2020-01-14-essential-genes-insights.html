@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>5. Title:14012020-Mapping essential genes in WT and getting insights from it. &#8212; EXPERIMENTAL JOURNAL PHD</title>
     
-  <link rel="stylesheet" href="../../_static/css/index.73d71520a4ca3b99cfee5594769eaaae.css">
+  <link rel="stylesheet" href="../../_static/css/index.f658d18f9b420779cfdf24aa0a7e2d77.css">
 
     
   <link rel="stylesheet"
@@ -26,19 +26,16 @@
 
     
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="../../_static/sphinx-book-theme.40e2e510f6b7d1648584402491bb10fe.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/sphinx-book-theme.e7340bb3dbd8dde6db86f25597f54a1b.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/mystnb.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/sphinx_tabs/semantic-ui-2.4.1/segment.min.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/sphinx_tabs/semantic-ui-2.4.1/menu.min.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/sphinx_tabs/semantic-ui-2.4.1/tab.min.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/sphinx_tabs/tabs.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/tabs.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
     
-  <link rel="preload" as="script" href="../../_static/js/index.3da636dd464baa7582d2.js">
+  <link rel="preload" as="script" href="../../_static/js/index.d3f166471bb80abb5163.js">
 
     <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
@@ -83,7 +80,7 @@ var addUtterances = () => {
 commentsRunWhenDOMLoaded(addUtterances);
 </script>
     <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script src="../../_static/sphinx-book-theme.d31b09fe5c1d09cb49b26a786de4a05d.js"></script>
+    <script src="../../_static/sphinx-book-theme.7d483ff0a819d6edff12ce0b1ead3928.js"></script>
     <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
     <script >
         const thebe_selector = ".thebe"
@@ -173,6 +170,11 @@ commentsRunWhenDOMLoaded(addUtterances);
  <li class="toctree-l1">
   <a class="reference internal" href="../2021-03/2021-03-05-transformation_dnrp1dbem1.html">
    2. Title: Transformation on nrp1::HYGRO with bem1::KANMX
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2021-03/2021-03-30-dbem1-transformation-on-pgal-wt.html">
+   3. Title : bem1::KanMX transformation in WT+pGal-CDC42
   </a>
  </li>
 </ul>
@@ -666,21 +668,21 @@ commentsRunWhenDOMLoaded(addUtterances);
           
 <main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
     
-    <div class="row topbar fixed-top container-xl">
-    <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show">
-    </div>
-    <div class="col pl-2 topbar-main">
-        
-        <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
-            data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
-            aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
-            title="Toggle navigation" data-toggle="tooltip" data-placement="left">
-            <i class="fas fa-bars"></i>
-            <i class="fas fa-arrow-left"></i>
-            <i class="fas fa-arrow-up"></i>
-        </button>
-        
-        
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
 <div class="dropdown-buttons-trigger">
     <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
             class="fas fa-download"></i></button>
@@ -698,7 +700,7 @@ commentsRunWhenDOMLoaded(addUtterances);
     </div>
 </div>
 
-        <!-- Source interaction buttons -->
+            <!-- Source interaction buttons -->
 
 <div class="dropdown-buttons-trigger">
     <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
@@ -717,21 +719,22 @@ commentsRunWhenDOMLoaded(addUtterances);
 </div>
 
 
-        <!-- Full screen (wrap in <a> to have style consistency -->
-        <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
-                data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
-                title="Fullscreen mode"><i
-                    class="fas fa-expand"></i></button></a>
+            <!-- Full screen (wrap in <a> to have style consistency -->
+            <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+                    data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+                    title="Fullscreen mode"><i
+                        class="fas fa-expand"></i></button></a>
 
-        <!-- Launch buttons -->
+            <!-- Launch buttons -->
 
-    </div>
+        </div>
 
-    <!-- Table of contents -->
-    <div class="d-none d-md-block col-md-2 bd-toc show">
-        
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
         <div class="tocsection onthispage pt-5 pb-3">
-            <i class="fas fa-list"></i> Contents
+            <i class="fas fa-list"></i>
+            Contents
         </div>
         <nav id="bd-toc-nav">
             <ul class="nav section-nav flex-column">
@@ -769,6 +772,7 @@ commentsRunWhenDOMLoaded(addUtterances);
 
         </nav>
         
+        </div>
     </div>
 </div>
     <div id="main-content" class="row">
@@ -806,7 +810,7 @@ Useful questions:</p>
 <ul class="simple">
 <li><p>The reference of the study is [this paper from 2002](Giaever G, et al (2002). Functional profiling of the Saccharomyces cerevisiae genome. Nature, 418:387-91.), called: <em>Functional profiling of the Saccharomyces cerevisiae genome</em>.</p></li>
 </ul>
-<p><img alt="Essential genes on the yeast genetic interaction map" src="../../_images/essential-genes-yeast.png" />{#fig:essential }</p>
+<p><img alt="Essential genes on the yeast genetic interaction map" src="journal/images/essential-genes-yeast.png" />{#fig:essential }</p>
 </li>
 <li><p>How many essential genes in WT are also bem1 interactors?</p></li>
 </ul>
@@ -815,14 +819,14 @@ This represents the 3% of all essential genes in WT interacts with Bem1.</p>
 <ul class="simple">
 <li><p>Bem1 synthetic lethals mapping -38 genes</p></li>
 </ul>
-<p><img alt="mapping of synthetic lethals genes of Bem1" src="../../_images/synthetic-lethals-of-Bem1.png" />{#fig:lethals}</p>
+<p><img alt="mapping of synthetic lethals genes of Bem1" src="journal/images/synthetic-lethals-of-Bem1.png" />{#fig:lethals}</p>
 <ul class="simple">
 <li><p>How many bem1 synthetic lethals are also essential genes in WT?</p></li>
 </ul>
 <p>Insight 1: Out of the 34 essential genes that intersect with Bem1 interactors, 13 are Bem1 synthetic lethals (~ 1/3 of them ). <em><strong>This means that at least 21 essential genes in WT looses their essentiality in dbem1 background</strong></em>.</p>
 <p>Insight 2: 13 genes out of 38 bem1 synthetic lethals are also WT essential genes (~ 1/3 of them). <em><strong>This means  that 25 synthetic lethals genes of bem1 have gained essentiality in this background</strong></em>.</p>
-<p><img alt="Essential genes that are also Bem1 synthetic lethals" src="../../_images/bem1-synthetic-lethals-that-are-also-essential-genes-in-WT.png" />{#fig:intersection-with-Bem1-lethals}</p>
-<p><img alt="Summary of the shift of essentiality when deleting Bem1" src="../../_images/shift-essentiality.png" /></p>
+<p><img alt="Essential genes that are also Bem1 synthetic lethals" src="journal/images/bem1-synthetic-lethals-that-are-also-essential-genes-in-WT.png" />{#fig:intersection-with-Bem1-lethals}</p>
+<p><img alt="Summary of the shift of essentiality when deleting Bem1" src="journal/images/shift-essentiality.png" /></p>
 </div>
 <div class="section" id="conclusion">
 <h2><span class="section-number">5.5. </span>Conclusion<a class="headerlink" href="#conclusion" title="Permalink to this headline">¶</a></h2>
@@ -861,7 +865,7 @@ This represents the 3% of all essential genes in WT interacts with Bem1.</p>
         },
         kernelOptions: {
             kernelName: "python3",
-            path: "./journal\2020-01"
+            path: "./journal/2020-01"
         },
         predefinedOutput: true
     }
@@ -870,15 +874,15 @@ This represents the 3% of all essential genes in WT interacts with Bem1.</p>
 
               </div>
               
-        </div>
-    </div>
-    
-    
-    <div class='prev-next-bottom'>
         
+        <div class='prev-next-bottom'>
+            
     <a class='left-prev' id="prev-link" href="2020-01-07-machine-learning-proposal-projects.html" title="previous page"><span class="section-number">4. </span>Machine learning projects proposal for MsC/BsC/internships</a>
     <a class='right-next' id="next-link" href="../2019-10/2019-10-09-Sanity-check-ylic133%2BpBk549.html" title="next page"><span class="section-number">1. </span>Title: 09102019- Sanity check of transformants ylic133+pBk549, Byk832+pBk549 to know if they suitable for SATAY.</a>
 
+        </div>
+        
+        </div>
     </div>
     <footer class="footer mt-5 mt-md-0">
     <div class="container">
@@ -897,7 +901,7 @@ This represents the 3% of all essential genes in WT interacts with Bem1.</p>
     </div>
 
     
-  <script src="../../_static/js/index.3da636dd464baa7582d2.js"></script>
+  <script src="../../_static/js/index.d3f166471bb80abb5163.js"></script>
 
 
     

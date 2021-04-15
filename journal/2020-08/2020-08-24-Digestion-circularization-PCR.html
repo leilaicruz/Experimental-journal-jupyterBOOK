@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>1. Title: Towards DNA sequencing: Digestion, Circularization and PCR of the transposon-genome junctions. &#8212; EXPERIMENTAL JOURNAL PHD</title>
     
-  <link rel="stylesheet" href="../../_static/css/index.73d71520a4ca3b99cfee5594769eaaae.css">
+  <link rel="stylesheet" href="../../_static/css/index.f658d18f9b420779cfdf24aa0a7e2d77.css">
 
     
   <link rel="stylesheet"
@@ -26,19 +26,16 @@
 
     
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="../../_static/sphinx-book-theme.40e2e510f6b7d1648584402491bb10fe.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/sphinx-book-theme.e7340bb3dbd8dde6db86f25597f54a1b.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/mystnb.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/sphinx_tabs/semantic-ui-2.4.1/segment.min.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/sphinx_tabs/semantic-ui-2.4.1/menu.min.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/sphinx_tabs/semantic-ui-2.4.1/tab.min.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/sphinx_tabs/tabs.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/tabs.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
     
-  <link rel="preload" as="script" href="../../_static/js/index.3da636dd464baa7582d2.js">
+  <link rel="preload" as="script" href="../../_static/js/index.d3f166471bb80abb5163.js">
 
     <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
@@ -83,7 +80,7 @@ var addUtterances = () => {
 commentsRunWhenDOMLoaded(addUtterances);
 </script>
     <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script src="../../_static/sphinx-book-theme.d31b09fe5c1d09cb49b26a786de4a05d.js"></script>
+    <script src="../../_static/sphinx-book-theme.7d483ff0a819d6edff12ce0b1ead3928.js"></script>
     <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
     <script >
         const thebe_selector = ".thebe"
@@ -173,6 +170,11 @@ commentsRunWhenDOMLoaded(addUtterances);
  <li class="toctree-l1">
   <a class="reference internal" href="../2021-03/2021-03-05-transformation_dnrp1dbem1.html">
    2. Title: Transformation on nrp1::HYGRO with bem1::KANMX
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2021-03/2021-03-30-dbem1-transformation-on-pgal-wt.html">
+   3. Title : bem1::KanMX transformation in WT+pGal-CDC42
   </a>
  </li>
 </ul>
@@ -666,21 +668,21 @@ commentsRunWhenDOMLoaded(addUtterances);
           
 <main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
     
-    <div class="row topbar fixed-top container-xl">
-    <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show">
-    </div>
-    <div class="col pl-2 topbar-main">
-        
-        <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
-            data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
-            aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
-            title="Toggle navigation" data-toggle="tooltip" data-placement="left">
-            <i class="fas fa-bars"></i>
-            <i class="fas fa-arrow-left"></i>
-            <i class="fas fa-arrow-up"></i>
-        </button>
-        
-        
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
 <div class="dropdown-buttons-trigger">
     <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
             class="fas fa-download"></i></button>
@@ -698,7 +700,7 @@ commentsRunWhenDOMLoaded(addUtterances);
     </div>
 </div>
 
-        <!-- Source interaction buttons -->
+            <!-- Source interaction buttons -->
 
 <div class="dropdown-buttons-trigger">
     <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
@@ -717,21 +719,22 @@ commentsRunWhenDOMLoaded(addUtterances);
 </div>
 
 
-        <!-- Full screen (wrap in <a> to have style consistency -->
-        <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
-                data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
-                title="Fullscreen mode"><i
-                    class="fas fa-expand"></i></button></a>
+            <!-- Full screen (wrap in <a> to have style consistency -->
+            <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+                    data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+                    title="Fullscreen mode"><i
+                        class="fas fa-expand"></i></button></a>
 
-        <!-- Launch buttons -->
+            <!-- Launch buttons -->
 
-    </div>
+        </div>
 
-    <!-- Table of contents -->
-    <div class="d-none d-md-block col-md-2 bd-toc show">
-        
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
         <div class="tocsection onthispage pt-5 pb-3">
-            <i class="fas fa-list"></i> Contents
+            <i class="fas fa-list"></i>
+            Contents
         </div>
         <nav id="bd-toc-nav">
             <ul class="nav section-nav flex-column">
@@ -788,6 +791,7 @@ commentsRunWhenDOMLoaded(addUtterances);
 
         </nav>
         
+        </div>
     </div>
 </div>
     <div id="main-content" class="row">
@@ -847,7 +851,7 @@ commentsRunWhenDOMLoaded(addUtterances);
 </ul>
 </li>
 </ul>
-<p><img alt="2nd attempt" src="../../_images/08092020-2nd-attempt-digestion.png" />{width=50%}</p>
+<p><img alt="2nd attempt" src="journal/images/08092020-2nd-attempt-digestion.png" />{width=50%}</p>
 <p>From 8:30  to 9:00 in the morning (after 16 hours)</p>
 <ul>
 <li><p>The reactions are then heat inactivated at 65°C for 20 min and</p></li>
@@ -916,10 +920,10 @@ commentsRunWhenDOMLoaded(addUtterances);
 <li><p>On a 1% agarose gel, the product runs as a smear from 250 bp to 1.2 kb, with highest density centered around 500bp. The 867 bp size band present in the NlaIII treated sample and the 465 bp size band present in the DpnII treated sample correspond to untransposed pBK549.</p></li>
 <li><p>The smear is the important part.</p></li>
 </ul>
-<p><img alt="PCR from the 2nd attempt for the ligation of the DNA. PCR with 2% DMSO" src="../../_images/10092020-PCR-50Xdilution-DNA.png" />{width=50%}</p>
-<p><img alt="15092020-Testing with Benoit primers" src="../../_images/15092020-testing-benoit-primers-NOT-SUCCESFUL-I.png" />{width=50%}</p>
-<p><img alt="17092020-Puzzling results from repeating the previous PCR" src="../../_images/17092020-PCR-using-Benoit-primers-PUZZLING-mixture-of-samples.png" />{width=50%}</p>
-<p><img alt="18092020-Benoit primers with WT and dnrp1_1 strains" src="../../_images/18092020-PCR-suing-benoit-primers-ylic133_ylic136_1-WEIRD.png" />{width=50%}</p>
+<p><img alt="PCR from the 2nd attempt for the ligation of the DNA. PCR with 2% DMSO" src="journal/images/10092020-PCR-50Xdilution-DNA.png" />{width=50%}</p>
+<p><img alt="15092020-Testing with Benoit primers" src="journal/images/15092020-testing-benoit-primers-NOT-SUCCESFUL-I.png" />{width=50%}</p>
+<p><img alt="17092020-Puzzling results from repeating the previous PCR" src="journal/images/17092020-PCR-using-Benoit-primers-PUZZLING-mixture-of-samples.png" />{width=50%}</p>
+<p><img alt="18092020-Benoit primers with WT and dnrp1_1 strains" src="journal/images/18092020-PCR-suing-benoit-primers-ylic133_ylic136_1-WEIRD.png" />{width=50%}</p>
 <div class="section" id="repetition-of-the-whole-procedure-using-negative-controls">
 <h3><span class="section-number">1.3.1. </span>Repetition of the whole procedure using negative controls<a class="headerlink" href="#repetition-of-the-whole-procedure-using-negative-controls" title="Permalink to this headline">¶</a></h3>
 <div class="section" id="digestion">
@@ -930,7 +934,7 @@ commentsRunWhenDOMLoaded(addUtterances);
 <li><p>negative control: DNA + DPNII buffer + MiliQ</p></li>
 <li><p>50ul total volume digestion with 27uL DNA (75ng/ul) to reach 2ug of DNA</p></li>
 </ul>
-<p><img alt="" src="../../_images/06102020-digestion-ylic136-DNA-with-negative-control.png" /></p>
+<p><img alt="" src="journal/images/06102020-digestion-ylic136-DNA-with-negative-control.png" /></p>
 </div>
 <div class="section" id="ligation-and-pcr">
 <h4><span class="section-number">1.3.1.2. </span>Ligation and PCR<a class="headerlink" href="#ligation-and-pcr" title="Permalink to this headline">¶</a></h4>
@@ -945,10 +949,10 @@ commentsRunWhenDOMLoaded(addUtterances);
 E2_HT49_MiniDS_RV	AGGTCAGTCACATGGTTAGGACGCAGATAGACAacgaaaacgaacgggataaa</p>
 </li>
 <li><p>The PCRs
-<img alt="DNA degradation in NIaIII line" src="../../_images/07102020-PCR-with-new-primers-and-negative-control.png" /></p></li>
+<img alt="DNA degradation in NIaIII line" src="journal/images/07102020-PCR-with-new-primers-and-negative-control.png" /></p></li>
 </ul>
 <p>PCR using 9.32ul of DNA template :
-<img alt="More DNA degradation in NIaIII line" src="../../_images/08102020-PCR-9.32ul-dna-in-20ul-pcr-with-new-primers.png" /></p>
+<img alt="More DNA degradation in NIaIII line" src="journal/images/08102020-PCR-9.32ul-dna-in-20ul-pcr-with-new-primers.png" /></p>
 </div>
 </div>
 <div class="section" id="tracking-down-the-dna-degradation-for-the-niaiii-digested-dna">
@@ -974,7 +978,7 @@ E2_HT49_MiniDS_RV	AGGTCAGTCACATGGTTAGGACGCAGATAGACAacgaaaacgaacgggataaa</p>
 </tr>
 </tbody>
 </table>
-<p><img alt="" src="../../_images/13012020-digestion-test-NIaIII.png" /></p>
+<p><img alt="" src="journal/images/13012020-digestion-test-NIaIII.png" /></p>
 <ul class="simple">
 <li><p>Ligation next day</p>
 <ul>
@@ -984,7 +988,7 @@ E2_HT49_MiniDS_RV	AGGTCAGTCACATGGTTAGGACGCAGATAGACAacgaaaacgaacgggataaa</p>
 </ul>
 </li>
 </ul>
-<p><img alt="" src="../../_images/14102020-succesful-test-NiAIII.png" />{width=80%}</p>
+<p><img alt="" src="journal/images/14102020-succesful-test-NiAIII.png" />{width=80%}</p>
 </div>
 </div>
 <div class="section" id="results">
@@ -1023,7 +1027,7 @@ E2_HT49_MiniDS_RV	AGGTCAGTCACATGGTTAGGACGCAGATAGACAacgaaaacgaacgggataaa</p>
         },
         kernelOptions: {
             kernelName: "python3",
-            path: "./journal\2020-08"
+            path: "./journal/2020-08"
         },
         predefinedOutput: true
     }
@@ -1032,15 +1036,15 @@ E2_HT49_MiniDS_RV	AGGTCAGTCACATGGTTAGGACGCAGATAGACAacgaaaacgaacgggataaa</p>
 
               </div>
               
-        </div>
-    </div>
-    
-    
-    <div class='prev-next-bottom'>
         
+        <div class='prev-next-bottom'>
+            
     <a class='left-prev' id="prev-link" href="../2020-10/2020-10-14-bem3d-bem3dnrp1d-strain-construction.html" title="previous page"><span class="section-number">4. </span>Title : ylic133 and ylic136 transformation with bem3d::NAT</a>
     <a class='right-next' id="next-link" href="2020-08-18-DNA-Prep-SATAY.html" title="next page"><span class="section-number">2. </span>DNA extraction from SATAY samples</a>
 
+        </div>
+        
+        </div>
     </div>
     <footer class="footer mt-5 mt-md-0">
     <div class="container">
@@ -1059,7 +1063,7 @@ E2_HT49_MiniDS_RV	AGGTCAGTCACATGGTTAGGACGCAGATAGACAacgaaaacgaacgggataaa</p>
     </div>
 
     
-  <script src="../../_static/js/index.3da636dd464baa7582d2.js"></script>
+  <script src="../../_static/js/index.d3f166471bb80abb5163.js"></script>
 
 
     

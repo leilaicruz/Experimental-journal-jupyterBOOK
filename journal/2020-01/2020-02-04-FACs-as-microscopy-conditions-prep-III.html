@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>1. Title: FACs experiment with the same conditions as the microscopy done to quantify the cell sizes for the pAl1-Cdc42-sfGFP strains (III). &#8212; EXPERIMENTAL JOURNAL PHD</title>
     
-  <link rel="stylesheet" href="../../_static/css/index.73d71520a4ca3b99cfee5594769eaaae.css">
+  <link rel="stylesheet" href="../../_static/css/index.f658d18f9b420779cfdf24aa0a7e2d77.css">
 
     
   <link rel="stylesheet"
@@ -26,19 +26,16 @@
 
     
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="../../_static/sphinx-book-theme.40e2e510f6b7d1648584402491bb10fe.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/sphinx-book-theme.e7340bb3dbd8dde6db86f25597f54a1b.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/mystnb.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/sphinx_tabs/semantic-ui-2.4.1/segment.min.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/sphinx_tabs/semantic-ui-2.4.1/menu.min.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/sphinx_tabs/semantic-ui-2.4.1/tab.min.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/sphinx_tabs/tabs.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/tabs.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
     
-  <link rel="preload" as="script" href="../../_static/js/index.3da636dd464baa7582d2.js">
+  <link rel="preload" as="script" href="../../_static/js/index.d3f166471bb80abb5163.js">
 
     <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
@@ -83,7 +80,7 @@ var addUtterances = () => {
 commentsRunWhenDOMLoaded(addUtterances);
 </script>
     <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script src="../../_static/sphinx-book-theme.d31b09fe5c1d09cb49b26a786de4a05d.js"></script>
+    <script src="../../_static/sphinx-book-theme.7d483ff0a819d6edff12ce0b1ead3928.js"></script>
     <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
     <script >
         const thebe_selector = ".thebe"
@@ -175,6 +172,11 @@ commentsRunWhenDOMLoaded(addUtterances);
  <li class="toctree-l1">
   <a class="reference internal" href="../2021-03/2021-03-05-transformation_dnrp1dbem1.html">
    2. Title: Transformation on nrp1::HYGRO with bem1::KANMX
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2021-03/2021-03-30-dbem1-transformation-on-pgal-wt.html">
+   3. Title : bem1::KanMX transformation in WT+pGal-CDC42
   </a>
  </li>
 </ul>
@@ -668,21 +670,21 @@ commentsRunWhenDOMLoaded(addUtterances);
           
 <main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
     
-    <div class="row topbar fixed-top container-xl">
-    <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show">
-    </div>
-    <div class="col pl-2 topbar-main">
-        
-        <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
-            data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
-            aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
-            title="Toggle navigation" data-toggle="tooltip" data-placement="left">
-            <i class="fas fa-bars"></i>
-            <i class="fas fa-arrow-left"></i>
-            <i class="fas fa-arrow-up"></i>
-        </button>
-        
-        
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
 <div class="dropdown-buttons-trigger">
     <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
             class="fas fa-download"></i></button>
@@ -700,7 +702,7 @@ commentsRunWhenDOMLoaded(addUtterances);
     </div>
 </div>
 
-        <!-- Source interaction buttons -->
+            <!-- Source interaction buttons -->
 
 <div class="dropdown-buttons-trigger">
     <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
@@ -719,21 +721,22 @@ commentsRunWhenDOMLoaded(addUtterances);
 </div>
 
 
-        <!-- Full screen (wrap in <a> to have style consistency -->
-        <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
-                data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
-                title="Fullscreen mode"><i
-                    class="fas fa-expand"></i></button></a>
+            <!-- Full screen (wrap in <a> to have style consistency -->
+            <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+                    data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+                    title="Fullscreen mode"><i
+                        class="fas fa-expand"></i></button></a>
 
-        <!-- Launch buttons -->
+            <!-- Launch buttons -->
 
-    </div>
+        </div>
 
-    <!-- Table of contents -->
-    <div class="d-none d-md-block col-md-2 bd-toc show">
-        
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
         <div class="tocsection onthispage pt-5 pb-3">
-            <i class="fas fa-list"></i> Contents
+            <i class="fas fa-list"></i>
+            Contents
         </div>
         <nav id="bd-toc-nav">
             <ul class="nav section-nav flex-column">
@@ -793,6 +796,7 @@ commentsRunWhenDOMLoaded(addUtterances);
 
         </nav>
         
+        </div>
     </div>
 </div>
     <div id="main-content" class="row">
@@ -827,7 +831,7 @@ And also to see if we get a difference in expression when increasing the incubat
 </li>
 <li><p>Follow the same protocol as I followed for the microscopy measurements</p></li>
 </ul>
-<p><img alt="Experimental Design for the microscopy measurements" src="../../_images/experimental-design-microscopy.png" />{#fig:experimental-design}</p>
+<p><img alt="Experimental Design for the microscopy measurements" src="journal/images/experimental-design-microscopy.png" />{#fig:experimental-design}</p>
 <hr class="docutils" />
 <p><strong>Planned procedure</strong></p>
 <ul class="simple">
@@ -844,7 +848,7 @@ And also to see if we get a difference in expression when increasing the incubat
 <li><p>In order to have the same conditions as the microscopy done in December 2018 , where we quantify the cell sizes after 24 hours of incubation in X% galactose (after a washing step from a firsto overnight incubation in 2% galactose), the media has to have 4x the normal amount of aminoacids. This maybe has an impact on the regulation of the promoter.</p></li>
 <li><p>The new plate design for this is shown in &#64;fig:plate-design</p></li>
 </ul>
-<p><img alt="Plate design for this FACS experiment" src="../../_images/96-well-plate-design-01-2020-03-03.png" />{#fig:plate-design width=50% height=50% }</p>
+<p><img alt="Plate design for this FACS experiment" src="journal/images/96-well-plate-design-01-2020-03-03.png" />{#fig:plate-design width=50% height=50% }</p>
 <ul class="simple">
 <li><p>The strain ywkd024 will be measured to still compared with previous measurements done by Marit, in 2017.</p></li>
 <li><p>Strains :</p>
@@ -921,21 +925,21 @@ And also to see if we get a difference in expression when increasing the incubat
 </div>
 <div class="section" id="box-plots">
 <h3><span class="section-number">1.4.2. </span>Box plots<a class="headerlink" href="#box-plots" title="Permalink to this headline">¶</a></h3>
-<p><img alt="Boxplots of all the data" src="../../_images/Boxplots_raw_data_exp_005.png" />{#fig:boxplots width=60% height=60%}</p>
+<p><img alt="Boxplots of all the data" src="journal/images/Boxplots_raw_data_exp_005.png" />{#fig:boxplots width=60% height=60%}</p>
 </div>
 <div class="section" id="measure-per-strain">
 <h3><span class="section-number">1.4.3. </span>Measure per strain<a class="headerlink" href="#measure-per-strain" title="Permalink to this headline">¶</a></h3>
-<p><img alt="Non normalized histogram for ywkd024 fold change from 0% gal to 2% gal" src="../../_images/Non-normalized-024-hist-fold-change.png" />{#fig:024-hist width=30%}</p>
-<p><img alt="Non normalized histogram for ywkd065 fold change from 0% gal to 2% gal" src="../../_images/Non-normalized-065-hist-fold-change.png" />{#fig:065-hist width=30%}</p>
-<p><img alt="Non normalized histogram for ywkd069 fold change from 0% gal to 2% gal" src="../../_images/Non-normalized-069-hist-fold-change.png" />{#fig:069-hist width=30%}</p>
+<p><img alt="Non normalized histogram for ywkd024 fold change from 0% gal to 2% gal" src="journal/images/Non-normalized-024-hist-fold-change.png" />{#fig:024-hist width=30%}</p>
+<p><img alt="Non normalized histogram for ywkd065 fold change from 0% gal to 2% gal" src="journal/images/Non-normalized-065-hist-fold-change.png" />{#fig:065-hist width=30%}</p>
+<p><img alt="Non normalized histogram for ywkd069 fold change from 0% gal to 2% gal" src="journal/images/Non-normalized-069-hist-fold-change.png" />{#fig:069-hist width=30%}</p>
 </div>
 <div class="section" id="cdc42-relative-expression">
 <h3><span class="section-number">1.4.4. </span>Cdc42 relative expression<a class="headerlink" href="#cdc42-relative-expression" title="Permalink to this headline">¶</a></h3>
-<p><img alt="Relative cdc42 expression compared to ywkd038" src="../../_images/Cdc42-green-channel-scaled-005.png" />{#fig:cdc42-scalling-005 width=50%}</p>
+<p><img alt="Relative cdc42 expression compared to ywkd038" src="journal/images/Cdc42-green-channel-scaled-005.png" />{#fig:cdc42-scalling-005 width=50%}</p>
 </div>
 <div class="section" id="correlation-between-the-gfp-and-sfgfp-fluorophuores">
 <h3><span class="section-number">1.4.5. </span>Correlation between the GFP and sfGFP fluorophuores<a class="headerlink" href="#correlation-between-the-gfp-and-sfgfp-fluorophuores" title="Permalink to this headline">¶</a></h3>
-<p><img alt="Correlation between sfGFP and GFP fluorophuores exp_005 at 0.1%-gal" src="../../_images/Correlation-between-sfGFP-GFP-fluorophuores-exp_005-at-0.1%-gal.png" />{#fig:correlation width=50%}</p>
+<p><img alt="Correlation between sfGFP and GFP fluorophuores exp_005 at 0.1%-gal" src="journal/images/Correlation-between-sfGFP-GFP-fluorophuores-exp_005-at-0.1%-gal.png" />{#fig:correlation width=50%}</p>
 </div>
 </div>
 <div class="section" id="conclusion">
@@ -961,7 +965,7 @@ And also to see if we get a difference in expression when increasing the incubat
         },
         kernelOptions: {
             kernelName: "python3",
-            path: "./journal\2020-01"
+            path: "./journal/2020-01"
         },
         predefinedOutput: true
     }
@@ -970,15 +974,15 @@ And also to see if we get a difference in expression when increasing the incubat
 
               </div>
               
-        </div>
-    </div>
-    
-    
-    <div class='prev-next-bottom'>
         
+        <div class='prev-next-bottom'>
+            
     <a class='left-prev' id="prev-link" href="../2020-02/2020-02-09-dnrp1-dbem2-for-satay.html" title="previous page"><span class="section-number">5. </span>Title : Design of the genomic transformation to make dnrp1 and dbem2 strains usable for SATAY</a>
     <a class='right-next' id="next-link" href="2020-01-28-FACs-as-microscopy-conditions-prep-II.html" title="next page"><span class="section-number">2. </span>Title: FACs experiment with the same conditions as the microscopy done to quantify the cell sizes for the pGAl1-Cdc42-sfGFP strains (II).</a>
 
+        </div>
+        
+        </div>
     </div>
     <footer class="footer mt-5 mt-md-0">
     <div class="container">
@@ -997,7 +1001,7 @@ And also to see if we get a difference in expression when increasing the incubat
     </div>
 
     
-  <script src="../../_static/js/index.3da636dd464baa7582d2.js"></script>
+  <script src="../../_static/js/index.d3f166471bb80abb5163.js"></script>
 
 
     
