@@ -25,7 +25,7 @@ crossref: true
 colorlinks: true
 ---
 
-# Samples to Oxford
+# Samples
 
 ## Ligated DNAs
 
@@ -37,10 +37,10 @@ colorlinks: true
 
 ## PCR test on gel for each ligation
 
-![Ligation #1 ](../images/24102020-all-strains-50ul-PCR-succesful2sequencing.png){width=80%}
+![Ligation #1 ](../Images/24102020-all-strains-50ul-PCR-succesful2sequencing.png){width=80%}
 
 
-![Ligation #2 ](../images/02122020-all-strains-50ul-PCR-test-Agnes-01.png)
+![Ligation #2 ](../Images/02122020-all-strains-50ul-PCR-test-Agnes-01.png)
 
 ## Genomic DNAs
 
@@ -50,6 +50,6 @@ colorlinks: true
 | dnrp1(1) 	| ~40ug 	| 44ng/uL 	| ~900uL 	|
 | dnrp1(2) 	| ~32ug 	| 26ng/uL 	| ~1200uL 	|
 
-![DNA-extraction#1](../images/15102020-new-dna-extraction.png){width=50%}
+![DNA-extraction#1](../Images/15102020-new-dna-extraction.png){width=50%}
 
-![DNA-extraction#2](../images/02122020-DNA-extraction-sample-II-for-Agnes-02.png){width=50%}
+![DNA-extraction#2](../Images/02122020-DNA-extraction-sample-II-for-Agnes-02.png){width=50%}

@@ -1,4 +1,4 @@
-# Title : 16082019 Script for the visualization of the correlation between number of common interactions and type of interactions 🧐
+# Title : 16082019 Script for the visualization of the correlation between number of common interactions and type of interactions
 
 ```python
 import pandas as pd
@@ -116,6 +116,10 @@ genes_passed=[['NRP1'],['BEM3'],['GPR1'],['ACT1'],['BRE5'],['CDC28'],['HSP82'],[
 
 
 
+
+```
+
+
 ```python
 data_test=[]
 for names in genes_passed:
@@ -145,6 +149,11 @@ def lethal_query2(data):
 
 
 ```python
+data=data_test
+```
+
+
+```python
 ## Positive Interactions
 data_positive=[]
 data_positive_query2=[]
@@ -168,6 +177,16 @@ for names in data:
     data_lethality.append(lethal_int(names))
     data_lethality_query2.append(lethal_query2(names))
 ```
+
+
+```python
+len(data)
+```
+
+
+
+
+    43
 
 
 
@@ -266,7 +285,7 @@ plt.savefig("violinplot-average-std-common-interactors-vs-interaction-type.png",
 
 
 
-![](../images/output_9_1.png)
+![](../Images/output_9_1.png)
 
 
 
@@ -306,7 +325,7 @@ plt.savefig("boxplot-common-interactors-vs-interaction-type.png",dpi=300,format=
 ```
 
 
-![](../images/output_10_0.png)
+![](../Images/output_10_0.png)
 
 
 
@@ -345,7 +364,7 @@ plt.savefig("boxplot-2nd-pair-common-interactors-vs-interaction-type.png",dpi=30
 ```
 
 
-![](../images/output_11_0.png)
+![](../Images/output_11_0.png)
 
 
 
@@ -399,7 +418,7 @@ plt.savefig("common-interactors-vs-interaction-type.tiff",dpi=300,format='tiff')
 ```
 
 
-![](../images/output_12_0.png)
+![](../Images/output_12_0.png)
 
 
 
@@ -441,5 +460,10 @@ plt.savefig("violinplot-common-interactors-vs-interaction-type.tiff",dpi=300,for
 
 
 
-![](../images/output_13_1.png)
+![](../Images/output_13_1.png)
 
+
+
+```python
+
+```

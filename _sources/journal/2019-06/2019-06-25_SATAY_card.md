@@ -1,4 +1,4 @@
-# 25062019-Experimental Card about the SATAY experiment  🧐
+## 25062019-Experimental Card about the SATAY experiment 
 
 What is the question?
 

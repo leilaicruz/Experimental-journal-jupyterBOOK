@@ -52,7 +52,7 @@ colorlinks: true
 
 ## Results
 
-![](../images/27112020-dna-and-pcr-oll401-402-and-51-52-primers.png)
+![](../Images/27112020-dna-and-pcr-oll401-402-and-51-52-primers.png)
 
 ### Next steps
 
@@ -62,7 +62,7 @@ colorlinks: true
   - 12 mins in 72C
   - 4C on hold
 
-![](../images/30112020-dna-and-pcr-oll401-402-10ultemplate-2mins-extension-SUCCESFUL.png){width=50%}
+![](../Images/30112020-dna-and-pcr-oll401-402-10ultemplate-2mins-extension-SUCCESFUL.png){width=50%}
 
 - Repeating the PCR with 34X cycles , 10uL template and 2mins 72C extension. (8X) for transformation. (I used the pCR machine from downstairs)
 
@@ -70,14 +70,14 @@ colorlinks: true
 
   - I pulled everything together with the previous PCR and purify it (10uL elution) and I got still very low yield ~8ng/uL. 
 
-  ![](../images/01122020-pure-PCR-10ul-elution-very-low-not-enough-for-transformation.png){width=50%}
+  ![](../Images/01122020-pure-PCR-10ul-elution-very-low-not-enough-for-transformation.png){width=50%}
 
 - Repeat the PCR with the same PCR machine as the one that worked. 
   - I reduced the time in the annealing temperature from 1min to 30secs. This actually does not make any influence on that. (**It did not work - I did not get any bands**)
 - Repeat the genomic extraction (I ran out of DNA) 
   - I cultured 2 tubes of 10mL to do completely. 
 
-  ![yWT04 DNA successful extraction](../images/03122020-ywt04-high-yield-DNA-extraction.png){#fig:DNA-extraction-good}
+  ![yWT04 DNA successful extraction](../Images/03122020-ywt04-high-yield-DNA-extraction.png){#fig:DNA-extraction-good}
 
   |  	| Nanodrop 	| On Gel (BioRad) 	|
 |-	|-	|-	|
@@ -88,12 +88,12 @@ colorlinks: true
 - PCR using 1uL yll3a , 1uL ywt04a and olic51/52 primers and spy1/spy2 primers from Els as a positive control. 
   - I changed the annealing temperature to 60C , 30 secs
 
-  ![It worked now :)](../images/03122020-SUCCESFUL-PCR-with-olic51-52-primers.png)
+  ![It worked now :)](../Images/03122020-SUCCESFUL-PCR-with-olic51-52-primers.png)
 
 - Do 8 PCRs with 1ul ywt04a template and with olic51/52 primers for transformation.
   - PCR protocol: 60C annealing T , 30 secs ; 72C extension 2 mins; 98C denature DNA 3 mins
 
-![](../images/04122020-succesful-PCR-for-transformation-olic51-52-primers.png){width=50%}
+![](../Images/04122020-succesful-PCR-for-transformation-olic51-52-primers.png){width=50%}
 
 ## Conclusion
 

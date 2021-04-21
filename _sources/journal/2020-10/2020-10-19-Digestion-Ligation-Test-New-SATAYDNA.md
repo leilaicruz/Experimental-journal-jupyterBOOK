@@ -57,11 +57,11 @@ To test if the new DNA extraction from the pellets of WT, $\Delta$nrp1_1, $\Delt
 ### Digestion
 - 1ul loaded DNA 
 
-![](../images/20102020-digestion-new-DNA-extraction.png)
+![](../Images/20102020-digestion-new-DNA-extraction.png)
 
 ### Ligation
 
-![](../images/21102020-ALL-3-strains-succesful-bands-little smear.png)
+![](../Images/21102020-ALL-3-strains-succesful-bands-little smear.png)
 
 - I noticed that there is less smear intensity compared with the intensity of the bands for the unstranposed plasmid. 
   - I suspect that this could be due to the fact that I did not use Non-sticky tubes RNA free... 

@@ -56,7 +56,7 @@ cref: true
   - [x] Incubation on 08022021
   - [x] Layout modified in the moment (because a pipette mistake):
 
-  ![](../images/08022021-layout.png)
+  ![](../Images/08022021-layout.png)
 
   - [x] Experiment started at 11:30
     - [x] Linear 3 mins:30 secs and  orbital 3 mins:30 secs shaking before each measurement at 36C
@@ -71,27 +71,27 @@ cref: true
   - The first 1000s linearly pre-shakes (amplitude 1 mm) the plate, before shaking just before each measurement round in a 380 second interval. These rounds start with 90” linear shaking (amplitude 2 mm), 90” orbital shaking (amplitude 1.5 mm), 90” linear shaking (amplitude 1 mm), waiting 10” and then OD-600 +/-9 nm measurements (25 flashes, 5ms settle time). Rounds were executed in two consecutive loops of 24 hours, after which OD values were documented in a excel sheet.
 
 
-  <!-- ![](../images/03022021-layout-plate.png) -->
+  <!-- ![](../Images/03022021-layout-plate.png) -->
 
 ## Results
 
-![](../images/12022021-sfGFP-controls-Biotek-overview-growth-curves.png)
+![](../Images/12022021-sfGFP-controls-Biotek-overview-growth-curves.png)
 
 ### Plate layout to check all WT+pGal biological replicates and mutants+pGal+sfGFP
 
-![Plate layout](../images/17022021-plate-layout.png)
+![Plate layout](../Images/17022021-plate-layout.png)
 
 - Observations from the incubation
   - 2uL of melted glycerol stocks per well
   - started at 10:30
   - Media base: 4xCSM-NF+2%Raff
 
-  ![Screenshot from the 96 well plate after 48h of incubation](../images/19022021-screenshot-incubation-curves.png)
+  ![Screenshot from the 96 well plate after 48h of incubation](../Images/19022021-screenshot-incubation-curves.png)
 
 - Measuring at 36C at 11:00
   - 1uL of cells from incubation to 100uL media (easier to pipette)~100X dilution
 
-![Screenshot from the 96 well plate after 48h of measurements](../images/19022021-print-screen-measuring-curves.png)
+![Screenshot from the 96 well plate after 48h of measurements](../Images/19022021-print-screen-measuring-curves.png)
 
 ### Checking the strains from the glycerol stocks
 
@@ -139,14 +139,14 @@ cref: true
   - 1ul of thawed glycerol stocks (WT+pGal+sfGFP and all pGal strains)
   - The well G9 was not contaminated it was empty, from the beginning, so I made a mistake and did not add any media on it.
 
-  ![Screenshot from the 96 well plate after 48h of incubation](../images/09032021-print-screen-incubation.png)
+  ![Screenshot from the 96 well plate after 48h of incubation](../Images/09032021-print-screen-incubation.png)
 
 - 10032021- measurements in 36C
     - Plate the grown up cells from  dbem1+pGAl strains in CSM-uRA+0% gal+2% Raff
       - Not visible growth on 12032021
   - 12032021- Results of measurements
 
-  ![Screenshot from the 96 well plate after 48h of measurements](../images/12032021-print-screen-measurement.png)
+  ![Screenshot from the 96 well plate after 48h of measurements](../Images/12032021-print-screen-measurement.png)
 
 ### Cleaning up the dbem1+pGal glycerol stock
 
@@ -156,9 +156,23 @@ cref: true
    - [x] Plating in CSM+0.1% GAL (15032021)
    - CSM autoclaved media
    - 200ul of diluted glycerol stocks , 10ul cells in 500ul MiliQ, to facilitate the efficacy of the replica plate.
-   - [ ] Replica plating in CSM+0% Gal (wrong colonies should pop out) and CSM+0.1%Gal +G418 (Right colonies should pop out)
+   - [x] Replica plating in CSM+0% Gal (wrong colonies should pop out) and CSM+0.1%Gal +G418 (Right colonies should pop out)
+   - [x] For the colonies growing in CSM+0.1% Gal+G418 (they were a lot) I replica plated again in CSM+0%Gal + G418 and SC-URA +0.1% Gal+ G418 to filter more the colonies that should be right. (19032021)
+
+   ![Result from replica plating on selction plates to clean the dbem1 yIdb005 stock](../Images/22032021-results-from-replica-plating-to-clean-yIdb005-stock.png)
+
+- [x] prepare CSM-ura+2% Gal + G418 plates and streak there the glycerol stock . Only the right ones should pop out. Perhaps doing a colony PCR to check for the gal promoter and the bem1::KanMX(?)
+  - 200ul of diluted glycerol stocks , 10ul cells in 500ul MiliQ. 
+
+  ![](../Images/2603201_yIdb005_NOT-GROW_2_PERCENT_GAL.png)
+
+  - perhaps there are not dbem1+pGal anymore in the stock or the gal promoter is lost ? 
+  - It seems there is not dbem1+pGal anymore in the stock , because there is no growth of any single colony in SC-URA+G418+2% Gal +2% Raffinose
+
+  ![](../Images/29032021-No-gal1-promoter-in-yIdb005-strains-full-WT-contamination.png)
 
 ## Conclusion
+
 - Unexpected growth of the pGal1 strains in 0% Gal from the bulk growth in the Biotek.
 - The phenotype check on liquid and solid media are consistent between each other.
 - What is striking is that ywkd062 did grow on SC-URA and it should not be because it is just a plain WT strain. Maybe for next experiment we should use yll3a.

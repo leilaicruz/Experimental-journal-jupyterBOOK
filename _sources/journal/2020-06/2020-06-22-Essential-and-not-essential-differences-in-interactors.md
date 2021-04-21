@@ -24,7 +24,7 @@ cref: true
 crossref: true
 colorlinks: true
 ---
-# How different are the number of interactors of essential genes compared with non essential genes. 
+# Title : How different are the number of interactors of essential genes compared with non essential genes. 
 
 ## Date
 22062020
@@ -39,9 +39,9 @@ To see if the number of interactors of essential genes , registered from the dat
 
 ## Results
 
-![](../images/22062020-essential-and-not-essential-genes-number-of-interactors.png)
+![](../Images/22062020-essential-and-not-essential-genes-number-of-interactors.png)
 
-![](../images/22062020-essential-and-not-essential-genes-number-of-interactors-boxplot.png)
+![](../Images/22062020-essential-and-not-essential-genes-number-of-interactors-boxplot.png)
 
 ## Conclusion
 

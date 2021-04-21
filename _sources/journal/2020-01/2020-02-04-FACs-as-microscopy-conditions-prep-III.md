@@ -45,7 +45,7 @@ Insights from the Gal1 promoter
       - Look for the postprocessing results, in this [folder](N:\tnw\BN\LL\Shared\Leila\Images-postprocessing-FACS-REZA)
 - Follow the same protocol as I followed for the microscopy measurements
 
-![Experimental Design for the microscopy measurements](../images/experimental-design-microscopy.png){#fig:experimental-design}
+![Experimental Design for the microscopy measurements](../Images/experimental-design-microscopy.png){#fig:experimental-design}
 
 --------------
 
@@ -61,7 +61,7 @@ Insights from the Gal1 promoter
 - In order to have the same conditions as the microscopy done in December 2018 , where we quantify the cell sizes after 24 hours of incubation in X% galactose (after a washing step from a firsto overnight incubation in 2% galactose), the media has to have 4x the normal amount of aminoacids. This maybe has an impact on the regulation of the promoter.
 - The new plate design for this is shown in @fig:plate-design
 
-![Plate design for this FACS experiment](../images/96-well-plate-design-01-2020-03-03.png){#fig:plate-design width=50% height=50% }
+![Plate design for this FACS experiment](../Images/96-well-plate-design-01-2020-03-03.png){#fig:plate-design width=50% height=50% }
 
 - The strain ywkd024 will be measured to still compared with previous measurements done by Marit, in 2017.
 - Strains :
@@ -115,23 +115,23 @@ Insights from the Gal1 promoter
 
 ### Box plots
 
-![Boxplots of all the data](../images/Boxplots_raw_data_exp_005.png){#fig:boxplots width=60% height=60%}
+![Boxplots of all the data](../Images/Boxplots_raw_data_exp_005.png){#fig:boxplots width=60% height=60%}
 
 
 ### Measure per strain
 
-![Non normalized histogram for ywkd024 fold change from 0% gal to 2% gal](../images/Non-normalized-024-hist-fold-change.png){#fig:024-hist width=30%}
+![Non normalized histogram for ywkd024 fold change from 0% gal to 2% gal](../Images/Non-normalized-024-hist-fold-change.png){#fig:024-hist width=30%}
 
-![Non normalized histogram for ywkd065 fold change from 0% gal to 2% gal](../images/Non-normalized-065-hist-fold-change.png){#fig:065-hist width=30%}
+![Non normalized histogram for ywkd065 fold change from 0% gal to 2% gal](../Images/Non-normalized-065-hist-fold-change.png){#fig:065-hist width=30%}
 
-![Non normalized histogram for ywkd069 fold change from 0% gal to 2% gal](../images/Non-normalized-069-hist-fold-change.png){#fig:069-hist width=30%}
+![Non normalized histogram for ywkd069 fold change from 0% gal to 2% gal](../Images/Non-normalized-069-hist-fold-change.png){#fig:069-hist width=30%}
 
 ### Cdc42 relative expression
- ![Relative cdc42 expression compared to ywkd038](../images/Cdc42-green-channel-scaled-005.png){#fig:cdc42-scalling-005 width=50%}
+ ![Relative cdc42 expression compared to ywkd038](../Images/Cdc42-green-channel-scaled-005.png){#fig:cdc42-scalling-005 width=50%}
 
 ### Correlation between the GFP and sfGFP fluorophuores
 
-![Correlation between sfGFP and GFP fluorophuores exp_005 at 0.1%-gal](../images/Correlation-between-sfGFP-GFP-fluorophuores-exp_005-at-0.1%-gal.png){#fig:correlation width=50%}
+![Correlation between sfGFP and GFP fluorophuores exp_005 at 0.1%-gal](../Images/Correlation-between-sfGFP-GFP-fluorophuores-exp_005-at-0.1%-gal.png){#fig:correlation width=50%}
 
 ## Conclusion
 

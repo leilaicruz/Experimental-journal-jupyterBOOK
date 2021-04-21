@@ -37,7 +37,7 @@ colorlinks: true
 
     - This is now possible because I have sequenced the transformed strains that grew in -leu2 , and I have the right sequence to design the correct primers. Previously we couldn do it because the leu2 marker was taken from a plasmid but the marker was not completely annotated where it starts and ends. 
 
-![Sketch of what is expected in the colony PCR](../images/30042020-cartoon-pcr-ylic133_5.png){#fig:sketch-pcr}
+![Sketch of what is expected in the colony PCR](../Images/30042020-cartoon-pcr-ylic133_5.png){#fig:sketch-pcr}
 
 ### Procedure
 
@@ -45,14 +45,14 @@ colorlinks: true
 
   - 04052020 - Result of the growth in plate:
 
-    ![](../images/04052020-differences-in-growth-bem2d-colonies.png)
+    ![](../Images/04052020-differences-in-growth-bem2d-colonies.png)
 
 - 04052020: Colony PCR
 
     - 12 PCRs in total because I have 6 samples for every set of primers. One positive set using 5 colonies from bem2:leu2 and ylic133 and  primers 49-50 for leu2 check. And a negative set with the same samples but woth primers 47-48 for BEM2 check. 
     - Protocol : Leila (name in the machine)
     - No bands in the PCR gel (?????)
-    ![PCR results :( No bands )](../images/04052020-UNSUCCESFUL-PCR-bem2-leu2-check.png)
+    ![PCR results :( No bands )](../Images/04052020-UNSUCCESFUL-PCR-bem2-leu2-check.png)
 
 ## Results
 

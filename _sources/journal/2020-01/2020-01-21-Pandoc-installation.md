@@ -23,7 +23,7 @@ crossref: true
 colorlinks: true
 ---
 
-# How to set up Pandoc in your PC
+
 ## Objective
 
 - To be able to set up a working pandoc together with .md documents written in Atom or VSCode.

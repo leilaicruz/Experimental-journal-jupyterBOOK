@@ -52,7 +52,7 @@ colorlinks: true
 
 ## Results
 
-![](../images/16102020-extremely-low-DNA-and-PCR-product.png)
+![](../Images/16102020-extremely-low-DNA-and-PCR-product.png)
 
 ### DNA Quantification on gel, using ImageLab software from BioRad
 
@@ -65,25 +65,25 @@ colorlinks: true
 
 - PCR with 2uL, 5uL and 10uL of DNA template. 
 
-![Highly inefficient PCR](../images/17102020-EMPTY-GEL-testing-different-dna-concentrations.png)
+![Highly inefficient PCR](../Images/17102020-EMPTY-GEL-testing-different-dna-concentrations.png)
 
 ### Try lowering the annealing temperature😭
 
 - PCR with 2uL, 5uL and 10uL of DNA template, using T=55C as annealing temperature. 
 - The used primers have a melting temperature of: 57C and 61C respectively. From [this website](https://www.biocompare.com/Bench-Tips/133581-Primers-by-Design-Tips-for-Optimal-DNA-Primer-Design/#:~:text=Temperature%20boundaries,starting%20range%20when%20designing%20primers.) : they say that *The optimal annealing temperature should be determined empirically, but it is typically lower than the primers’ Tm by approximately 5°C to 10°C.*
 
-![No product again](../images/19102020-EMPTY-GEL-testing-different-dna-concentrations-55C-annealing.png)
+![No product again](../Images/19102020-EMPTY-GEL-testing-different-dna-concentrations-55C-annealing.png)
 
 ### Try a positive control in yll3a to test the primers😭
 
 - PCR with yll3a and 36.5uL of yll138 DNA template. 
 
-![](../images/19102020-EMPTY-GEL-testing-yll3a-36.5DNA-yll138.png)
+![](../Images/19102020-EMPTY-GEL-testing-yll3a-36.5DNA-yll138.png)
 
 ### Try different primers (oLL401/oLL402)😭
 
 - New DNA extraction using 10mL of cell culture
-![](../images/20102020-yll138-DNA-extraction.png)
+![](../Images/20102020-yll138-DNA-extraction.png)
 - Concentration given by BioRad taking the 20ng band as reference : ~ 9ng. The loaded DNA was 5X diluted. I got 0.09* I(20ng) *5=9ng/uL
 
 ### Try Wessel PCR protocol with oLL primers 😭
@@ -101,7 +101,7 @@ In my previous protocol I used
 - 12 mins in 72C
 - 12C on hold
 
-![So sad, is a sad situation 😭](../images/21102020-wesel-protocol-pcr-empty-gel.png){width=50%}
+![So sad, is a sad situation 😭](../Images/21102020-wesel-protocol-pcr-empty-gel.png){width=50%}
 
 ### Try different set of primers that have worked for me before
 
@@ -110,7 +110,7 @@ In my previous protocol I used
 
 - Check on yll3a and yll138 template 
 
-![Right product super low efficiency](../images/21102020-138-3a-41-47-primers-positive-test.png)
+![Right product super low efficiency](../Images/21102020-138-3a-41-47-primers-positive-test.png)
 
 - Next time , I need to MIX , VORTEX THE GENOMIC DNA BECAUSE IT WILL SEDIMENT MOST OF IT. So maybe I was taking very low amount , that is why I have this low efficiency. 
 
@@ -118,7 +118,7 @@ In my previous protocol I used
 
 - PCR with primer 41/47 and 51/52 and vortexing first the DNA from yll3a and yll138a
 
-![](../images/22102020-138-3a-after-vortexing-the-dna_EMPTY-AGAIN.png)
+![](../Images/22102020-138-3a-after-vortexing-the-dna_EMPTY-AGAIN.png)
 
 ## Conclusion
 

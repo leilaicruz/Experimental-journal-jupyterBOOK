@@ -79,32 +79,31 @@ To check that the transformation were inserted in the right locations
 
 - No product from PCR
 - 
-![](../images/27012021-PCR-test-nrp1-bem3-MISTAKE-WITH-BEM3-PRIMERS-CONCENTRATION.png)
+![](../Images/27012021-PCR-test-nrp1-bem3-MISTAKE-WITH-BEM3-PRIMERS-CONCENTRATION.png)
 
 - Confirming three clones from dbem3dnrp1 strains (colonies 2,10 and 11). **The same clones that grew on liquid media YPD+NAT+HYGRO :)**
 - Glycerol stock storage: ylic138 a,b,c (3 biological replicates)
   
-![](../images/28012020-PCR-dbem3-dbem3dnrp1-spy1_2-oLL401_402.png)
+![](../Images/28012020-PCR-dbem3-dbem3dnrp1-spy1_2-oLL401_402.png)
 
   - All checked bem3d colonies are not correct because the band shown for the oLL401/042 primers indicates that BEM3 is present in them.
   - **NO PCR PRODUCT for dbem3 taken colonies** , 5ul template. 
   
-    ![No PCR product](../images/02022021-FAILURE-check-for-dbem3-colonies.png)
+    ![No PCR product](../Images/02022021-FAILURE-check-for-dbem3-colonies.png)
     
   - **NO PCR PRODUCT for dbem3 taken colonies** , 1ul template. 
   
-    ![Not conclusive PCR product](../images/02022021-FAILURE-check-for-dbem3-colonies-1ul-template.png)
+    ![Not conclusive PCR product](../Images/02022021-FAILURE-check-for-dbem3-colonies-1ul-template.png)
   
 - **NO PCR PRODUCT for dbem3 colonies. Correct positive control**
   
-  ![](../images/04022021-FAILURE-dbem3-colony-PCR-good-positive-control.png)
+  ![](../Images/04022021-FAILURE-dbem3-colony-PCR-good-positive-control.png)
 
 ## Next Steps
 
-1. - [ ] Sequencing of correct mutants on bem3::NAT transformation. 
+1. [x]  Sequencing of correct mutants on bem3::NAT transformation. 
 2. Look if colony 10 and 11 from dbem3 transformation are actually the big colonies or the small, and also for the rest that did not show any band to correlate fitness with colony size and correct transformation. 
-   1. - colony 10 and 11 seem to be actually  the normal size colonies (not small) 
+    - colony 10 and 11 seem to be actually  the normal size colonies (not small) 
 3. Do a PCR for transformation (again on the WT background to get bem3d) from the dbem3dnrp1 strain around bem3::NAT with like 1000bp of flanking regions downstream and upstream the NAT . The longer the flanking regions the more likely is to insert in the right location in the genome. FIRST CHECK WITH gDNA FROM dBEM3 STORED STOCKS IF IT DOES NOT WORK . 
-   1. - [x] design of the right primers (olic54 and olic55)
+   1. [x] design of the right primers (olic54 and olic55)
 
-## Conclusions

@@ -75,7 +75,7 @@ To do all the steps in order to send my samples of WT, and dnrp1 strains to sequ
 
 - 1uL DNA loaded
 
-![](../images/22102020-digestion-samples-to-send-to-sequence-WT-dnrp1.png)
+![](../Images/22102020-digestion-samples-to-send-to-sequence-WT-dnrp1.png)
 
 
 
@@ -84,9 +84,10 @@ To do all the steps in order to send my samples of WT, and dnrp1 strains to sequ
 - 50uL PCR
   - 5uL DNA 
 
-![](../images/24102020-all-strains-50ul-PCR-succesful2sequencing.png)
+![](../Images/24102020-all-strains-50ul-PCR-succesful2sequencing.png)
 
-![](../images/24102020-summary-of-the-library.png)
+![](../Images/24102020-summary-of-the-library.png)
 
 ## Conclusion
 
+- The libraries are OK to send to sequence. 

@@ -52,12 +52,12 @@ To have more SATAY DNA from WT and dnrp1 strains  to further sequence .
 ## Results
 
 
-![A bit of smear due to shear in the DNA](../images/15102020-new-dna-extraction.png){width=50%}
+![A bit of smear due to shear in the DNA](../Images/15102020-new-dna-extraction.png){width=50%}
 
 - Using Biorad Image Lab software to quantify the bands from gel, taking the 600bp band as a reference.
 - The 600bp band has 60ng of DNA in the 1kB GeneRuler ladder. 
 
-![](../images/15102020-biorad-quantification-image-plot.png){width=90%}
+![](../Images/15102020-biorad-quantification-image-plot.png){width=90%}
 
 - The concentrations achieved with this method were:
 
