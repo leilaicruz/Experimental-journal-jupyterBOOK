@@ -53,7 +53,7 @@ I will follow the protocol suggested by Benoit , [HERE](https://sites.google.com
 
 
 
-![First attempt, 2ul loaded on both gels](../images/27082020-digestion-gel-with -the-reference.png){width=50%}
+![First attempt, 2ul loaded on both gels](../Images/27082020-digestion-gel-with -the-reference.png){width=50%}
 
 - Comments:
   - I see in the DpnII lanes an accumulation of DNA at the bottom (RNAs???)
@@ -68,7 +68,7 @@ I will follow the protocol suggested by Benoit , [HERE](https://sites.google.com
     - 57uL(2ug DNA ylic136_1)+5ul enzyme + 7ul 10Xbuffer+1ul MiliQ=70uL
     - 27uL(2ug DNA ylic136_2)+5ul enzyme+13ulMiliQ+5ul buffer=50uL 
 
-![2nd attempt](../images/08092020-2nd-attempt-digestion.png){width=50%}
+![2nd attempt](../Images/08092020-2nd-attempt-digestion.png){width=50%}
 
 From 8:30  to 9:00 in the morning (after 16 hours)
 
@@ -138,13 +138,13 @@ Per PCR:
 - On a 1% agarose gel, the product runs as a smear from 250 bp to 1.2 kb, with highest density centered around 500bp. The 867 bp size band present in the NlaIII treated sample and the 465 bp size band present in the DpnII treated sample correspond to untransposed pBK549.
 - The smear is the important part.
 
-![PCR from the 2nd attempt for the ligation of the DNA. PCR with 2% DMSO](../images/10092020-PCR-50Xdilution-DNA.png){width=50%}
+![PCR from the 2nd attempt for the ligation of the DNA. PCR with 2% DMSO](../Images/10092020-PCR-50Xdilution-DNA.png){width=50%}
 
-![15092020-Testing with Benoit primers](../images/15092020-testing-benoit-primers-NOT-SUCCESFUL-I.png){width=50%}
+![15092020-Testing with Benoit primers](../Images/15092020-testing-benoit-primers-NOT-SUCCESFUL-I.png){width=50%}
 
-![17092020-Puzzling results from repeating the previous PCR](../images/17092020-PCR-using-Benoit-primers-PUZZLING-mixture-of-samples.png){width=50%}
+![17092020-Puzzling results from repeating the previous PCR](../Images/17092020-PCR-using-Benoit-primers-PUZZLING-mixture-of-samples.png){width=50%}
 
-![18092020-Benoit primers with WT and dnrp1_1 strains](../images/18092020-PCR-suing-benoit-primers-ylic133_ylic136_1-WEIRD.png){width=50%}
+![18092020-Benoit primers with WT and dnrp1_1 strains](../Images/18092020-PCR-suing-benoit-primers-ylic133_ylic136_1-WEIRD.png){width=50%}
 
 ###  Repetition of the whole procedure using negative controls
 
@@ -156,7 +156,7 @@ Per PCR:
 - negative control: DNA + DPNII buffer + MiliQ
 - 50ul total volume digestion with 27uL DNA (75ng/ul) to reach 2ug of DNA
 
-![](../images/06102020-digestion-ylic136-DNA-with-negative-control.png)
+![](../Images/06102020-digestion-ylic136-DNA-with-negative-control.png)
 
 #### Ligation and PCR
 
@@ -173,10 +173,10 @@ PCR using 2ul of DNA template :
 
 
 - The PCRs
-![DNA degradation in NIaIII line](../images/07102020-PCR-with-new-primers-and-negative-control.png)
+![DNA degradation in NIaIII line](../Images/07102020-PCR-with-new-primers-and-negative-control.png)
 
 PCR using 9.32ul of DNA template :
-![More DNA degradation in NIaIII line](../images/08102020-PCR-9.32ul-dna-in-20ul-pcr-with-new-primers.png)
+![More DNA degradation in NIaIII line](../Images/08102020-PCR-9.32ul-dna-in-20ul-pcr-with-new-primers.png)
 
 ### Tracking down the DNA degradation for the NIaIII digested DNA 
 
@@ -187,16 +187,16 @@ PCR using 9.32ul of DNA template :
 
 |  	| Testing the buffer 	| Testing the digestion 	| Testing the DNA 	|
 |-	|-	|-	|-	|
-| With new and old stocks of buffer and enzyme 	| - 2.7ul DNA - 0.5ulBuffer (new/old stock) - 1.8ul MiliQ 	| - 2.7ul DNA - 0.5ul Buffer (new/old stock) - 0.5ul NIaIII (new/old stock) - 1.3ul MiliQ 	| - 2.7ul DNA - 2.3ul MiliQ 	|
+| With new and old<br>stocks of buffer<br>and enzyme 	| - 2.7ul DNA<br>- 0.5ulBuffer (new/old stock)<br>- 1.8ul MiliQ 	| - 2.7ul DNA<br>- 0.5ul Buffer (new/old stock)<br>- 0.5ul NIaIII (new/old stock)<br>- 1.3ul MiliQ 	| - 2.7ul DNA<br>- 2.3ul MiliQ 	|
 
-![](../images/13012020-digestion-test-NIaIII.png)
+![](../Images/13012020-digestion-test-NIaIII.png)
 
 - Ligation next day 
   - Resuspend the washed DNA in 10ul MiliQ
   - I use all the DNA from the ligation : 9.32ul DNA for 20ul PCR
   - Primer-set : E1 48Fwd /E2 49Rev
 
-![](../images/14102020-succesful-test-NiAIII.png){width=80%}
+![](../Images/14102020-succesful-test-NiAIII.png){width=80%}
 
 ## Results
 

@@ -44,7 +44,7 @@ Insights from the Gal1 promoter
       - Look for the postprocessing results, in this [folder](N:\tnw\BN\LL\Shared\Leila\Images-postprocessing-FACS-REZA)
 - Follow the same protocol as I followed for the microscopy measurements
 
-![Experimental Design for the microscopy measurements](../images/experimental-design-microscopy.png){#fig:experimental-design}
+![Experimental Design for the microscopy measurements](../Images/experimental-design-microscopy.png){#fig:experimental-design}
 
 --------------
 
@@ -60,7 +60,7 @@ Insights from the Gal1 promoter
 - In order to have the same conditions as the microscopy done in December 2018 , where we quantify the cell sizes after 24 hours of incubation in X% galactose (after a washing step from a firsto overnight incubation in 2% galactose), the media has to have 4x the normal amount of aminoacids. This maybe has an impact on the regulation of the promoter.
 - The new plate design for this is shown in @fig:plate-design
 
-![Plate design for this FACS experiment](../images/96-well-plate-design-01-2020-03-03.png){#fig:plate-design width=50% height=50% }
+![Plate design for this FACS experiment](../Images/96-well-plate-design-01-2020-03-03.png){#fig:plate-design width=50% height=50% }
 
 - The strain ywkd024 will be measured to still compared with previous measurements done by Marit, in 2017.
 - Strains :
@@ -103,35 +103,35 @@ Insights from the Gal1 promoter
 
 ### Plate data
 
-![Whole plate data](../images/Whole-plate-23012020.png){#fig:whole-plate width=100% height=50% }
+![Whole plate data](../Images/Whole-plate-23012020.png){#fig:whole-plate width=100% height=50% }
 
 ### Box plots
 
-![Boxplots of the raw data](../images/Boxplots_raw_data_exp_003.png){#fig:box-plots width=100% height=100% }
+![Boxplots of the raw data](../Images/Boxplots_raw_data_exp_003.png){#fig:box-plots width=100% height=100% }
 
 ### Histograms
 
-![Histograms per conditions](../images/Histograms_raw_data_exp_003.png){#fig:histograms width=100% height=100% }
+![Histograms per conditions](../Images/Histograms_raw_data_exp_003.png){#fig:histograms width=100% height=100% }
 
 ### Medians per strain
 
-![dbem1](../images/dbem1-003.png){#fig:dbem1}
+![dbem1](../Images/dbem1-003.png){#fig:dbem1}
 
-![dbem1dbem3](../images/dbem1dbem3-003.png){#fig:dbem1dbem3}
+![dbem1dbem3](../Images/dbem1dbem3-003.png){#fig:dbem1dbem3}
 
-![WT+GAl](../images/WT_gal-003.png){#fig:wt_gal}
+![WT+GAl](../Images/WT_gal-003.png){#fig:wt_gal}
 
-![Soldner strain-ywkd024](../images/Soldner-003.png){#fig:024}
+![Soldner strain-ywkd024](../Images/Soldner-003.png){#fig:024}
 
 ### Cdc42 relative expression
 
-![Cdc42 relatve expression to ywkd038 (ref)](../images/Cdc42-expression-003.png){#fig:cdc42-expression}
+![Cdc42 relatve expression to ywkd038 (ref)](../Images/Cdc42-expression-003.png){#fig:cdc42-expression}
 
 ### Total counts
 
 The maximum amount of counts, or cells that the FAcs was set to analyse was 10000, which corresponds with an OD=~ 0.1. Assuming that OD=1 is around 10$^6$ cells in 1mL. So in 100ul , for OD=1, it has to have around 10$^5$ cells. Hence 10000 (10$^4$) cells will be an OD=~0.1.
 
-![Total counts of cells , taking 130ul of volume to analyze. Note that dbem1dbem3 and WT+gal strain were diluted 50X 2 hours before measuring. For 0% it  WAS NOT DILUTED.](../images/Total_counts_exp_003.png){#fig:counts}
+![Total counts of cells , taking 130ul of volume to analyze. Note that dbem1dbem3 and WT+gal strain were diluted 50X 2 hours before measuring. For 0% it  WAS NOT DILUTED.](../Images/Total_counts_exp_003.png){#fig:counts}
 
 - Only dbem1dbem3, WT+gal  has reached the maximum of counts for 0% Gal, while dbem1 did not. This indicates that the leftover of Cdc42 from the previous 2% gal incubation was not enough for dbem1 to keep growing.
 

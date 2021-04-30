@@ -51,7 +51,7 @@ colorlinks: true
 
 **THE CODE THAT GENERATES THESE PLOTS** [IS IN THIS GITHUB REPO ](https://github.com/leilaicruz/machine-learning-for-yeast/blob/leila_common2type/interactions-from-commons-measures.ipynb)
 
-![Distribution of the features over 1000 genes taken randomly as the dataset to analyze](../images/29042020-distributions-of-features-common-go&partners-1000-genes.png){#fig:hist}
+![Distribution of the features over 1000 genes taken randomly as the dataset to analyze](../Images/29042020-distributions-of-features-common-go&partners-1000-genes.png){#fig:hist}
 
 
 ### Only taking Synthetic lethals interaction as the target one over 1000 genes 
@@ -77,9 +77,9 @@ colorlinks: true
 
 
 
-![](../images/29042020-Correlation-matrix-of-features-with-1000-genes-only-SL.png)
+![](../Images/29042020-Correlation-matrix-of-features-with-1000-genes-only-SL.png)
 
-![](../images/29042020-correlations-violionplot-1000-genes-including-only-SL.png)
+![](../Images/29042020-correlations-violionplot-1000-genes-including-only-SL.png)
 
 
 2. Interpretation
@@ -93,9 +93,9 @@ colorlinks: true
 
 
 
-![Correlation matrix](../images/29042020-Correlation-matrix-of-features-with-1000-genes-including-negative-genetics.png){#fig:correlation-NG}
+![Correlation matrix](../Images/29042020-Correlation-matrix-of-features-with-1000-genes-including-negative-genetics.png){#fig:correlation-NG}
 
-![Comparison of the features in each of the target values in the case you include also the pairs annotated as negative genetic in the same label as synthetic lethals.](../images/29042020-correlations-violionplot-1000-genes-including-negative-genetic.png){#fig:violinplots-NG}
+![Comparison of the features in each of the target values in the case you include also the pairs annotated as negative genetic in the same label as synthetic lethals.](../Images/29042020-correlations-violionplot-1000-genes-including-negative-genetic.png){#fig:violinplots-NG}
 
 - Interpretation
     - After considering also gene pairs annotated to interact negatively in the same class as SL, the correlation gets a bit better. 
@@ -113,7 +113,7 @@ colorlinks: true
 ### Comparison on learning algorithms to predict the probability that the type of interaction is 0 or 1, that is , nonSL or SL. 
 
 
-![](../images/29042020-comparison-of-methods-to-estimate-SL-from-common-partners-and-go-terms.png)
+![](../Images/29042020-comparison-of-methods-to-estimate-SL-from-common-partners-and-go-terms.png)
 
 
 ## Conclusions

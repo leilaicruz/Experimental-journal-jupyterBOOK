@@ -87,10 +87,10 @@ Use same conditions as [the previous successful transformation](../2019-10/2019-
 
 - 15072020
 - Colonies in the -ura+6x ade plate from ylic136: $\Delta$nrp1::HYGRO 
-![](../images/15072020-dnrp1+pBk549_transformation-plate.png)
+![](../Images/15072020-dnrp1+pBk549_transformation-plate.png)
 - Not yet visible colonies from ylic135, $\Delta$bem2::leu2
 - 16072020
-![bem2d+pBK549 transformants](../images/16072020-dbem2+pBk549-transformation-plate-16072020.png)
+![bem2d+pBK549 transformants](../Images/16072020-dbem2+pBk549-transformation-plate-16072020.png)
 
 ### Sanity check 
 

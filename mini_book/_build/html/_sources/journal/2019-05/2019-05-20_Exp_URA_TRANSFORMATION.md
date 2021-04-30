@@ -1,9 +1,14 @@
-# Title: URA transformation in ADE2 locus 🤔
+# Title: URA transformation in ADE2 locus
 
 ## Date
 20052019
-## Method
+## Objective
+To remove the ade2 gene from yll3a and insert the URA+ promoter in its locus.
+# Method
 [Yeast transformation protocol](C:/Users/linigodelacruz/Documents/PhD_2018/Documentation/SATAY/Yeast_transformation/Protocol_Yeast_Transformation.pdf)
+
+### Insert:
+ * PCR product of an Overlap Extension PCR that glue together, the homology arms around the ADE2 gene and the URA gene + native URA promotor. The fragment has a total length of 1984bp. The URA gene + promotor has a length of 1019 bp.
 
 ### Homology arms:
 * left homology arm: 215 bp
@@ -18,7 +23,7 @@
 * High variability in colony sizes, indicating different genetic backgrounds (:( 🤔)
 ### Colony PCR
 
-![](../images/colony_pcr_gel.png)
+![](../Images/colony_pcr_gel.png)
 ## Conclusions
 
 1. The small colonies that grew on -URA has the same band size as the control strain yll3a, meaning, that they didnt insert the URA gene + promoter on the ADE2 locus.

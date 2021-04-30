@@ -48,9 +48,9 @@ cref: true
 
 ## Results
 
-![](../images/02032021_clean_ylic173_2_non_specific_pcr_bands.png)
+![](../Images/02032021_clean_ylic173_2_non_specific_pcr_bands.png)
 
-![](../images/03032021-successful-PCR-ylic137_2.png)
+![](../Images/03032021-successful-PCR-ylic137_2.png)
 
 ## Conclusion
 

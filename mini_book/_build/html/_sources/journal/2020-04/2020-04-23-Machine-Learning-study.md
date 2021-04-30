@@ -48,7 +48,7 @@ colorlinks: true
   - The repo has a [project board](https://github.com/leilaicruz/machine-learning-for-yeast/projects/1) where we organize the work on ```To do's``` , ```In progress``` and ```Done``` tasks. 
   - The repo is under an [MIT License](https://choosealicense.com/licenses/mit/) 
    
-   ![](../images/24042020-mit-license.png)
+   ![](../Images/24042020-mit-license.png)
    
    - The collaborators of the repo are, so far:
 

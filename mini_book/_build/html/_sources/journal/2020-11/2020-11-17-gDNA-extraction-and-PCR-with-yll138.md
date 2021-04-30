@@ -68,7 +68,7 @@ colorlinks: true
 
 ## Results
 
-- ![](../images/18112020-FAILED-PCR.png)
+- ![](../Images/18112020-FAILED-PCR.png)
 
 ## Next steps
 
@@ -77,7 +77,7 @@ colorlinks: true
 
 - Using Ramon primers(110/111,114/115), Liedewij primers(oLL401/oLL402) and my primers (51/52). 
 
-![Amazing!!!](../images/19112020-Temperature-gradient-different-primers-2mins-extension-SUCCESFUL.png)
+![Amazing!!!](../Images/19112020-Temperature-gradient-different-primers-2mins-extension-SUCCESFUL.png)
 
 - New genomic DNA extraction (23112020)
   - 1.5ml of a highly dense culture per eppi
@@ -85,7 +85,7 @@ colorlinks: true
   - 30ul of elution
   - concentration on gel (5ul loaded) using BioRad
 
-  ![Very low DNA concentration and lost of RNA at the bottom](../images/23112020-DNA-extraction-with-3a.png)
+  ![Very low DNA concentration and lost of RNA at the bottom](../Images/23112020-DNA-extraction-with-3a.png)
 
   - yll138 intensity = 0.4 x Intensity (20ng band) = 8ng/5ul ~ 1.5 ng/ul 
   - yll3a intensity = 0.2 x Intensity (20ng band) = 4ng/5ul ~ 1 ng/ul 
@@ -95,7 +95,7 @@ colorlinks: true
   - Use 5ul DNA template for the new extraction and 1ul of the old yll3a stock
   - Use oLL401/oLL402 and 51/52 primers , newly diluted from the original stock.
   - Use 60C annealing temperature and 2 mins in 72C for the extension. 
-![](../images/23112020-PCR-succesful-with-oLL-primers.png)
+![](../Images/23112020-PCR-succesful-with-oLL-primers.png)
   - My primers 51 and 52 did not work while Liedewij's primers did work. 
   - Concentration of the PCR product using BioRad
     - Intensity(yll138)= 12.66 * Intensity (20ng)=253.2/5ul=50.64 ng/uL
@@ -113,7 +113,7 @@ colorlinks: true
 
 - Repeat 8 times the PCR using yll138 as template (5ul) with oLL401/oLL402 to have more PCR product for the transformation. 
 
-![Confusing! No product for yll138 with oLL primers ](../images/24112020-test-51_52-primers-on-yll138a-and-3a.png)
+![Confusing! No product for yll138 with oLL primers ](../Images/24112020-test-51_52-primers-on-yll138a-and-3a.png)
 
 ## Next Steps
 

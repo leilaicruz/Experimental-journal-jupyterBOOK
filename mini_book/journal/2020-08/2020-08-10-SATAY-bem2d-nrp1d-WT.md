@@ -106,9 +106,9 @@ colorlinks: true
 
 - Summary of the background
 
-![](../images/14082020_-ade_background_all_strains.png)
+![](../Images/14082020_-ade_background_all_strains.png)
 
-![](../images/14082020_-ura_background_all_strains.png)
+![](../Images/14082020_-ura_background_all_strains.png)
 
 - [x] Plate 200ul from the induction culture in -ade and 1000X in -ura to know the number of ade+ cells before reseeding. At T=51h of induction, at 13:00.
 - [x] OD measurement of the samples at T=51h of induction  and T$_r$=0
@@ -124,9 +124,9 @@ colorlinks: true
 | ylic136_2 | 0.2  | 11.3  |**12.9** |  51h | 500| 3000| 7500 |
 
 
-![](../images/17082020-induction_approx_stats.png)
+![](../Images/17082020-induction_approx_stats.png)
 
-![](../images/17082020-induction-plating-strains-for-reseeding.png)
+![](../Images/17082020-induction-plating-strains-for-reseeding.png)
 
 
 - [x] Reseed at 13:30 
@@ -168,7 +168,7 @@ colorlinks: true
 - End of reseeding 
 - [x] Harvest of the cell culture. 
   - 15ml of solid pellet, frozen in -80C. The pellet is pink (?)
-  ![](../images/19082020-pink-cell-pellet.png)
+  ![](../Images/19082020-pink-cell-pellet.png)
 
 
 | Strain 	| OD START 	| OD STOP 	| ADE+/mL-start<br>induct(backg) 	| ADE+/mL-start<br>Reseed 	| ADE+/ml-stop<br>Reseed 	| URA+/ml-stop<br>Reseed 	| % of ade+/ura+ 	| Total # of cells<br>Harvest 	| Time- Reseeding 	|
@@ -178,7 +178,7 @@ colorlinks: true
 | ylic136_2 	| 0.18 	| 9.5 	| 400 	| 7500 	| 3070000 	| 11600000 	| 30.2 	| $8.55*10^{11}$ 	| 90h 	|
 
 
-![](../images/20082020-stats-reseeding.png)
+![](../Images/20082020-stats-reseeding.png)
 
 #### Defining the complexity of the library
 

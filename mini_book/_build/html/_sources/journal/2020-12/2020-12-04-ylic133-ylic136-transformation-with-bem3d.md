@@ -51,7 +51,7 @@ colorlinks: true
 
 ## Results
 
-![](../images/08122020-transformants-dbem3-and-negative-control.png)
+![](../Images/08122020-transformants-dbem3-and-negative-control.png)
 
 ## Conclusion
 

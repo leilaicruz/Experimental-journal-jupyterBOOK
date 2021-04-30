@@ -1,7 +1,7 @@
 
 
 
-# Title: 03062019-Sequencing the homology arms of yll3a strain around the ade2 gene 
+# Title: 03062019-Sequencing the homology arms of yll3a strain around the ade2 gene :ok:.
 
 ## Date
 03062019
@@ -11,7 +11,7 @@ See if the sequence around the ade2 gene in yll3a is identical as the sequence w
 Sequencing from Macrogen
 ## Results
 
-![](../images/ade2_sequencing_Map.png)
+![](../Images/ade2_sequencing_Map.png)
 
 [Data Local Link](C:\Users\linigodelacruz\Documents\PhD_2018\Documentation\SATAY\yll3a_ADe2_locus_sequencing\190522NE-165)
 

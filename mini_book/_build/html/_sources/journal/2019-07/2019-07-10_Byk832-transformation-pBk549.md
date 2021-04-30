@@ -1,5 +1,5 @@
 
-# Title : 10072019-Byk832 transformation using pBK549 plasmid
+# Title : 10072019-Byk832 transformation using pBK549 plasmid (:ok:)
 
 ## Date
 
@@ -32,7 +32,7 @@
 - On 15072019 after weekend incubation in 30C
 
   - pink cells!
-![](../images/byk832+100ng-pbk549+ade.jpg)
+![](../Images/byk832+100ng-pbk549+ade.jpg)
 
 ## Conclusion
 - The transformation efficiency was very low compared with the reference one. :persevere:

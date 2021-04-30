@@ -1,4 +1,4 @@
-# Title: 27082019-Sporulation protocol of 8 re-streakings from ylic133_5+yEk7a 😵
+# Title: 27082019-Sporulation protocol of 8 re-streakings from ylic133_5+yEk7a :pensive:
 
 ## Date
 27082019-06092019

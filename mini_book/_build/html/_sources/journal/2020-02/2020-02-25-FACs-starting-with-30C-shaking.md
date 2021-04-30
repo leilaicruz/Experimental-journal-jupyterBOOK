@@ -44,7 +44,7 @@ colorlinks: true
 ## Method
 - Plate design :
 
-  ![](../images/96-well-plate-design_design-27022020.png){width=50%}
+  ![](../Images/96-well-plate-design_design-27022020.png){width=50%}
 
 - In this FACS I will use a slightly different method concerning the temperature incubation and the rotation of  the samples. Now we have the following issue:
   - Cells in 36C oven are not rotating , only shaking,  hence they sediment over time. This is not ideal because we dont have a proper mixing of nutrients.
@@ -73,26 +73,26 @@ colorlinks: true
   - ywkd024 and ywkd038 were transparent. In the FACs, indeed I had very low counts mainly for ywkd024.
 
 ## Results
-![Stadistics of the 96-well plate](../images/Stadistics-plate_27022020.png)
+![Stadistics of the 96-well plate](../Images/Stadistics-plate_27022020.png)
 
-![Total counts of cells](../images/Counts-plate_27022020.png){#fig:counts}
+![Total counts of cells](../Images/Counts-plate_27022020.png){#fig:counts}
 
-![Boxplots of the raw data](../images/Boxplots_raw_data_exp_007.png){#fig:boxplots}
+![Boxplots of the raw data](../Images/Boxplots_raw_data_exp_007.png){#fig:boxplots}
 
-![Normalized histogram for the heights of ywkd065](../images/Normalized-065-hist-fold-change-27022020.png){#fig:065-hist width=50%}
+![Normalized histogram for the heights of ywkd065](../Images/Normalized-065-hist-fold-change-27022020.png){#fig:065-hist width=50%}
 
-![Normalized histogram for the heights of ywkd024](../images/Normalized-024-hist-fold-change-27022020.png){#fig:024-hist width=50%}
+![Normalized histogram for the heights of ywkd024](../Images/Normalized-024-hist-fold-change-27022020.png){#fig:024-hist width=50%}
 
-![Relative geometric mean to ywkd038 pointwise](../images/relative-geomean-shaded-error-27022020.png){#fig:geomean-relative width=50%}
+![Relative geometric mean to ywkd038 pointwise](../Images/relative-geomean-shaded-error-27022020.png){#fig:geomean-relative width=50%}
 
 
 ## Next steps
 
 - Since the counts of strains ywkd038 and ywkd024 were very poor I decided to check if the temperature and/or sugar source have an impact on the phenotype of those strains. See figure below:
 
-![Phenotype comparison of ywkd24 and ywkd038 varying temperature and sugar source. 24 hours after plating](../images/plating-pictures_24-h-plating.png){#fig:phenotype-checking-24 width=50%}
+![Phenotype comparison of ywkd24 and ywkd038 varying temperature and sugar source. 24 hours after plating](../Images/plating-pictures_24-h-plating.png){#fig:phenotype-checking-24 width=50%}
 
-![Phenotype comparison of ywkd24 and ywkd038 varying temperature and sugar source. 108 hours after plating](../images/plating-pictures_108-h-plating.png){#fig:phenotype-checking-108 width=50%}
+![Phenotype comparison of ywkd24 and ywkd038 varying temperature and sugar source. 108 hours after plating](../Images/plating-pictures_108-h-plating.png){#fig:phenotype-checking-108 width=50%}
 
   - We can observe that indeed incubation in 36C and using Raffinose as sugar source is detrimental for the normal growth of the cells.
   - We can see that the growth in Raffinose at 30C is OK.

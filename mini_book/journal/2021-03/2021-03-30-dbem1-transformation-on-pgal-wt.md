@@ -30,7 +30,7 @@ colorlinks: true
 
 ## Date
 
-06042021- 
+06042021-23042021
 
 ## Objective
 
@@ -92,5 +92,48 @@ From Figure [@fig:colony-pcr-colony-9] we can see that colony 9 shows all the ex
 
 - Colony PCR with two more big colonies from the 100x selection plate and two more from the a re-streak plate. 
 
+![No product for the edges :( ](../Images/15042021-colony-pcr-big-colonies-LL-primers-empty-edges.svg.png){width=50X}
+
+  - could be because of the colony PCR
+- 19042021-Liquid culture of colonies 10,12,13(they were like dehydrated, not wet colonies in the plate),and 9 , they were the ones that shows growth over-weekend in plates. 
+  - Media: SC-URA+2%Gal+2% Raff+G418 
+
+- [x] gDNA extraction from these colonies and glycerol stocks
+- [x] PCR with primers oll29/57 , oll30/56 and olic56/57
+- [x] Storing three biological replicates for glycerol stocks.Colony 9 did not grow . Strain name : ylic139
+  - colony 10: a
+  - colony 12: b
+  - colony 13: c 
+
+![PCR with gDNA](../Images/21042021-PCR-gDNA-three-biological-replicates-and-controls.svg.png){#fig:pcr-with-gdna}
+
+- Results from the Figure [@fig:pcr-with-gdna] 
+
+  - replicate ylic139 c shows a weird band size for the upstream and correct integration. So it seems it does not have a correct integration. 
+  - yll3a shows a band for the ptEF terminator , which should not be possible. 
+  - The rest of the replicates seem fine. 
+
+### Positive and negative checks for the glycerol stocks
+
+**Negative controls**
+
+- [x] Plate the replicates in SC-URA+2% RAff+0% Gal, including yIdb005a (the contaminated stock)
+- [x] Inoculate them in liquid culture in SC-URA+2% Raff+0% Gal, including yIdb005a (the contaminated stock)
+
+**Positive Controls**
+
+- [x] plate them in SC-URA+2% RAff+2% Gal+G418 including yIdb005a,(the contaminated stock)
+
+### Results
+
+![](../Images/23042021-phenotype_checking_glycerol_stocks.png)
+
+- Growth of replicates from glycerol stocks in SC-URA+2%Gal+2%Raf+G418. 
+- No growth of yIdb005 in selection media (confirmation)
+- Miserable growth after 5 days in 0% Gal of the replicates in plates. 
+- Since the glycerols stocks are in 2% Gal they need to be dissolved in 0% Gal to dissolve the Cdc42. 
+
 
 ## Conclusion
+
+- We have two biological replicates of new dbem1:KanMx pGal-cdc42::URA : ylic139 a, b . 

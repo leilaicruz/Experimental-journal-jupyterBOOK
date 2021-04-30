@@ -1,4 +1,4 @@
-# Title: 26062019-ylic132  transformation with the OEP2 (unsuccesful) ☹️
+# Title: 26062019-ylic132  transformation with the OEP2 (unsuccesful) :x: :disappointed:
 
 ## Date
 26062019
@@ -18,7 +18,7 @@ To remove the ura3 gene from ylic132= ade2- ura3+ by inserting an empty sequence
 
 ### DNA concentration
 4 ug
-## starting OD
+### starting OD
 OD=1.8
 
 ### Selection plates

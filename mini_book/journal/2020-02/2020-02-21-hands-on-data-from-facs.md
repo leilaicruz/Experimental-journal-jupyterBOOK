@@ -59,11 +59,11 @@ To describe the process of measuring and data collection by the BDFACSCelesta, i
   - **Width** : The current width is measured by the electronics. This system does not directly calculated the width of the light signal.
   - **Threshold**: The threshold is the level at which the system starts to measure signal pulses. A threshold is defined for a specific detector signal. The system continuously samples the digitized signal data and calculates pulse area and height for all channels based on the time interval during which the threshold is exceeded
 
-![From intensities to voltages](../images/flow-cytometry-workflow_Signal.png){#fig:signal}
+![From intensities to voltages](../Images/flow-cytometry-workflow_Signal.png){#fig:signal}
 
-![](../images/flow-cytometry-workflow_output-signal-ASC-known.png){width=50%}![](../images/flow-cytometry-workflow_output-signal-ASC-unknown.png){width=50%}
+![](../Images/flow-cytometry-workflow_output-signal-ASC-known.png){width=50%}![](../Images/flow-cytometry-workflow_output-signal-ASC-unknown.png){width=50%}
 
-![](../images/flow-cytometry-workflow_height-fluorescence.png){width=50%}![](../images/flow-cytometry-workflow_area-fluorescence.png){width=50%}
+![](../Images/flow-cytometry-workflow_height-fluorescence.png){width=50%}![](../Images/flow-cytometry-workflow_area-fluorescence.png){width=50%}
 
 
 ## Conclusion

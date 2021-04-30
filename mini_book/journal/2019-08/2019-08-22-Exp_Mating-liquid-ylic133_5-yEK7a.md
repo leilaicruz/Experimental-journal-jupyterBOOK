@@ -1,7 +1,7 @@
 
-# Title: 22082019 Mating using liquid drops of yEK7a and ylic133_5 💔
+# Title: <font color='#ee4466'> 22082019 Mating using liquid drops of yEK7a and ylic133_5 :broken_heart:
 
-
+<font color='black'>
 
 ## Date
 22082019
@@ -17,16 +17,16 @@ Goal: To try to achieve a more efficient mating between ylic133 and yEK7a, becau
 - 26082019-Inoculation of 8 restreaked cells to sporulation next morning.
 ## Results
 - There are "weird structures" on the ylic133_5 well, flowers like structures.  It could be some sort of contamination, but which type?
-![](../images/spining-mating-ylic133-yek7a-22082019.png)
+![](../Images/spining-mating-ylic133-yek7a-22082019.png)
 - Jut one cell appear to show this dumbell shape (top left last frames) :(
-![](../images/spining-mating-ylic133-yek7a-frame002-22082019.png)
+![](../Images/spining-mating-ylic133-yek7a-frame002-22082019.png)
 - As a next step , I will image all my glycerol stocks from ylic133 and ylic132
 - ylic133
-![](../images/23082019-stocks-microscopy-ylic133.jpg)
+![](../Images/23082019-stocks-microscopy-ylic133.jpg)
 - ylic132
-![](../images/23082019-stocks-microscopy-ylic132.jpg)
+![](../Images/23082019-stocks-microscopy-ylic132.jpg)
 
 
 
 ## Conclusion
-- I dont see these weird structures in the images of my stock meaning that what I saw during the mating was maybe something acquired outside the glycerol stock.
+- I dont see these weird structures in the Images of my stock meaning that what I saw during the mating was maybe something acquired outside the glycerol stock.

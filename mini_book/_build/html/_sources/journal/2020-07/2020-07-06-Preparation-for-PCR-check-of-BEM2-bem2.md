@@ -38,7 +38,7 @@ colorlinks: true
 ## Method
 
 - Colony PCR with freshly grown cells from glycerol stocks.  
-![Sketch of what is expected in the colony PCR](../images/30042020-cartoon-pcr-ylic133_5.png){#fig:sketch-pcr}
+![Sketch of what is expected in the colony PCR](../Images/30042020-cartoon-pcr-ylic133_5.png){#fig:sketch-pcr}
 
 - 06072020 
     - 10:00am Plate all glycerol stocks of ylic135 in -leu2 plates , and in YPD 
@@ -72,7 +72,7 @@ colorlinks: true
 
 ## Results
 
-![](../images/10072020-leu-bem2-locus-check-right-primers.png)
+![](../Images/10072020-leu-bem2-locus-check-right-primers.png)
 
 - Finally got some bands due to the use of the right primers!!
 - It seems the right strains are the slowest ones , colony 13 and 16. All of the rest , it seems they also have BEM2 there (weird..) and the leu2 marker in the right position. 

@@ -44,34 +44,34 @@ cref: true
   - 5 eppies from the tube , pulling 2mL of the culture. 
   - 30uL elution buffer per eppi
   
-  ![](../images/15022021-gdna-ylic137.png)
+  ![](../Images/15022021-gdna-ylic137.png)
 
 ## Results
 - PCR at 65C annealing T.
 - 16022021: PCR with primers oLL401/402 and SPY1/2 , together with a positive control. THEY ARE ALL GOOD
 - 
-  - ![](../images/16022020-SUCCESFUL-CHECK-of-dbem3-transformants-glycerol-stocks.png)
+  - ![](../Images/16022020-SUCCESFUL-CHECK-of-dbem3-transformants-glycerol-stocks.png)
 
 - One comment is that for the biological replicate 2 is very faintly shown a band in the size of bem3 , but most of the DNA have NAT in the right location. 
   - [x] Do serial dilution in plate to clean the stock 
     - No growth of ylic137(2) after 48h of growth (??)
 - PCR and genomic extraction of ylic138
 - 
-![](../images/16022021-dubious-PCR-wit-gDNA-ylic138-glycerol-stocks.png)
+![](../Images/16022021-dubious-PCR-wit-gDNA-ylic138-glycerol-stocks.png)
 
   - [x] Try a PCR with 60C annealing temperature instead of 65C
     - It worked better the PCR for ylic138 with 60C annealing temperature! 
 - [x] Streak glycerol stocks from ylic137_1, 2 , ylci138_1 and 2 in YPD+6x+NAT and YPD+6x+NAT+HYGRO respectively to double check the phenotype of them. 19022021
 - [x] PCR of ylic137_1 and 2 and ylci138_1 and 2 to send to sequence
-   ![](../images/19022021-succesful-PCR-to-sequencing.png)
+   ![](../Images/19022021-succesful-PCR-to-sequencing.png)
 
    - All PCR products are correct yet still ylic137_2 has this band on BEM3 length. However its concentration is really low compared to the other product (100ng/uL vs 4ng/uL, measured in gel)
    - PCR purification: 20uL elution buffer
 - [x] Send samples to sequence (19022021)
 
-![](../images/25022021-ylic137I-sequenced.png)
+![](../Images/25022021-ylic137I-sequenced.png)
 
-![](../images/25022021-ylic138I-and-II-sequenced.png)
+![](../Images/25022021-ylic138I-and-II-sequenced.png)
 
 
 ## Conclusion

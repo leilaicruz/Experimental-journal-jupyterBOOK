@@ -12,6 +12,10 @@
   - file: journal/2020-06/2020-06-02-Yearly-Progress-Meeting
   #- file: journal/2020-06/2020-06-06-Jupyter-notebook-sync-to-md
 
+- part:  Experimental journal-04-2021
+  chapters:
+  - file: journal/26-04-2021-biotek_new_dbem1_strain
+  
 - part: Experimental journal-03-2021
   chapters:
   - file: journal/2021-03/2021-03-01-gDNA-PCR-for-dbem3_2

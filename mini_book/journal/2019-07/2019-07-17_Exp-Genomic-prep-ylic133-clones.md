@@ -1,5 +1,5 @@
 
-# Title : 17072019-DNA extraction of ylic133: ura3- ade2- clones anad PCR 
+# Title : 17072019-DNA extraction of ylic133: ura3- ade2- clones anad PCR :ok: :white_check_mark:
 
 ## Date
 Wednesday 17072019
@@ -37,16 +37,15 @@ To extract the DNA to precisely check that neither ade3 nor ura3 is in the genom
 
 - PCR with primer 22 and primer 23  of all of them , using 1ul of templates, each of the DNAs.
 
-## Results 😁
-
+## Results :)
 - DNA Gel 😁😁 The bands are ALL IN THE RIGHT LENGTH of colonies from 1-5
-![](../images/ylic133_pcr_biolog-replic-2019-07-17-17hr-43min-edited.png)
+![](../Images/ylic133_pcr_biolog-replic-2019-07-17-17hr-43min-edited.png)
 - The 1st PCR using clones 6,7 and 9 DID NOT WORK , I DID NOT GET ANY BAND :( 😕
-![](../images/no-bands-pcr-clones-6-7-9-ylic133-2019-07-19-edited.png)
+![](../Images/no-bands-pcr-clones-6-7-9-ylic133-2019-07-19-edited.png)
 - The 2nd PCR just work clone 7 and very faint band.. something was not right with the genomic prep this time.. :(
-![](../images/ylic133_pcr_biolog-replic-6-7-9-2019-07-19-17hr-43min-EDITED.png)
+![](../Images/ylic133_pcr_biolog-replic-6-7-9-2019-07-19-17hr-43min-EDITED.png)
 - The 3rd PCR with the DNA extracted from 19072019 and from 22072019, using 1ul of template ine ach of them.
-![](../images/bands-pcr-clones-6-7-9-ylic133-2019-07-22-edited.png)
+![](../Images/bands-pcr-clones-6-7-9-ylic133-2019-07-22-edited.png)
 
 ## Conclusion
 - These clones are not pink in the re-streaking plate in YPD after 2 days of incubation.. so if they dont have the right deletion I should take the other ones 6, 7 and  9 which are pink.

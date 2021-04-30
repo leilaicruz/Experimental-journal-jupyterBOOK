@@ -1,5 +1,5 @@
 
-# Title: 06062019-Yeast transformation with the OEP1 
+# Title: 06062019-Yeast transformation with the OEP1 :white_check_mark: :white_check_mark:
 
 ## Date
 06062019
@@ -25,24 +25,24 @@ To remove the ade2 gene from yll3a and insert the URA+ promoter in its locus.
 ## Results
 **Growth of pink colonies in -ura+3x ADE plates** :-)
 
-![](../images/pink_colonies_ura_transf_06062019.jpg)
+![](../Images/pink_colonies_ura_transf_06062019.jpg)
 
 **No Growth of pink colonies in -ura plates** 🤔
-![](../images/no_pink_colonies_-ura_06062019.jpg)
+![](../Images/no_pink_colonies_-ura_06062019.jpg)
 
-## Genomic Prep
+### Genomic Prep
 
 ### Expected size of the insert in PCR: 2065 bp
 
-![](../images/PCR_ura_in_ade2_map.png)
+![](../Images/PCR_ura_in_ade2_map.png)
 
 ### Expected size if the insert is NOT in the ade2 location: 2739bp
 
-![](../images/PCR_ura_NOT_in_ade2_map.png)
+![](../Images/PCR_ura_NOT_in_ade2_map.png)
 
-### Results 😀😀😀
+## Results 😀😀😀
 
-![](../images/TUD07245_2019-06-12_16hr_43min_edited.png)
+![](../Images/TUD07245_2019-06-12_16hr_43min_edited.png)
 
 ## Conclusion
  - To see the adenine deletion phenotype, namely, see pink colonies upon adenine depravation, in a transformations is necessary to supplement the transformation plate with extra adenine aminoacid. I did 2x more adenine than what the normal drop-out has.

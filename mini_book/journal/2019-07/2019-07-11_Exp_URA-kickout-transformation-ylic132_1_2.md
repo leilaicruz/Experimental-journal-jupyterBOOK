@@ -25,7 +25,7 @@ crossref: true
 colorlinks: true
 ---
 
-# Title : 11072019-ylic132-1 and ylic132-2  transformation with the OEP2 
+# Title : 11072019-ylic132-1 and ylic132-2  transformation with the OEP2 :white_check_mark:
 
 ## Date
 11072019
@@ -43,7 +43,7 @@ To kickout the ura3 gene from the ade2 locus
 - after centrifugation **I realized ylic132_1 was contaminated** 😬 😩 because the supernatant was not completely clean as ylic132_2 and the pellet was kind of yellowish.
 - I used for all centrfugation steps 600g and 5 secs , and also I minimize the time in LiAc 0.1M.
 - I pipette in and out after adding every component  of the transformation mix , NO VORTEX ☠️
-## Homology arms:
+### Homology arms:
 * left homology arm: 252 bp
   > PCR of primer_1_new_upstream_forward and primer_7_upstream
 * right homology arm: 271 bp
@@ -76,13 +76,13 @@ In order to use the two options for recovery, namely, previous 2-4 hours incubat
 ## Results -> I see colonies in 5FOA 😁
 
 #### Overnight recovery in liquid culture
-![](../images/overnight-recovery-liquid-culture-5foa.jpg)
+![](../Images/overnight-recovery-liquid-culture-5foa.jpg)
 #### Replica plate from overnight YPD plate to 5FOA
-![](../images/replica-plate-from-ypd-to-foa.jpg)
+![](../Images/replica-plate-from-ypd-to-foa.jpg)
 #### 3 hours recovery (one colony)
-![](../images/3h-recovery-5foa.jpg)
+![](../Images/3h-recovery-5foa.jpg)
 #### Negative control - after overnight culture in YPD
-![](../images/negative-control-ylic132-2.jpg)
+![](../Images/negative-control-ylic132-2.jpg)
 
 ## Next steps
 - [x] Colony PCR
@@ -91,12 +91,12 @@ In order to use the two options for recovery, namely, previous 2-4 hours incubat
     - Dissolving in 20ul MiliQ and replated in YPD
     - Using primers 22 (Primer 9 ADE Forward Check) and primers 23 (Primer 10 Reverse Check)
 - [x] DNA Gel to see check bands according URA presence or not. Length for not presence 1046bp and otherwise 2065bp. IT SEEMS I HAVE SOME RIGHT COLONIES 😁😁
-![](../images/ylic132_2+oep2-2019-07-15-15hr-47min_edited.png)
+![](../Images/ylic132_2+oep2-2019-07-15-15hr-47min_edited.png)
 ## Conclusion
  - Definitely, the recovery step is essential to get transformed cells in 5FOA plates
  - Now I dont see , this egg like structure of the yellow cells concentrated in the center and pink cells around. I dropped the extra adenine at the edge of the plate, and not dropping in the center.
  - The most efficient one is the overnight recovery in liquid culture, in terms of amount of colonies.
- ## Next steps:
+# Next steps:
  - Plating 8 colonies in -ade and -ura to check that they dont grow.
  - Overnight grow in liquid culture 1-5 for genomic prep.
  - [Genomic Prep of 5 biological replicates](./2019-07-17_Exp-Genomic-prep-ylic133-clones.md)

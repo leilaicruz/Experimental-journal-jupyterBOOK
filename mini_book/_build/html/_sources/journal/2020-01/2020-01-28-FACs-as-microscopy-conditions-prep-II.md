@@ -45,7 +45,7 @@ Insights from the Gal1 promoter
       - Look for the postprocessing results, in this [folder](N:\tnw\BN\LL\Shared\Leila\Images-postprocessing-FACS-REZA)
 - Follow the same protocol as I followed for the microscopy measurements
 
-![Experimental Design for the microscopy measurements](../images/experimental-design-microscopy.png){#fig:experimental-design}
+![Experimental Design for the microscopy measurements](../Images/experimental-design-microscopy.png){#fig:experimental-design}
 
 --------------
 
@@ -61,7 +61,7 @@ Insights from the Gal1 promoter
 - In order to have the same conditions as the microscopy done in December 2018 , where we quantify the cell sizes after 24 hours of incubation in X% galactose (after a washing step from a firsto overnight incubation in 2% galactose), the media has to have 4x the normal amount of aminoacids. This maybe has an impact on the regulation of the promoter.
 - The new plate design for this is shown in @fig:plate-design
 
-![Plate design for this FACS experiment](../images/96-well-plate-design-01-2020-03-03.png){#fig:plate-design width=50% height=50% }
+![Plate design for this FACS experiment](../Images/96-well-plate-design-01-2020-03-03.png){#fig:plate-design width=50% height=50% }
 
 - The strain ywkd024 will be measured to still compared with previous measurements done by Marit, in 2017.
 - Strains :
@@ -101,25 +101,25 @@ Insights from the Gal1 promoter
 
 ### Plate data
 
-![Overview of the data for the whole plate](../images/Whole-plate-30012020.png){#fig:plate width=50X}
+![Overview of the data for the whole plate](../Images/Whole-plate-30012020.png){#fig:plate width=50X}
 
 
 ### Box plots
 
-![Boxplots of all the dataset per strain](../images/Boxplots_raw_data_exp_004.png){#fig:Boxplots width=50X}
+![Boxplots of all the dataset per strain](../Images/Boxplots_raw_data_exp_004.png){#fig:Boxplots width=50X}
 
 
 ### Measure per strain
 
 The measure per strain consist on computing the geometric mean of each technical replicate, and then compute the average of these values to give an estimate per strain per condition.
 
-![Arithmetic mean of the geometric means per technical replicate.](../images/Green-Mean-channel_004.png){#fig:means width=50X}
+![Arithmetic mean of the geometric means per technical replicate.](../Images/Green-Mean-channel_004.png){#fig:means width=50X}
 
 To know if these drops were real or due to the some weird behaviour of the FACs machine, I measure the OD of the cells (on 31012020 at 13:30) that luckily they were still in their incubation tubes, on the lab  bench , at room temperature, without shaking.
 
 I expected to see also a drop in their optical density in the same galactose concentrations were the drop in expression is perceived, if these drops are real, that is, due to the little concentration of cells.
 
-![Optical density of the same cell cultures after 24 hours of FACs measurement. They were in room temperature without shaking, that is, on the lab bench. ](../images/OD-exp_004-after24h-in-room-temperature.png){#fig:OD width=50X}
+![Optical density of the same cell cultures after 24 hours of FACs measurement. They were in room temperature without shaking, that is, on the lab bench. ](../Images/OD-exp_004-after24h-in-room-temperature.png){#fig:OD width=50X}
 
 Indeed :), there were also drop in the optical density on those galactose concentrations, namely, 0.02% , 0.08% and 2% for the WT+Gal strain. I also see that the mutants dbem1 and dbem1dbem3 were really miserable like I saw in the expression.
 
@@ -128,19 +128,19 @@ Maybe something weird happened from the incubation... (??)
 
 ### Cdc42 relative expression
 
-![Normalization of each value to the value of ywkd038 to see the overexpression/underexpression pattern.](../images/cdc42-relative-channel_004.png){#fig:relative-to-cdc42 width=50X}
+![Normalization of each value to the value of ywkd038 to see the overexpression/underexpression pattern.](../Images/cdc42-relative-channel_004.png){#fig:relative-to-cdc42 width=50X}
 
 ### Total counts
 
-![Total counts measured by the FACs for one technical replicate of each strain per condition](../images/Total_counts_exp_004.png){#fig:total-counts width=50X}
+![Total counts measured by the FACs for one technical replicate of each strain per condition](../Images/Total_counts_exp_004.png){#fig:total-counts width=50X}
 
 ### Correlation between the GFP and sfGFP fluorophuores
 
-![Out of range for comparing the GFP with the sfGFP expression at 2% between ywkd024 and ywkd065. The middle shaded area represents the lines y=1.5x , y=x and y=0.6x](../images/Correlation-between-sfGFP-GFP-fluorophuores-exp_004-at-2%-gal.png){#fig:correlation-fluorophuores width=50X}
+![Out of range for comparing the GFP with the sfGFP expression at 2% between ywkd024 and ywkd065. The middle shaded area represents the lines y=1.5x , y=x and y=0.6x](../Images/Correlation-between-sfGFP-GFP-fluorophuores-exp_004-at-2%-gal.png){#fig:correlation-fluorophuores width=50X}
 
-![Decoupled visualization of the same dataset of @fig:correlation-fluorophuores](../images/sfGFP-GFP-fluorophuores-exp_004-at-2%-gal.png)
+![Decoupled visualization of the same dataset of @fig:correlation-fluorophuores](../Images/sfGFP-GFP-fluorophuores-exp_004-at-2%-gal.png)
 
-![Correlation of ywkd065 at 0.1% galactose against ywkd024 in the same galactose concentration. Notice that here some points fall inside the shaded area, in contrast with 2% galactose.](../images/Correlation-between-sfGFP-GFP-fluorophuores-exp_004-at-0.1%-gal.png){#fig:correlation-in-0.1 width=50X}
+![Correlation of ywkd065 at 0.1% galactose against ywkd024 in the same galactose concentration. Notice that here some points fall inside the shaded area, in contrast with 2% galactose.](../Images/Correlation-between-sfGFP-GFP-fluorophuores-exp_004-at-0.1%-gal.png){#fig:correlation-in-0.1 width=50X}
 
 ## Conclusion
 

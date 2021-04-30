@@ -56,7 +56,7 @@ As it is shown in @fig:correlation, most of the values lie between the y=1.5x an
 This is highly important in our study because we use a native Cdc42-GFP tagged strain as a reference for the Cdc42-sfGFP tagged strain that has the GAl1 promoter regulating this production.
 
 
-![Correlation between both the GFP and sfGFP fluorophuores. This data is from 2% galactose from the ywkd024 and ywkd065 strain.](../images/Correlation-between-sfGFP-GFP-fluorophuores.png){#fig:correlation width=80X height=80X}
+![Correlation between both the GFP and sfGFP fluorophuores. This data is from 2% galactose from the ywkd024 and ywkd065 strain.](../Images/Correlation-between-sfGFP-GFP-fluorophuores.png){#fig:correlation width=80X height=80X}
 
 
 #### No growth for longer times in 0% galactose:

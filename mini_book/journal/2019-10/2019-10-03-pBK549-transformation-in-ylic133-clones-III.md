@@ -25,7 +25,7 @@
 ---
 
 
-# Title: 03102019- III pBK549 transformation on ylic133 for further sanity check in SATAY 
+# Title: 03102019- III pBK549 transformation on ylic133 for further sanity check in SATAY :blush: :punch:
 
 ## Date
 03102019-09102019
@@ -46,7 +46,7 @@ To ensure that the constructed strain is able to pass the Satay sanity check, an
 - Miniprep to extract pBK549
   - concentration: 46,7 ng/ul total volume 240 uL
   - Digestion testing by EcoRv, PvuII and both:
-   ![](../images/04102019-digestion-pattern-pbk549-faint-bands-seems-OK.png)
+   ![](../Images/04102019-digestion-pattern-pbk549-faint-bands-seems-OK.png)
 - 13:00 OD measurements 10x dilution
 
 |   | OD-10X dilution |Titer   |Ready to transform   |Time|
@@ -60,7 +60,7 @@ To ensure that the constructed strain is able to pass the Satay sanity check, an
 - Plating 150ul cells+50ul MiliQ and 30ul cells+170ul MiliQ in -URA+6xADE and 20ul cells +180ul MiliQ in YPD (positive control)
 ## Results :smile:
 
-![](../images/09102019-pbk549-succesful-trasformation-all-strains.png)
+![](../Images/09102019-pbk549-succesful-trasformation-all-strains.png)
 
 ## Conclusion
 - 09102019 This time the transformation really works , giving plenty of colonies in all the strains. I suspected that what made the big difference is the change of the LiAc.

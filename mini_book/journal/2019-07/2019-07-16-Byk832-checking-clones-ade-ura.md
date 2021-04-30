@@ -1,4 +1,4 @@
-# Title : 15072019-Check of growth in -ade and -ura of 10 clones of Byk832+pbk549
+# Title : 15072019-Check of growth in -ade and -ura of 10 clones of Byk832+pbk549 :ok:
 
 ## Date
 Monday 15072019
@@ -28,11 +28,11 @@ If they give many clones, it is possible that a significant fraction of cells ha
 
 ## Results
 - From the spreading with glass beads I have a general problem which is that the colonies dont grow fully on -ura, which could be related to the fact that they dont have extra adenine and also that they are completely autoclaved , including the CSM mixture.
-![](../images/summary-of-colonies-ura-and-ade.png)
+![](../Images/summary-of-colonies-ura-and-ade.png)
 
 ## Next steps
 - Check Byk832+pbk549 density in -ura plates without autoclaving the CSM mixture and on the -ura fully autoclaved plates from the kitchen of the lab with and without extra adenine.
- ![](../images/-ura-without-autoclaving-vs-autoclaving-plates.jpg)
+ ![](../Images/-ura-without-autoclaving-vs-autoclaving-plates.jpg)
 - Pursue with clones 16, 17 and 4 from the growth they show in -ura and -- ade plates. They grow nicely in -ura (yet not fully) and form few clones(~10) on -ade.
 
 > I made glycerol stocks of those clones (19072019)

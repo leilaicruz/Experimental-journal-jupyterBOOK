@@ -116,9 +116,9 @@ Genomic DNA extraction and enzymatic lisis (https://www.elabjournal.com/members/
 - Gel quantification with the ladder intensity at 10:35. 
     - 10X dilution sample from the supernatant (without vortexing it)
 
-    ![](../images/20082020-smartladder-gridswhite.png){width=40%}
+    ![](../Images/20082020-smartladder-gridswhite.png){width=40%}
 
-    ![](../images/2082020-gel-genomic-dna-enzo-protocol.png){ width=50% }
+    ![](../Images/2082020-gel-genomic-dna-enzo-protocol.png){ width=50% }
 
     - very light the upper bands that indicate a very low concentrated genomic DNA, and a very high concentration of RNAs at the bottom. 
 
@@ -169,7 +169,7 @@ Genomic DNA extraction and enzymatic lisis (https://www.elabjournal.com/members/
     - at 15:25 I put the gel on 1% agarose 120V for 30 mins. 
     - I added non diluted samples from Enzo's protocol without dilution. I took only the supernatant and trashed the pellet. 
 
-    ![Good results!!](../images/21082020-gel-benoit-protocol-succesful.png){width=30%}
+    ![Good results!!](../Images/21082020-gel-benoit-protocol-succesful.png){width=30%}
 
     - No RNAs at the bottom :) 
 
@@ -204,7 +204,7 @@ Genomic DNA extraction and enzymatic lisis (https://www.elabjournal.com/members/
 
 DNA concentration, quantified on gel, using ImageJ: 72.5ng/uL , which lead to a final concentration of ~21ng. :) 
 
-![](../images/24082020-ylic136_2-DNA-extraction.png){width=30%}
+![](../Images/24082020-ylic136_2-DNA-extraction.png){width=30%}
 
 ## Conclusion
 
