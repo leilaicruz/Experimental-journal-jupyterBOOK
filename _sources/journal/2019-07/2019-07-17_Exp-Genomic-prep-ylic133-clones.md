@@ -1,14 +1,14 @@
 
 # Title : 17072019-DNA extraction of ylic133: ura3- ade2- clones anad PCR :ok: :white_check_mark:
 
-# Date
+## Date
 Wednesday 17072019
 
-# Objective
+## Objective
 
 To extract the DNA to precisely check that neither ade3 nor ura3 is in the genome.
 
-# Method
+## Method
 - DNA extraction KIT EurX
 - Elution of clones 1-3: 50ul because they were dense after overnight culturing.
 - Elution of clones 4-5:10ul because they were not dense at all after overnight culturing.
@@ -37,7 +37,7 @@ To extract the DNA to precisely check that neither ade3 nor ura3 is in the genom
 
 - PCR with primer 22 and primer 23  of all of them , using 1ul of templates, each of the DNAs.
 
-# Results :)
+## Results :)
 - DNA Gel 😁😁 The bands are ALL IN THE RIGHT LENGTH of colonies from 1-5
 ![](../Images/ylic133_pcr_biolog-replic-2019-07-17-17hr-43min-edited.png)
 - The 1st PCR using clones 6,7 and 9 DID NOT WORK , I DID NOT GET ANY BAND :( 😕
@@ -47,7 +47,7 @@ To extract the DNA to precisely check that neither ade3 nor ura3 is in the genom
 - The 3rd PCR with the DNA extracted from 19072019 and from 22072019, using 1ul of template ine ach of them.
 ![](../Images/bands-pcr-clones-6-7-9-ylic133-2019-07-22-edited.png)
 
-# Conclusion
+## Conclusion
 - These clones are not pink in the re-streaking plate in YPD after 2 days of incubation.. so if they dont have the right deletion I should take the other ones 6, 7 and  9 which are pink.
 - I will do also the genomic prep for the pink clones from the 5FOA plates, namely , clones, 6,7 and 9.
 - After the repeat of the genomic prep for clones 6, 7 and 9, we can see that the clones 7 and 9 are the correct ones, meaning that they are the ones that have the ura kickout and not an URA mutation as clone 6.

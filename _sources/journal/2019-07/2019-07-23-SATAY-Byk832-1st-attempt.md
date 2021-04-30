@@ -27,13 +27,13 @@ colorlinks: true
 
 # Title: 29072019-SATAY 1st attempt with Byk832-T :pray: :confused: :x:
 
-# Date
+## Date
 Tuesday, 29072019 - 31072019
 
-# Objective
+## Objective
 To learn about the whole technique and detect the main issues and bottlenecks when used it for the target strain.
 
-# Method
+## Method
 
 1. Streak the chosen Byk832 transformed cells that display full growth in -URA and medium growth in -ade, in -ura.
 2. **Pre-culture step** - 29072019 :clock230: (14:30) :blush:
@@ -170,6 +170,6 @@ Note1: If you don’t mind increasing the volume, you can reseed at a lower OD, 
 
 Because of the growth inhibition, only ~70% of the harvested cells are ADE+, meaning that during the sequencing reaction, 30% of the reads will map to the untransposed transposon in ADE2.
 
-# Results
+## Results
 
-# Conclusion
+## Conclusion

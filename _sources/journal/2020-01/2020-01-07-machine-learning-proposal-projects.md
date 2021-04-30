@@ -25,7 +25,7 @@ crossref: true
 ---
 
 
-## Machine learning projects proposal for MsC/BsC/internships
+# Title: Machine learning projects proposal for MsC/BsC/internships
 
 ### Project 1:
 

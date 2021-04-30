@@ -1,4 +1,3 @@
-
 ---
 title: "24092019- pBK549 transformation on ylic133 for further sanity check in SATAY."
 output: pdf_document
@@ -28,13 +27,13 @@ colorlinks: true
 
 # Title : 24092019- pBK549 transformation on ylic133 for further sanity check in SATAY. :pensive:
 
-# Date
+## Date
 24092019-30092019
 
-# Objective
+## Objective
 To ensure that the constructed strain is able to pass the Satay sanity check , and then I can continue with the further steps, like mating with yEK7a.
 
-# Method
+## Method
 - 24092019 16:30 Plating in YPD plates all glycerol stocks of the different biologcal replicates.
   - 26092019-Results of the plating in YPD
    ![](../Images/27092019-glycerol-stocks-ylic133-all.png)
@@ -82,9 +81,12 @@ To ensure that the constructed strain is able to pass the Satay sanity check , a
 - 100ng of pBK549 plasmid
 - **Note**: The cells after adding the transformation mix were really clumpy, so they did not properly dissolved in the transformation mix, which can hinder the transformation efficiency.
 - Plating all in -ura+6xADE
-# Results :pensive:
+## Results :pensive:
+
 -30092019 - No colonies in -URA plates , in none of the four strains used :( There is just a loan
 ![](../Images/30092019-ylic133+pbk549-results-not-good.png)
-# Conclusion
+
+## Conclusion
+
 - Indeed, it seems the fact that the cells were clumpy place a role on the transformation. This happens to me as well with Byk832 in previous transformations, see [**this transformation**](../2019-07/2019-07-10_Byk832-transformation-pBk549.md)
 - Repeat the transformation , and try to minimize again the time in LiAc and mix every time tha transformation mix on the cells to avoid formation of clumps.

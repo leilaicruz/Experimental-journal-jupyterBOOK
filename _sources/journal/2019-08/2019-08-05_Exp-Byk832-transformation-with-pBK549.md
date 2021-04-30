@@ -1,13 +1,13 @@
 # Title: 05082019-Byk832 transformation with pBk549 :ok: :white_check_mark:
 
-# Date
+## Date
 05082019
 
-# Objective
+## Objective
 
 To succesfully transform Byk832 :pray: with the pBK549 plasmid, because so far we have got very low yield in the transformation and it seems that also the transformants are not the right cells for SATAY (look at the unpassed required test,:point_right: [:(->Check](../2019-07/2019-07-31-Extra-checking-steps-SATAY-Byk832T.md))
 
-# Method
+## Method
 
 - This time we (me and Enzo) will also transform yLL3a, ylic33_1, besides Byk832, to have another strain to see if we get the same efficiency as before and for the case of ylic133_1, to also test the background one the check of hardly growth in -ade and fully growth  is succesfully passed.
 
@@ -47,7 +47,7 @@ To succesfully transform Byk832 :pray: with the pBK549 plasmid, because so far w
 - Heat shock @42C for yll3a and ylic133_1 started at 15:05 for 30 mins
 - Byk832 OD @14:45 = 1.8 :)
 - 100ng pBK549 for transformation
-# Results
+## Results
 
 12082019:
 
@@ -60,6 +60,6 @@ To succesfully transform Byk832 :pray: with the pBK549 plasmid, because so far w
 
 ![](../Images/Byk832T-ylic133T-21082019-colonies.png)
 
-# Conclusion
+## Conclusion
 - The plasmid could be integrated in other strains , and in the case of W303 background in wild type reach it like the efficiency of Benoit in his transformation with Byk832 (or more).
 - My strain ylic133_1 (ade2- and ura3-) also could be transformed with decent efficiency ~ 50 colonies per 100ng plasmid.

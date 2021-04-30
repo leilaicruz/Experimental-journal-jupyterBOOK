@@ -3,9 +3,9 @@
 
 # Title: 03062019-Sequencing the homology arms of yll3a strain around the ade2 gene :ok:.
 
-# Date
+## Date
 03062019
-# Objective
+## Objective
 See if the sequence around the ade2 gene in yll3a is identical as the sequence we take from SGD of ade2.
 # Method
 Sequencing from Macrogen

@@ -27,13 +27,13 @@ colorlinks: true
 
 # Title : 11072019-ylic132-1 and ylic132-2  transformation with the OEP2 :white_check_mark:
 
-# Date
+## Date
 11072019
 
-# Objective
+## Objective
 To kickout the ura3 gene from the ade2 locus
 
-# Method and procedure
+## Method and procedure
 - I inoculated 100ml of cells of both strains on Monday 08072019
 - On Wednesday morning (10072019) I diluted the saturated cultures 10^5x times, 1ul in 100ml YPD.
 - Next morning, 11072019, strangely, ylic132_1 was really dense with OD of 16 and ylic132_2 not dense at all, with OD=0.6 🤔
@@ -43,7 +43,7 @@ To kickout the ura3 gene from the ade2 locus
 - after centrifugation **I realized ylic132_1 was contaminated** 😬 😩 because the supernatant was not completely clean as ylic132_2 and the pellet was kind of yellowish.
 - I used for all centrfugation steps 600g and 5 secs , and also I minimize the time in LiAc 0.1M.
 - I pipette in and out after adding every component  of the transformation mix , NO VORTEX ☠️
-## Homology arms:
+### Homology arms:
 * left homology arm: 252 bp
   > PCR of primer_1_new_upstream_forward and primer_7_upstream
 * right homology arm: 271 bp
@@ -51,10 +51,10 @@ To kickout the ura3 gene from the ade2 locus
 
 
 
-## DNA concentration
+### DNA concentration
  I used 10ul of 336.8ng/ul OEP2 , so 3.36ug of DNA
 
-## Recovery Step - Essential for plating in selective 5FOA plates
+### Recovery Step - Essential for plating in selective 5FOA plates
 
 In order to use the two options for recovery, namely, previous 2-4 hours incubation in 1ml YPD and then plating in 5FOA plates , and plating 200ul in YPD plates and incubating the rest in 30C overnight for plating on the next morning , and the ones in the YPD plate do replicate plating in 5FOA on next morning. I did:
 
@@ -69,11 +69,11 @@ In order to use the two options for recovery, namely, previous 2-4 hours incubat
 - Plate 800ul of ylic132_2 negative control onto another 5FOA+3xade I found in the 4C fridge.
 - Wait until 15072019, Monday, for the formation of colonies 🙏
 
-## Selection plates
+### Selection plates
 - **5FOA plates + 3x ADE** , in which only cells lacking URA3 are capable of grow. (positive control for the transformed cells)
 
 
-# Results -> I see colonies in 5FOA 😁
+## Results -> I see colonies in 5FOA 😁
 
 #### Overnight recovery in liquid culture
 ![](../Images/overnight-recovery-liquid-culture-5foa.jpg)
@@ -84,7 +84,7 @@ In order to use the two options for recovery, namely, previous 2-4 hours incubat
 #### Negative control - after overnight culture in YPD
 ![](../Images/negative-control-ylic132-2.jpg)
 
-# Next steps
+## Next steps
 - [x] Colony PCR
 
     - 12 colonies in total: 5 from the overnight recovery, 4 from replica plating , the one from 3h recovery and 2 from the negative control.
@@ -92,11 +92,11 @@ In order to use the two options for recovery, namely, previous 2-4 hours incubat
     - Using primers 22 (Primer 9 ADE Forward Check) and primers 23 (Primer 10 Reverse Check)
 - [x] DNA Gel to see check bands according URA presence or not. Length for not presence 1046bp and otherwise 2065bp. IT SEEMS I HAVE SOME RIGHT COLONIES 😁😁
 ![](../Images/ylic132_2+oep2-2019-07-15-15hr-47min_edited.png)
-# Conclusion
+## Conclusion
  - Definitely, the recovery step is essential to get transformed cells in 5FOA plates
  - Now I dont see , this egg like structure of the yellow cells concentrated in the center and pink cells around. I dropped the extra adenine at the edge of the plate, and not dropping in the center.
  - The most efficient one is the overnight recovery in liquid culture, in terms of amount of colonies.
- # Next steps:
+# Next steps:
  - Plating 8 colonies in -ade and -ura to check that they dont grow.
  - Overnight grow in liquid culture 1-5 for genomic prep.
  - [Genomic Prep of 5 biological replicates](./2019-07-17_Exp-Genomic-prep-ylic133-clones.md)

@@ -1,12 +1,12 @@
 # Title: 26062019-Sequencing of the URA integration in ade2 locus in ylic132 :ok: :white_check_mark:
 
-# Date:
+## Date:
 26062019
 
-# Objective:
+## Objective:
 To check if the transformation with the URA3+ promoter with ade2 flanking regions was indeed what we expect according the selective growth on -URA plates and the pink phenotype of lacking the adenine.
 
-# Method
+## Method
 
 I use primers 24 and primer 26 to do the PCR on the genomic DNA of ylic132 to send for sequencing.
 
@@ -18,11 +18,11 @@ The followng picture is the gel after PCR of those replicates, and ylic132_1 as 
 > primer 26: GCTATCCTCGGTTCTGCATTGAGC
 
 
-# Results
+## Results
 ![](../Images/sequencing_mag_snap-gene-02.png)
 
 
-# Conclusion
+## Conclusion
 
 - Point mutation of a 'C' instead of a 'T' in the ura promoter, however, it does not seem to cause any affect.
 - Point mutation of an 'A' insted of a 'G'

@@ -1,13 +1,13 @@
 
 # Title : 12082019-Checking clones of Byk832 and ylic33_1 for SATAY :ok:
 
-# Date
+## Date
 12082019
 
-# Objective
+## Objective
 To check the clones ability to fully grow in -URA and have few growth in -ade, and select them for glycerol stocks and further SATAY experiment.
 
-# Method
+## Method
  - We are going to use spot plating , in -ura and -ade to evaluate better the differences in growth. See here the method :point_down:
 
 ![Spot Plating technique](../Images/Spot-plating-technique-to-quantify-bacterial-numbers-This-fi-gure-illustrates-the-spot.png)
@@ -17,7 +17,7 @@ To check the clones ability to fully grow in -URA and have few growth in -ade, a
 - I spotted 5ul per dilution on the plate.
 
 
-# Results
+## Results
 
 16082019
 ![](../Images/all-plates-ura-ade-check-16082019.png)
@@ -36,7 +36,7 @@ Basically extermely miserable growth in the -ura plates
 
     ![](../Images/ylic133-ade-no-growth-02.png)
 
-# Conclusion
+## Conclusion
 
 - The transformed strains in general grow very slowly in the -ura plates, the plates of the picture have been for 4 days already in the 30C incubator.
 - No growth in -ade is observed, in the ylic133T strain so there is no spontaneous repair of the ade locus in those cells, meaning that transposition can not happen, in those re-streakings.
@@ -44,7 +44,7 @@ Basically extermely miserable growth in the -ura plates
 - **We stored them as glycerol stock (though it can be a potential concern) because the spontaneous repair by homologous recombination happens kind of stochastically , so, the fact that those strains show the correct behaviour to continue with SATAY, does not imply that a highly dense culture will keep that behaviour.**
 - In the protocol written by Benoit and Agnes from ETH, they dont mention this step of storing the strain in glycerol stocks before continuing with SATAY.
 
-# Here is what we should expect:
+### Here is what we should expect:
 
 
 -------------------------------------

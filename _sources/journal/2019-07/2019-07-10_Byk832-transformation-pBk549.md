@@ -1,15 +1,15 @@
 
 # Title : 10072019-Byk832 transformation using pBK549 plasmid (:ok:)
 
-# Date
+## Date
 
 10072019
 
-# Objective
+## Objective
  - To insert into the genome the PbK49 plasmid, see [previous attempts of transformation](C:\Users\linigodelacruz\Documents\PhD_2018\Documentation\Experimental_Journal\journal\2019-06/2019-06-20_Exp_Byk832_transformation_pbk549.md)
  - To see if changing the protocol of transformation, from Biotech, by using an exponential growing culture, give better results.
 
-# Method
+## Method
 
 - To ensure an exponential growing culture I incubated Byk832 the 08072019 by morning
 - Dilute 1000x times 09072019 afternoon to a final volume of 10 ml
@@ -24,7 +24,7 @@
 - I did not see clumpy cells this time :) this observation could be associated to high centrifugation speed and long times with LiAc before adding the transformation mix.
 - I plate all cells 200ul MiliQ from sample 1 and 190ul cells +10 ul Miliq from sample 2 and 10ul cells +190 ul MiliQ , ad all from the negative control in **-URA+2x ADE**. This means 40ul of 1000x ADE stock in a 20ml plate.
 
-# Results
+## Results
 - Today, 12072019 I can see some colonies in the selective plates , from the 190ul cells+10ul MiliQ plating. Byk832+ 100ng pBK549 plasmid 🙂
 ![](../Images/colonies-2-days-incubation-ura-with-3xadenine.jpg)
 - Still the efficiency is very low compared with Agnes transformation from ETH 👇
@@ -34,6 +34,6 @@
   - pink cells!
 ![](../Images/byk832+100ng-pbk549+ade.jpg)
 
-# Conclusion
+## Conclusion
 - The transformation efficiency was very low compared with the reference one. :persevere:
 - We have to streak the colonies on -ade plates and see wether we have only few growth and a lot of growth on -ura (sanity check)

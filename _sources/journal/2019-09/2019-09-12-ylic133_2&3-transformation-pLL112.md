@@ -27,12 +27,12 @@ colorlinks: true
 
 # Title : 12092019-Transformation of ylic133 with the pLL112 plasmid :pensive:
 
-# Date
+## Date
 12092019-20092019
-# Objective
+## Objective
 To mark temporarily ylic133 in order to be able to select for diploids after the mating with yEK7a.
 
-# Method
+## Method
 - Plasmid transformation using pLL112: pRS416 (URA3 CEN6_ARSH4)
 - 12092019: Incubation of ylic133_2 in 10mL YP+2% Dextrose
 - 13092019: OD measurements 9:30am
@@ -53,8 +53,10 @@ To mark temporarily ylic133 in order to be able to select for diploids after the
   | ylic133_2  |0.239   | 2.4  | 13:30|
 
 - 5ul of pLL112 plasmid , which has 2290ng/mL
-# Results
+## Results
+
 ![](../Images/17092019-ylic133_2+pLL112-results-contamination.png)
+
 - 17092019- I found bacterial contamination on the plates :(
 - 17092019- The transformants on the -ura plate are extremely tiny colonies
 - 17092019 - Incubate ylic133-3 to redo transformation
@@ -64,7 +66,8 @@ To mark temporarily ylic133 in order to be able to select for diploids after the
   - pLL112-148ng/ul , I used 10ul for transformation , hence I used 1.5 ug of plasmid
   - I plated two positive controls in -ura and all the negative control in -ura.
   - ![](../Images/ylic133_3+pLL112_results_23092019.png)
-# Conclusion
+  
+## Conclusion
 - I got very small transformed strains which are going to be named: ylic134=ylic133_3+pLL112 (mating type alpha, ura3+)
 - I inoculated transformants colonies into a CSM-URA liquid media and they did not grow , from an overnight culture. :(
 - It seems somehow they loose the plasmid... :pensive:
