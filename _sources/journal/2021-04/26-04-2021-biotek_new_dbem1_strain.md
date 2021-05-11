@@ -57,3 +57,4 @@ colorlinks: true
 
 - Notice that the new dbem1 strain do not grow in 0% Gal after 48hours of dilution in 0% Gal.
 - The dbem1dbem3 strain seems very slow. 
+

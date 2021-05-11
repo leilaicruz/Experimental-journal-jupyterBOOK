@@ -4,7 +4,7 @@
 20052019
 ## Objective
 To remove the ade2 gene from yll3a and insert the URA+ promoter in its locus.
-## Method
+# Method
 [Yeast transformation protocol](C:/Users/linigodelacruz/Documents/PhD_2018/Documentation/SATAY/Yeast_transformation/Protocol_Yeast_Transformation.pdf)
 
 ### Insert:
