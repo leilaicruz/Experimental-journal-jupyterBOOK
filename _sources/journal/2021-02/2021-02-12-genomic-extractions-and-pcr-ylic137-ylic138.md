@@ -1,4 +1,3 @@
-
 ---
 title: "Genomic extractions and PCR for checking of dbem3 and dbem3dnrp1 new strains"
 output: pdf_document

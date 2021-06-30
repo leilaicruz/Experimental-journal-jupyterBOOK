@@ -25,7 +25,7 @@ crossref: true
 colorlinks: true
 ---
 
-# Media for yeast culturing 
+
 ## YPD media
  
 ### MATERIALS
