@@ -127,6 +127,22 @@ colorlinks: true
 - Re-streak and liquid incubation
   - restreak of the colonies for PCR in CSM+0.1% Gal +NAT
   - Inoculate colony 2 and colony 3 (the ones that grew and big colonies) in CSM+2% Gal+G418+NAT (5mL) for glycerol stocks. 
+
+### PCR with gDNA 
+
+- DNA extraction of ylic140a (colony 2) and ylic140b (colony 3) 
+- Inoculation in 10ml of 4X-NF-CSM+2% Gal+NAT+G418 
+- Extraction of 4 eppies with pellet from 2ml of culture. 
+- Elution of 20ul per eppi. 
+
+**PCR**
+
+- Check with oLL401/402 primers
+- Check with olic56/57
+- Include ylic139 as a negative control for the presence of BEM3::NAT (expected length around 4kB) and as a positive control for BEM1::KanMX (around 3kb)
+- 5ul loaded of gDNA 
+
+![](../Images/08082021_PCR_gDNA_ylic140.png)
   
 ## Conclusion
 
