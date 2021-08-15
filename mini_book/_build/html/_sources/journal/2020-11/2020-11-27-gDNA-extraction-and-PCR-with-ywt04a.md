@@ -79,9 +79,11 @@ colorlinks: true
 
   ![yWT04 DNA successful extraction](../Images/03122020-ywt04-high-yield-DNA-extraction.png){#fig:DNA-extraction-good}
 
-  |  	| Nanodrop 	| On Gel (BioRad) 	|
+
+|  	| Nanodrop 	| On Gel (BioRad) 	|
 |-	|-	|-	|
 | DNA-ywt04a 	| 60ng/uL 	| 180ng/uL 	|
+
 
   - very high yield of DNA !! :)
 

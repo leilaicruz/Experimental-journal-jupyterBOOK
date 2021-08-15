@@ -1,174 +1,151 @@
-
-#ghp-import -n -p -f mini_book/_build/html
-- file: intro
+format: jb-book
+root: intro
+parts:
+- caption: General docs
   numbered: true
-
-- part: General docs
   chapters:
   - file: journal/2021-01/2021-01-19-Balance-2020
   - file: journal/2020-01/2020-01-07-Balance-of-2019
   - file: journal/2020-01/2020-01-21-Pandoc-installation
-  #- file: journal/2020-03/2020-03-17-brainstorm-research-questions
   - file: journal/2020-06/2020-06-02-Yearly-Progress-Meeting
-  #- file: journal/2020-06/2020-06-06-Jupyter-notebook-sync-to-md
-
-- part:  Experimental journal-04-2021
+- caption: Protocols
+  numbered: true
   chapters:
-  - file: journal/26-04-2021-biotek_new_dbem1_strain
-  
-- part: Experimental journal-03-2021
+  - file: journal/Protocols/Media
+  - file: journal/Protocols/Yeast-transformation
+- caption: Experimental journal-08-2021
+  numbered: true
+  chapters:
+  - file: journal/2021-08/2021-08-01-Biotek-testing-new-dbem3-pGal
+  - file: journal/2021-08/2021-08-11-transformation_dnrp1dbem1
+- caption: Experimental journal-06-2021
+  numbered: true
+  chapters:
+  - file: journal/2021-06/2021-06-03-dbem3-transformation-on-ylic139
+- caption: Experimental journal-05-2021
+  numbered: true
+  chapters:
+  - file: journal/2021-05/06052021-biotek-all-strains-for-paper-1
+- caption: Experimental journal-04-2021
+  numbered: true
+  chapters:
+  - file: journal/2021-04/26-04-2021-biotek_new_dbem1_strain
+- caption: Experimental journal-03-2021
+  numbered: true
   chapters:
   - file: journal/2021-03/2021-03-01-gDNA-PCR-for-dbem3_2
   - file: journal/2021-03/2021-03-05-transformation_dnrp1dbem1
   - file: journal/2021-03/2021-03-30-dbem1-transformation-on-pgal-wt
-
-- part: Experimental journal-02-2021
+- caption: Experimental journal-02-2021
+  numbered: true
   chapters:
   - file: journal/2021-02/2021-02-12-genomic-extractions-and-pcr-ylic137-ylic138
-  
-- part: Experimental journal-01-2021
+- caption: Experimental journal-01-2021
+  numbered: true
   chapters:
   - file: journal/2021-01/2021-01-25-Checking-dbem3-dbem3dnrp1-new-strains
   - file: journal/2021-01/2021-01-25-Supp-controls-sfgFP-influence-to-paper
-
-- part: Experimental journal-12-2020
+- caption: Experimental journal-12-2020
+  numbered: true
   chapters:
-  - file: journal/2020-12/2020-12-04-ylic133-ylic136-transformation-with-bem3d 
+  - file: journal/2020-12/2020-12-04-ylic133-ylic136-transformation-with-bem3d
   - file: journal/2020-12/2020-12-03-Sending-DNA-to-sequence-to-Oxford
- 
-
-- part: Experimental journal-11-2020
+- caption: Experimental journal-11-2020
+  numbered: true
   chapters:
   - file: journal/2020-11/2020-11-27-gDNA-extraction-and-PCR-with-ywt04a
   - file: journal/2020-11/2020-11-17-gDNA-extraction-and-PCR-with-yll138
-  
-
-
-- part: Experimental journal-10-2020
+- caption: Experimental journal-10-2020
+  numbered: true
   chapters:
   - file: journal/2020-10/2020-10-21-Digestion-Ligation2Sequence
   - file: journal/2020-10/2020-10-19-Digestion-Ligation-Test-New-SATAYDNA
   - file: journal/2020-10/2020-10-15-More-DNA-extraction-WT-dnrp1
   - file: journal/2020-10/2020-10-14-bem3d-bem3dnrp1d-strain-construction
- 
-  
-  
-
-
-- part: Experimental journal-08-2020
+- caption: Experimental journal-08-2020
+  numbered: true
   chapters:
   - file: journal/2020-08/2020-08-24-Digestion-circularization-PCR
-  - file : journal/2020-08/2020-08-18-DNA-Prep-SATAY
+  - file: journal/2020-08/2020-08-18-DNA-Prep-SATAY
   - file: journal/2020-08/2020-08-10-SATAY-bem2d-nrp1d-WT
-  
-  
-
-- part: Experimental journal-07-2020
+- caption: Experimental journal-07-2020
+  numbered: true
   chapters:
-    - file: journal/2020-07/2020-07-15-Transformation-of-ylic133-with-pBK549-for-SATAY
-    - file: journal/2020-07/2020-07-10-Transformation-of-ylic135-and-ylic136-with-pbK549
-    - file: journal/2020-07/2020-07-06-Preparation-for-PCR-check-of-BEM2-bem2
-    
-    
-
-    
-- part: Experimental journal-06-2020
+  - file: journal/2020-07/2020-07-15-Transformation-of-ylic133-with-pBK549-for-SATAY
+  - file: journal/2020-07/2020-07-10-Transformation-of-ylic135-and-ylic136-with-pbK549
+  - file: journal/2020-07/2020-07-06-Preparation-for-PCR-check-of-BEM2-bem2
+- caption: Experimental journal-06-2020
+  numbered: true
   chapters:
-    - file: journal/2020-06/2020-06-22-Essential-and-not-essential-differences-in-interactors
-    - file: journal/2020-06/2020-06-17-Experimental-planing
-    
-
-
-- part: Experimental journal-04-2020
+  - file: journal/2020-06/2020-06-22-Essential-and-not-essential-differences-in-interactors
+  - file: journal/2020-06/2020-06-17-Experimental-planing
+- caption: Experimental journal-04-2020
+  numbered: true
   chapters:
-    - file: journal/2020-04/2020-04-30-Checking-bem2-deletion-on-ylic133_5
-    - file: journal/2020-04/2020-04-29-how-commons-properties-are-useful-to-predict-SL
-    - file: journal/2020-04/2020-04-24-plan-of-next-experiments
-    - file: journal/2020-04/2020-04-23-Machine-Learning-study
-    - file: journal/2020-04/2020-04-08-summary-FACs-experiments
-    
-    
-    
-    
-
-- part: Experimental journal-03-2020
+  - file: journal/2020-04/2020-04-30-Checking-bem2-deletion-on-ylic133_5
+  - file: journal/2020-04/2020-04-29-how-commons-properties-are-useful-to-predict-SL
+  - file: journal/2020-04/2020-04-24-plan-of-next-experiments
+  - file: journal/2020-04/2020-04-23-Machine-Learning-study
+  - file: journal/2020-04/2020-04-08-summary-FACs-experiments
+- caption: Experimental journal-03-2020
+  numbered: true
   chapters:
-    - file: journal/2020-03/2020-03-04-FACs
-
-
-- part: Experimental journal-02-2020
+  - file: journal/2020-03/2020-03-04-FACs
+- caption: Experimental journal-02-2020
+  numbered: true
   chapters:
-    - file: journal/2020-02/2020-02-25-FACs-starting-with-30C-shaking
-    - file: journal/2020-02/2020-02-23-ylic133-5-transformations
-    - file: journal/2020-02/2020-02-21-hands-on-data-from-facs
-    - file: journal/2020-02/2020-02-13-Comparison-of Werner-FACs-settings-with-mine
-    - file: journal/2020-02/2020-02-09-dnrp1-dbem2-for-satay
-    
-    
-
-- part: Experimental journal-01-2020
+  - file: journal/2020-02/2020-02-25-FACs-starting-with-30C-shaking
+  - file: journal/2020-02/2020-02-23-ylic133-5-transformations
+  - file: journal/2020-02/2020-02-21-hands-on-data-from-facs
+  - file: journal/2020-02/2020-02-13-Comparison-of Werner-FACs-settings-with-mine
+  - file: journal/2020-02/2020-02-09-dnrp1-dbem2-for-satay
+- caption: Experimental journal-01-2020
+  numbered: true
   chapters:
-    - file: journal/2020-01/2020-02-04-FACs-as-microscopy-conditions-prep-III
-    - file: journal/2020-01/2020-01-28-FACs-as-microscopy-conditions-prep-II
-    - file: journal/2020-01/2020-01-20-FACs-as-microscopy-conditions-prep
-    - file: journal/2020-01/2020-01-07-machine-learning-proposal-projects
-    - file: journal/2020-01/2020-01-14-essential-genes-insights
-    - file: journal/2020-01/Machine learning projects proposal for MsC/BsC/internships
-    
-   
-    
-    
-   
-
-
-- part: Experimental journal-10-2019
+  - file: journal/2020-01/2020-02-04-FACs-as-microscopy-conditions-prep-III
+  - file: journal/2020-01/2020-01-28-FACs-as-microscopy-conditions-prep-II
+  - file: journal/2020-01/2020-01-20-FACs-as-microscopy-conditions-prep
+  - file: journal/2020-01/2020-01-07-machine-learning-proposal-projects
+  - file: journal/2020-01/2020-01-14-essential-genes-insights
+  - file: journal/2020-01/Machine learning projects proposal for MsC/BsC/internships
+- caption: Experimental journal-10-2019
+  numbered: true
   chapters:
   - file: journal/2019-10/2019-10-09-Sanity-check-ylic133+pBk549
-  - file : journal/2019-10/2019-10-03-pBK549-transformation-in-ylic133-clones-III
+  - file: journal/2019-10/2019-10-03-pBK549-transformation-in-ylic133-clones-III
   - file: journal/2019-10/2019-10-01-pBK549-transformation-in-ylic133-clonesII
-  
- 
-
-
-- part: Experimental journal-09-2019
+- caption: Experimental journal-09-2019
+  numbered: true
   chapters:
-    - file: journal/2019-09/2019-09-24-ylic134-mating-yEK7a
-    - file: journal/2019-09/2019-09-24-pBK549-transformation-in-ylic133-and-Byk832
-    - file: journal/2019-09/2019-09-12-ylic133_2&3-transformation-pLL112
-    
-    
-
-- part: Experimental journal-08-2019
+  - file: journal/2019-09/2019-09-24-ylic134-mating-yEK7a
+  - file: journal/2019-09/2019-09-24-pBK549-transformation-in-ylic133-and-Byk832
+  - file: journal/2019-09/2019-09-12-ylic133_2&3-transformation-pLL112
+- caption: Experimental journal-08-2019
+  numbered: true
   chapters:
-    - file: journal/2019-08/2019-08-27-Sporulation-protocol-ylic133+yEK7a
-    - file: journal/2019-08/2019-08-22-Exp_Mating-liquid-ylic133_5-yEK7a
-    - file: journal/2019-08/2019-08-16-some-plots-gene_int-data
-    - file: journal/2019-08/2019-08-12-Checking-clones-ura-and-ade-growth
-    - file: journal/2019-08/2019-08-07-Exp-crossing-plate-yEK7a-and-ylic133_1
-    - file: journal/2019-08/2019-08-05_Exp-Byk832-transformation-with-pBK549
-    
-       
-
-- part: Experimental journal-07-2019 
+  - file: journal/2019-08/2019-08-27-Sporulation-protocol-ylic133+yEK7a
+  - file: journal/2019-08/2019-08-22-Exp_Mating-liquid-ylic133_5-yEK7a
+  - file: journal/2019-08/2019-08-16-some-plots-gene_int-data
+  - file: journal/2019-08/2019-08-12-Checking-clones-ura-and-ade-growth
+  - file: journal/2019-08/2019-08-07-Exp-crossing-plate-yEK7a-and-ylic133_1
+  - file: journal/2019-08/2019-08-05_Exp-Byk832-transformation-with-pBK549
+- caption: Experimental journal-07-2019
+  numbered: true
   chapters:
-    - file: journal/2019-07/2019-07-31-Extra-checking-steps-SATAY-Byk832T
-    - file: journal/2019-07/2019-07-24-Strategy-to-SATAY-target-strains
-    - file: journal/2019-07/2019-07-23-SATAY-Byk832-1st-attempt
-    - file: journal/2019-07/2019-07-19-glycerol-stocks-ylic133-bio-replicates
-    - file: journal/2019-07/2019-07-19_Sequencing-ylic133-biol-replicates
-    - file: journal/2019-07/2019-07-17_Exp-Genomic-prep-ylic133-clones
-    - file: journal/2019-07/2019-07-16-Byk832-checking-clones-ade-ura
-    - file: journal/2019-07/2019-07-16_common-interactor-genes-workflow
-    - file: journal/2019-07/2019-07-11_Exp_URA-kickout-transformation-ylic132_1_2
-    - file: journal/2019-07/2019-07-10_Byk832-transformation-pBk549
-    - file: journal/2019-07/2019-07-08-Data-ylic132_biolog-replicates-sequencing
-    - file: journal/2019-07/2019-07-04_Exp_pBK549_digestion_plasmid
-
-   
-    
-    
-
-- part: Experimental journal-06-2019 
+  - file: journal/2019-07/2019-07-31-Extra-checking-steps-SATAY-Byk832T
+  - file: journal/2019-07/2019-07-24-Strategy-to-SATAY-target-strains
+  - file: journal/2019-07/2019-07-23-SATAY-Byk832-1st-attempt
+  - file: journal/2019-07/2019-07-19-glycerol-stocks-ylic133-bio-replicates
+  - file: journal/2019-07/2019-07-19_Sequencing-ylic133-biol-replicates
+  - file: journal/2019-07/2019-07-17_Exp-Genomic-prep-ylic133-clones
+  - file: journal/2019-07/2019-07-16-Byk832-checking-clones-ade-ura
+  - file: journal/2019-07/2019-07-16_common-interactor-genes-workflow
+  - file: journal/2019-07/2019-07-11_Exp_URA-kickout-transformation-ylic132_1_2
+  - file: journal/2019-07/2019-07-10_Byk832-transformation-pBk549
+  - file: journal/2019-07/2019-07-08-Data-ylic132_biolog-replicates-sequencing
+  - file: journal/2019-07/2019-07-04_Exp_pBK549_digestion_plasmid
+- caption: Experimental journal-06-2019
+  numbered: true
   chapters:
   - file: journal/2019-06/2019-06-28_Exp_URA_kickout_transf
   - file: journal/2019-06/2019-06-26_Data_Sequencing_ylic132
@@ -178,36 +155,7 @@
   - file: journal/2019-06/2019-06-06_Exp_URA_Transformation
   - file: journal/2019-06/2019-06-03_Exp_new primers_ade2_locus
   - file: journal/2019-06/2019-06-03_Data_Sequencing_ade2_yll3a
-  
-  
-  
-  
-  
-  
-  
- 
-
-- part: Experimental journal-05-2019 
+- caption: Experimental journal-05-2019
+  numbered: true
   chapters:
   - file: journal/2019-05/2019-05-20_Exp_URA_TRANSFORMATION
-  
-
-
-  
-
-
-
-
-
-
-
-
-
-
-# - part: Experimental journal-05-2020
-#   chapters:
-#     -file: journal/2020-05/2020-05-Work-on-May
-
-
-
-

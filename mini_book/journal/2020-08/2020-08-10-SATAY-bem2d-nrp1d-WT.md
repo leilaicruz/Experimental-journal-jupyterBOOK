@@ -168,7 +168,8 @@ colorlinks: true
 - End of reseeding 
 - [x] Harvest of the cell culture. 
   - 15ml of solid pellet, frozen in -80C. The pellet is pink (?)
-  ![](../Images/19082020-pink-cell-pellet.png)
+  
+  ![](../Images/19082020-pink-cell-pellet.png){width=50%}
 
 
 | Strain 	| OD START 	| OD STOP 	| ADE+/mL-start<br>induct(backg) 	| ADE+/mL-start<br>Reseed 	| ADE+/ml-stop<br>Reseed 	| URA+/ml-stop<br>Reseed 	| % of ade+/ura+ 	| Total # of cells<br>Harvest 	| Time- Reseeding 	|

@@ -30,7 +30,7 @@ colorlinks: true
 
 ## Date
 
-06042021- 
+06042021-23042021
 
 ## Objective
 
@@ -118,11 +118,22 @@ From Figure [@fig:colony-pcr-colony-9] we can see that colony 9 shows all the ex
 **Negative controls**
 
 - [x] Plate the replicates in SC-URA+2% RAff+0% Gal, including yIdb005a (the contaminated stock)
-- [x] Inoculate them in liquid culture in SC-URA+2% Raff+0% Gal(the contaminated stock)
+- [x] Inoculate them in liquid culture in SC-URA+2% Raff+0% Gal, including yIdb005a (the contaminated stock)
 
 **Positive Controls**
 
-- [x] plate them in SC-URA+2% RAff+2% Gal+G418(the contaminated stock)
+- [x] plate them in SC-URA+2% RAff+2% Gal+G418 including yIdb005a,(the contaminated stock)
+
+### Results
+
+![](../Images/23042021-phenotype_checking_glycerol_stocks.png)
+
+- Growth of replicates from glycerol stocks in SC-URA+2%Gal+2%Raf+G418. 
+- No growth of yIdb005 in selection media (confirmation)
+- Miserable growth after 5 days in 0% Gal of the replicates in plates. 
+- Since the glycerols stocks are in 2% Gal they need to be dissolved in 0% Gal to dissolve the Cdc42. 
 
 
 ## Conclusion
+
+- We have two biological replicates of new dbem1:KanMx pGal-cdc42::URA : ylic139 a, b . 
