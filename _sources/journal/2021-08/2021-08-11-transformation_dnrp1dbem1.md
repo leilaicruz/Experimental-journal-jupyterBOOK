@@ -170,6 +170,15 @@ Negative controls: yll3a, ylic139,ylic140
 
 ### PCR to send to sequence the bem1::KanMx casette
 
+![](../Images/21092021-pcr-for-sequencing-and-hygro-checks-ylic141_Succesful.png)
+
+### PCR to check for the non presence of BEM1 neither BEM3 
+ - [x] order new primers from inside the BEM1 and BEM3 gene. 
+  - olic58 : BEM3-upstream-inside
+  - olic59: BEM3-downstream-inside
+  - olic60: BEM1-downstream-inside
+  - olic61: BEM1-upstream-inside 
+
 ## Conclusion
 
 

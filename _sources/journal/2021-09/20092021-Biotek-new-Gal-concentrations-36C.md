@@ -29,10 +29,11 @@ colorlinks: true
 
 ## Date
 
-20092021
+20092021-27092021
 
 ## Objective
 
+- To see if the raise of suppresors in 0% gal is supress by the temperature
 
 ## Method
 
@@ -42,4 +43,11 @@ colorlinks: true
 
 ## Results
 
+![End of incubation](../Images/22092021-end-of-incubation.png)
+
+![End of measuring](../Images/24092021-end-of-measuring.png)
+
 ## Conclusion
+
+- Less growth in 0% Gal
+- Growth for the case of WT+pGAl+sfGFP
