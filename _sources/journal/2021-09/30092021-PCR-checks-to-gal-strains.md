@@ -44,7 +44,6 @@ colorlinks: true
 - PCR 
 - Primers : 
 
-
 ![](../Images/30092021-Gal1_CDC42_template_with_primers-Map.png)
 
 
@@ -66,5 +65,8 @@ colorlinks: true
 ![](../Images/01102021-ywkd065-control-for-pgal-cdc42-sfGFP.png)
 
 - There is are suspicious bands when checking the cdc42 promoter. The primer pCdc42 downstream does not bind to the pgal construct DNA, hence I do not get the presence of this band...
+
+![](../Images/05102021-ylic139-140-pgal-cdc42-checks.png)
+
 
 ## Conclusion
