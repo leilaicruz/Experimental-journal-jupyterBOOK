@@ -227,6 +227,9 @@ OD8 ~8E+7 cells/ml -> 7.47E+11/ 8E+7~10L
 - DNA sequencing protocol 
 - Repeat the SATAY for ylic135 from the beginning 
 
+### Data arrangement for sequencing
+
+![](../Images/readme-wt-dnrp1-oxford-data.png)
 
 ## Conclusion
 
