@@ -58,15 +58,19 @@ colorlinks: true
 |-----------|---------------|
 | ywkd065a  | 47.6ng/ul     |
 | ywkd065b  | 51ng/ul       |
-| ywkd071I  |               |
-| ywkd071II |               |
+| ywkd071I  | 40ng/ul       |
+| ywkd071II | 40ng/ul       |
 
 
 ![](../Images/01102021-ywkd065-control-for-pgal-cdc42-sfGFP.png)
 
 - There is are suspicious bands when checking the cdc42 promoter. The primer pCdc42 downstream does not bind to the pgal construct DNA, hence I do not get the presence of this band...
 
-![](../Images/05102021-ylic139-140-pgal-cdc42-checks.png)
+![Checks for ylic139 and ylic140](../Images/05102021-ylic139-140-pgal-cdc42-checks.png)
 
+![](../Images/08102021-ywkd071-pgal-cdc42-ylic139-140-BEM1-BEM3_WEIRD.png)
+
+- It is streaking that the mutants ylic139 and ylic140 do have BEM1!!!! (aneuploidy???)
+- It seems ywkd071I does not have the endogenous CDC42 promoter. So it is good.
 
 ## Conclusion
