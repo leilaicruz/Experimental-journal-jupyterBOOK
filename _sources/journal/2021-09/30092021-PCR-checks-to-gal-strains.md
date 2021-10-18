@@ -73,4 +73,36 @@ colorlinks: true
 - It is streaking that the mutants ylic139 and ylic140 do have BEM1!!!! (aneuploidy???)
 - It seems ywkd071I does not have the endogenous CDC42 promoter. So it is good.
 
+**Important note**
+
+- The primers olic60/61 were wrong!!! they were binding to kanmx cassette instead of BEM1. That explains the bands in the mutants..
+- I ordered new primers that bind to BEM1 upstream and downstream . Let see.. 
+
+![It shows that the mutants indeed have BEM1, which is cumbersome](../Images/141022021-FAILES-RIGHT-PRIMERS-BEM1-on-mutants.png)
+
+
+### PCR on control strains
+
+![](../Images/18102021-check-on-BEM1-kanmx-yll117-ytw001-ywt004-141a-142a.png)
+
+- original strain used for transformation (yll117) does not show a band for BEM1. This is good. 
+- The strain from Thomas ytw001: $\Delta$bem1$\Delta$bem3 seems to have both (**I dont understand this**), also my strains ylic141/ylic142 , 
+$\Delta$bem1$\Delta$nrp1/$\Delta$bem1$\Delta$bem3$\Delta$nrp1
+
+#### DNA extraction for ywkd017
+
+ywkd017: 
+
+  - $\Delta$bem1$\Delta$bem3$\Delta$nrp1 
+  - Positive control for all markers 
+  - gDNA concentration: 76ng/ul , 80ul Volume 
+
 ## Conclusion
+
+- we may repeat the BEM1 transformation for :
+  - ylic139
+  - ylic140
+  - ylic141
+  - ylic142
+  - ytw001 
+
