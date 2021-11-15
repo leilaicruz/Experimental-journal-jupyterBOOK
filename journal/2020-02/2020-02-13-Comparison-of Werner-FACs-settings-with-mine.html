@@ -22,8 +22,8 @@
       
 
     
-    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/sphinx-book-theme.acff12b8f9c144ce68a297486a2fa670.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/mystnb.css" />
@@ -38,6 +38,7 @@
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
     <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/language_data.js"></script>
     <script src="../../_static/togglebutton.js"></script>
     <script src="../../_static/clipboard.min.js"></script>
     <script src="../../_static/copybutton.js"></script>
@@ -78,6 +79,8 @@ commentsRunWhenDOMLoaded(addUtterances);
 </script>
     <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="../../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/x-mathjax-config">MathJax.Hub.Config({"TeX": {"Macros": {"N": "\\mathbb{N}", "floor": ["\\lfloor#1\\rfloor", 1], "bmat": ["\\left[\\begin{array}"], "emat": ["\\end{array}\\right]"]}}, "tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
     <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
     <script >
         const thebe_selector = ".thebe"
@@ -85,8 +88,6 @@ commentsRunWhenDOMLoaded(addUtterances);
         const thebe_selector_output = ".output"
     </script>
     <script async="async" src="../../_static/sphinx-thebe.js"></script>
-    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    <script type="text/x-mathjax-config">MathJax.Hub.Config({"TeX": {"Macros": {"N": "\\mathbb{N}", "floor": ["\\lfloor#1\\rfloor", 1], "bmat": ["\\left[\\begin{array}"], "emat": ["\\end{array}\\right]"]}}, "tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
     <link rel="shortcut icon" href="../../_static/flowers.jpg"/>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
@@ -929,8 +930,8 @@ commentsRunWhenDOMLoaded(addUtterances);
 <div class="section" id="objective">
 <h2><span class="section-number">4.2. </span>Objective<a class="headerlink" href="#objective" title="Permalink to this headline">¶</a></h2>
 <p>To understand what happen to the output fluorescence signal if the settings are slightly changed, and perhaps we can understand why in 2017 when he measured with Marit they measured 6-7 fold between 0-2% gal while I am only measuring 1.5-2.5 fold change, when taking the geometric means of the histograms.</p>
-<p><img alt="Marit-Werner data 2017" src="journal/images/Normalized-024-hist-fold-change-Werner_marit-2017.png" />{#fig:marit-data width=50%}</p>
-<p><img alt="Leila Data 06022020" src="journal/images/Normalized-024-hist-fold-change-leila-2020.png" />{#fig:leila-data width=50%}</p>
+<p><img alt="Marit-Werner data 2017" src="journal/2020-02/../images/Normalized-024-hist-fold-change-Werner_marit-2017.png" />{#fig:marit-data width=50%}</p>
+<p><img alt="Leila Data 06022020" src="journal/2020-02/../images/Normalized-024-hist-fold-change-leila-2020.png" />{#fig:leila-data width=50%}</p>
 <ul class="simple">
 <li><p>From &#64;fig:marit-data we can observe that already the sugar source it was used is different than mine experiments. The used glucose as a second sugar source for the galactose promoter , and all the reamining controls are in incbated in glucose. The cells here were incubated in 30C and I incubated them in 36C (as Ilse measured in the bulk growth).  I used raffinose as a second sugar source , and also for the controls without galactose promoter, as Ilse used in her bulk growth experiments.</p></li>
 <li><p>From the histograms, we can see that &#64;fig:marit-data have a long tail for 2% gal (gray curve), going until 25000.</p></li>
@@ -993,25 +994,25 @@ nice and bright signals) as the best choices.</p>
 <div><p>One important tip: <strong>if you are using BD “digital” FACSDiva instrumentation, the pulse width parameter is not really measured, but is calculated from the pulse area. Therefore, in order to ensure an accurate doublet exclusion gate, be sure to calibrate the Area Scaling Factor associated with the doublet discrimination parameter if you intend to use the width pulse parameter for doublet exclusion.</strong></p>
 </div></blockquote>
 <p>So, what we shuld plot is FSC-H vs FSC-A and the same for SSC-H vs SSC-A. In our case this corresponds to:</p>
-<p><img alt="Strain ywkd024, the red color indicates the gate, that fall inside the diagonal, to ensure single cells" src="journal/images/024-doublet-correction-14022020.png" />{#fig:024-doublet width=80%}</p>
-<p><img alt="Strain ywkd038,the red color indicates the gate, that fall inside the diagonal, to ensure single cells" src="journal/images/038-doublet-correction-same-gate-of-024-14022020.png" />{#fig:038-doublet width=80%}</p>
-<p><img alt="Strain ywkd001,the red color indicates the gate, that fall inside the diagonal, to ensure single cells" src="journal/images/001-doublet-correction-same-gate-of-024-14022020.png" />{#fig:001-doublet width=80%}</p>
+<p><img alt="Strain ywkd024, the red color indicates the gate, that fall inside the diagonal, to ensure single cells" src="journal/2020-02/../images/024-doublet-correction-14022020.png" />{#fig:024-doublet width=80%}</p>
+<p><img alt="Strain ywkd038,the red color indicates the gate, that fall inside the diagonal, to ensure single cells" src="journal/2020-02/../images/038-doublet-correction-same-gate-of-024-14022020.png" />{#fig:038-doublet width=80%}</p>
+<p><img alt="Strain ywkd001,the red color indicates the gate, that fall inside the diagonal, to ensure single cells" src="journal/2020-02/../images/001-doublet-correction-same-gate-of-024-14022020.png" />{#fig:001-doublet width=80%}</p>
 </div>
 <div class="section" id="histograms">
 <h3><span class="section-number">4.4.2. </span>Histograms<a class="headerlink" href="#histograms" title="Permalink to this headline">¶</a></h3>
-<p><img alt="Non normalized non gated data histograms" src="journal/images/Non-normalized-hist-non-gated-data-14022020.png" />{#fig:hist width=80%}</p>
-<p><img alt="Non normalized  gated data histograms" src="journal/images/Non-normalized-hist-gated-data-14022020.png" />{#fig:hist-gated width=80%}</p>
+<p><img alt="Non normalized non gated data histograms" src="journal/2020-02/../images/Non-normalized-hist-non-gated-data-14022020.png" />{#fig:hist width=80%}</p>
+<p><img alt="Non normalized  gated data histograms" src="journal/2020-02/../images/Non-normalized-hist-gated-data-14022020.png" />{#fig:hist-gated width=80%}</p>
 </div>
 <div class="section" id="beads-profile">
 <h3><span class="section-number">4.4.3. </span>Beads profile<a class="headerlink" href="#beads-profile" title="Permalink to this headline">¶</a></h3>
-<p><img alt="Beads profile" src="journal/images/Normalized-beads-profile-14022020.png" />{#fig:beads-profile width=80%}</p>
+<p><img alt="Beads profile" src="journal/2020-02/../images/Normalized-beads-profile-14022020.png" />{#fig:beads-profile width=80%}</p>
 </div>
 <div class="section" id="fold-change-after-autofluorescence-removal-with-without-doublet-correction">
 <h3><span class="section-number">4.4.4. </span>Fold change after autofluorescence removal with/without doublet correction<a class="headerlink" href="#fold-change-after-autofluorescence-removal-with-without-doublet-correction" title="Permalink to this headline">¶</a></h3>
-<p><img alt="Gated data after the doublet correction considering Leila settings to normalize" src="journal/images/Ratio-mean-gated-data-doublet-correction-leila-settings-14022020.png" />{#fig:mean-gated-leila width=50%}</p>
-<p><img alt="Non gated data  considering Leila settings to normalize" src="journal/images/Ratio-mean-non-gated-data-doublet-correction-leila-settings-14022020.png" />{#fig:mean-leila width=50%}</p>
-<p><img alt="Gated data after the doublet correction considering Werner settings to normalize" src="journal/images/Ratio-mean-gated-data-doublet-correction-werner-settings-14022020.png" />{#fig:mean-gated-werner width=50%}</p>
-<p><img alt="Non Gated data  considering Werner settings to normalize" src="journal/images/Ratio-mean-non-gated-data-doublet-correction-werner-settings-14022020.png" />{#fig:mean-werner width=50%}</p>
+<p><img alt="Gated data after the doublet correction considering Leila settings to normalize" src="journal/2020-02/../images/Ratio-mean-gated-data-doublet-correction-leila-settings-14022020.png" />{#fig:mean-gated-leila width=50%}</p>
+<p><img alt="Non gated data  considering Leila settings to normalize" src="journal/2020-02/../images/Ratio-mean-non-gated-data-doublet-correction-leila-settings-14022020.png" />{#fig:mean-leila width=50%}</p>
+<p><img alt="Gated data after the doublet correction considering Werner settings to normalize" src="journal/2020-02/../images/Ratio-mean-gated-data-doublet-correction-werner-settings-14022020.png" />{#fig:mean-gated-werner width=50%}</p>
+<p><img alt="Non Gated data  considering Werner settings to normalize" src="journal/2020-02/../images/Ratio-mean-non-gated-data-doublet-correction-werner-settings-14022020.png" />{#fig:mean-werner width=50%}</p>
 </div>
 </div>
 <div class="section" id="conclusion">

@@ -22,8 +22,8 @@
       
 
     
-    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/sphinx-book-theme.acff12b8f9c144ce68a297486a2fa670.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/mystnb.css" />
@@ -38,6 +38,7 @@
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
     <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/language_data.js"></script>
     <script src="../../_static/togglebutton.js"></script>
     <script src="../../_static/clipboard.min.js"></script>
     <script src="../../_static/copybutton.js"></script>
@@ -78,6 +79,8 @@ commentsRunWhenDOMLoaded(addUtterances);
 </script>
     <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="../../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/x-mathjax-config">MathJax.Hub.Config({"TeX": {"Macros": {"N": "\\mathbb{N}", "floor": ["\\lfloor#1\\rfloor", 1], "bmat": ["\\left[\\begin{array}"], "emat": ["\\end{array}\\right]"]}}, "tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
     <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
     <script >
         const thebe_selector = ".thebe"
@@ -872,6 +875,13 @@ commentsRunWhenDOMLoaded(addUtterances);
   <a class="reference internal nav-link" href="#results">
    1.4. Results
   </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#sequencing">
+     1.4.1. Sequencing
+    </a>
+   </li>
+  </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#conclusion">
@@ -937,9 +947,33 @@ commentsRunWhenDOMLoaded(addUtterances);
 <h2><span class="section-number">1.4. </span>Results<a class="headerlink" href="#results" title="Permalink to this headline">¶</a></h2>
 <p><img alt="The pgal mutants are unstable clones, yet, yTW001a seems to be rescued. " src="../../_images/01112021-single-colony-check-FAILED-for-pgal-mutants.png" /></p>
 <p><img alt="Bands downstream BEM1 but not upstream (???)" src="../../_images/03112021-satay-dbem1-mutants-check-INCONCLUSIVE.png" /></p>
+<div class="section" id="sequencing">
+<h3><span class="section-number">1.4.1. </span>Sequencing<a class="headerlink" href="#sequencing" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>PCR to prepare samples for sequencing:</p></li>
+</ul>
+<p><img alt="" src="../../_images/10112021-satay-dbem1-mutants-for-sequencing.png" /></p>
+<ul class="simple">
+<li><p>yTW001b seems that do not have BEM1</p></li>
+<li><p>I sent samples from ylic141a and ylic142a with olic60 and olic57 primers to sequencing.</p></li>
+<li><p>I sent all the samples from PCR from olic56 and olic57 to sequencing.</p></li>
+</ul>
+<p><img alt="Overlap with the downstream part of BEM1" src="../../_images/15112021_S288C_chrII_BEM1.fsa_Map.png" /></p>
+<p><img alt="Overlap with the PTEF promoter for the same strain" src="../../_images/15112021_ylic141_ylic142_sequencing_flippedConstruct_Map.png" /></p>
+<ul class="simple">
+<li><p>This is indicating that both strains ylic141 and ylic142 are aneuploidies, because they show the presence of PTEF from KanMx and the downstream region of BEM1 in the same strain.</p></li>
+</ul>
+</div>
 </div>
 <div class="section" id="conclusion">
 <h2><span class="section-number">1.5. </span>Conclusion<a class="headerlink" href="#conclusion" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>The pgal mutants are unstable clones, yet, yTW001a seems to be rescued.</p></li>
+<li><p>To confirm that BEM1 is not in the SATAy mutants , I will sequence using olic60/olic57 and olic56/olic57 primers.</p></li>
+<li><p>yWT001b seems that do not have BEM1.</p></li>
+<li><p>ylic141 and ylic142 are aneuploidies.</p></li>
+<li><p>Repeat the transformations fro ylic141 and ylic142 ,and check for every colony the presence of Kanmx and the abscence of BEM1.</p></li>
+</ul>
 </div>
 </div>
 
