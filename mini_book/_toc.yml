@@ -13,6 +13,11 @@ parts:
   chapters:
   - file: journal/Protocols/Media
   - file: journal/Protocols/Yeast-transformation
+  - file: journal/Protocols/DAPI-staining-fixed-cells
+- caption: Experimental journal-09-2022
+  numbered: true
+  chapters:
+  - file: journal/2022-09/2022-09-29_Test_Biotek_Microscopy_Rebuttal_paper
 - caption: Experimental journal-10-2021
   numbered: true
   chapters:
