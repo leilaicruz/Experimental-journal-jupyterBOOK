@@ -4,12 +4,13 @@ parts:
 - caption: General docs
   numbered: true
   chapters:
+  - file: journal/2022-01/2022-01-02_Balance_year_2021.md
   - file: journal/2021-01/2021-01-19-Balance-2020
   - file: journal/2020-01/2020-01-07-Balance-of-2019
-  - file: journal/2020-01/2020-01-21-Pandoc-installation
+  # - file: journal/2020-01/2020-01-21-Pandoc-installation
   - file: journal/2020-06/2020-06-02-Yearly-Progress-Meeting
 - caption: Protocols
-  numbered: true
+  numbered: false
   chapters:
   - file: journal/Protocols/Media
   - file: journal/Protocols/Yeast-transformation

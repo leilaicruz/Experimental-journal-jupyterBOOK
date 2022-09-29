@@ -25,7 +25,7 @@ crossref: true
 colorlinks: true
 ---
 
-## Protocol
+## Sequencing protocol for PCR samples 
 
 - Total volume : 10ul
 - Purified PCR product: 250ng
