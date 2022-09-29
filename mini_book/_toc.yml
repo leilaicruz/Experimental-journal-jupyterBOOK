@@ -13,6 +13,10 @@ parts:
   chapters:
   - file: journal/Protocols/Media
   - file: journal/Protocols/Yeast-transformation
+- caption: Experimental journal-10-2021
+  numbered: true
+  chapters:
+  - file: journal/2021-10/2021-10-29-single-colony-genetic-check-for-the-bem1-mutants
 - caption: Experimental journal-09-2021
   numbered: true
   chapters:

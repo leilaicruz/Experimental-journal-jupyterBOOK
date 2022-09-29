@@ -22,8 +22,8 @@
       
 
     
-    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/sphinx-book-theme.acff12b8f9c144ce68a297486a2fa670.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/mystnb.css" />
@@ -38,6 +38,7 @@
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
     <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/language_data.js"></script>
     <script src="../../_static/togglebutton.js"></script>
     <script src="../../_static/clipboard.min.js"></script>
     <script src="../../_static/copybutton.js"></script>
@@ -78,6 +79,8 @@ commentsRunWhenDOMLoaded(addUtterances);
 </script>
     <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="../../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/x-mathjax-config">MathJax.Hub.Config({"TeX": {"Macros": {"N": "\\mathbb{N}", "floor": ["\\lfloor#1\\rfloor", 1], "bmat": ["\\left[\\begin{array}"], "emat": ["\\end{array}\\right]"]}}, "tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
     <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
     <script >
         const thebe_selector = ".thebe"
@@ -167,6 +170,18 @@ commentsRunWhenDOMLoaded(addUtterances);
  <li class="toctree-l1">
   <a class="reference internal" href="../Protocols/Yeast-transformation.html">
    5. Title :  High efficiency Yeast Transformation
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Experimental journal-10-2021
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2021-10/2021-10-29-single-colony-genetic-check-for-the-bem1-mutants.html">
+   1. Title : Genetic checks for a single colony from the stock of bem1:KanMx mutants
   </a>
  </li>
 </ul>
@@ -860,6 +875,20 @@ commentsRunWhenDOMLoaded(addUtterances);
   <a class="reference internal nav-link" href="#results">
    3.4. Results
   </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#pcr-on-control-strains">
+     3.4.1. PCR on control strains
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#dna-extraction-for-ywkd017">
+       3.4.1.1. DNA extraction for ywkd017
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#conclusion">
@@ -924,10 +953,10 @@ commentsRunWhenDOMLoaded(addUtterances);
 <td><p>51ng/ul</p></td>
 </tr>
 <tr class="row-even"><td><p>ywkd071I</p></td>
-<td><p></p></td>
+<td><p>40ng/ul</p></td>
 </tr>
 <tr class="row-odd"><td><p>ywkd071II</p></td>
-<td><p></p></td>
+<td><p>40ng/ul</p></td>
 </tr>
 </tbody>
 </table>
@@ -935,10 +964,50 @@ commentsRunWhenDOMLoaded(addUtterances);
 <ul class="simple">
 <li><p>There is are suspicious bands when checking the cdc42 promoter. The primer pCdc42 downstream does not bind to the pgal construct DNA, hence I do not get the presence of this band…</p></li>
 </ul>
-<p><img alt="" src="../../_images/05102021-ylic139-140-pgal-cdc42-checks.png" /></p>
+<p><img alt="Checks for ylic139 and ylic140" src="../../_images/05102021-ylic139-140-pgal-cdc42-checks.png" /></p>
+<p><img alt="" src="../../_images/08102021-ywkd071-pgal-cdc42-ylic139-140-BEM1-BEM3_WEIRD.png" /></p>
+<ul class="simple">
+<li><p>It is streaking that the mutants ylic139 and ylic140 do have BEM1!!!! (aneuploidy???)</p></li>
+<li><p>It seems ywkd071I does not have the endogenous CDC42 promoter. So it is good.</p></li>
+</ul>
+<p><strong>Important note</strong></p>
+<ul class="simple">
+<li><p>The primers olic60/61 were wrong!!! they were binding to kanmx cassette instead of BEM1. That explains the bands in the mutants..</p></li>
+<li><p>I ordered new primers that bind to BEM1 upstream and downstream . Let see..</p></li>
+</ul>
+<p><img alt="It shows that the mutants indeed have BEM1, which is cumbersome" src="../../_images/141022021-FAILES-RIGHT-PRIMERS-BEM1-on-mutants.png" /></p>
+<div class="section" id="pcr-on-control-strains">
+<h3><span class="section-number">3.4.1. </span>PCR on control strains<a class="headerlink" href="#pcr-on-control-strains" title="Permalink to this headline">¶</a></h3>
+<p><img alt="" src="../../_images/18102021-check-on-BEM1-kanmx-yll117-ytw001-ywt004-141a-142a.png" /></p>
+<ul class="simple">
+<li><p>original strain used for transformation (yll117) does not show a band for BEM1. This is good.</p></li>
+<li><p>The strain from Thomas ytw001: <span class="math notranslate nohighlight">\(\Delta\)</span>bem1<span class="math notranslate nohighlight">\(\Delta\)</span>bem3 seems to have both (<strong>I dont understand this</strong>), also my strains ylic141/ylic142 ,
+<span class="math notranslate nohighlight">\(\Delta\)</span>bem1<span class="math notranslate nohighlight">\(\Delta\)</span>nrp1/<span class="math notranslate nohighlight">\(\Delta\)</span>bem1<span class="math notranslate nohighlight">\(\Delta\)</span>bem3<span class="math notranslate nohighlight">\(\Delta\)</span>nrp1</p></li>
+</ul>
+<div class="section" id="dna-extraction-for-ywkd017">
+<h4><span class="section-number">3.4.1.1. </span>DNA extraction for ywkd017<a class="headerlink" href="#dna-extraction-for-ywkd017" title="Permalink to this headline">¶</a></h4>
+<p>ywkd017:</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(\Delta\)</span>bem1<span class="math notranslate nohighlight">\(\Delta\)</span>bem3<span class="math notranslate nohighlight">\(\Delta\)</span>nrp1</p></li>
+<li><p>Positive control for all markers</p></li>
+<li><p>gDNA concentration: 76ng/ul , 80ul Volume</p></li>
+</ul>
+</div>
+</div>
 </div>
 <div class="section" id="conclusion">
 <h2><span class="section-number">3.5. </span>Conclusion<a class="headerlink" href="#conclusion" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>we may repeat the BEM1 transformation for :</p>
+<ul>
+<li><p>ylic139</p></li>
+<li><p>ylic140</p></li>
+<li><p>ylic141</p></li>
+<li><p>ylic142</p></li>
+<li><p>ytw001</p></li>
+</ul>
+</li>
+</ul>
 </div>
 </div>
 
