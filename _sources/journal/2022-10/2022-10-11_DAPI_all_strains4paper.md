@@ -82,8 +82,8 @@ colorlinks: true
 
 - Two nuclei cells
 
-![Two nuclei cells](../Images/two_nuclei_17102022_ywkd069_0.06gal003-MaxIP.nd2series1.png)
-![Two nuclei cells](../Images/two_nuclei_17102022_ywkd069_0.06gal003-MaxIP.nd2series1BF.png)
+![Two nuclei cells](../Images/two_nuclei_17102022_ywkd069_0.06gal003-MaxIP.nd2 (series 1)-1.png)
+![Two nuclei cells](../Images/two_nuclei_17102022_ywkd069_0.06gal003-MaxIP.nd2 (series 1)-BF.png)
 
 <!-- ![](../Images/two_nuclei_17102022_ywkd069_0.06gal003-MaxIP.nd2 (series 2)-1.png)
 ![](../Images/two_nuclei_17102022_ywkd069_0.06gal003-MaxIP.nd2 (series 2)-1_BF.png) -->
