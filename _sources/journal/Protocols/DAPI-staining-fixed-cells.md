@@ -1,5 +1,5 @@
 ---
-title: "DAPI satining yeast fixed cells"
+title: "DAPI staining yeast fixed cells"
 output: pdf_document
 documentclass: article
 classoption: onecolumn
